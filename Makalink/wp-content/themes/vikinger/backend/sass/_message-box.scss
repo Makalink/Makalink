@@ -1,0 +1,86 @@
+/*------------------------------------------------------------------
+[Table of contents]
+
+1. Message Box
+2. Message Box Title
+3. Message Box Text
+-------------------------------------------------------------------*/
+/**
+ * 1. Message Box
+ */
+.vikinger_backend-message-box {
+  min-height: 100px;
+  padding: 32px 32px 26px 108px;
+  border-radius: 12px;
+  background-color: var(--vikinger_backend-global-neutral-color);
+  position: relative;
+  @extend .vikinger_backend-grid-limit;
+
+  &.vikinger_backend-message-box_success {
+    background-color: var(--vikinger_backend-global-success-color);
+  }
+
+  &.vikinger_backend-message-box_info {
+    background-color: var(--vikinger_backend-global-primary-color);
+  }
+
+  &.vikinger_backend-message-box_error {
+    background-color: var(--vikinger_backend-global-error-color);
+  }
+
+  & + {
+    .vikinger_backend-message-box,
+    .vikinger_backend-content,
+    .vikinger_backend-grid,
+    .vikinger_backend-loader-spinner,
+    .vikinger_backend-table {
+      margin-top: 40px;
+    }
+  }
+
+  .vikinger_backend-message-box-icon-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    border-radius: 12px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    box-shadow: 3px 5px 20px 0 rgba(0, 0, 0, .16);
+
+    .vikinger_backend-message-box-icon {
+      fill: var(--vikinger_backend-message-box-icon-color);
+      width: 20px;
+      height: 20px;
+    }
+  }
+}
+
+.vikinger_backend-message-box-title,
+.vikinger_backend-message-box-text {
+  color: var(--vikinger_backend-message-box-text-color);
+}
+
+/**
+ * 2. Message Box Title
+ */
+.vikinger_backend-message-box-title {
+  font-size: var(--vikinger_backend-font-size-16);
+  font-weight: var(--vikinger_backend-font-weight-bold);
+}
+
+/**
+ * 3. Message Box Text
+ */
+.vikinger_backend-message-box-text {
+  margin-top: 6px;
+  font-size: var(--vikinger_backend-font-size-14);
+  line-height: var(--vikinger_backend-line-height-24-14);
+
+  a {
+    color: var(--vikinger_backend-message-box-text-color);
+    font-weight: var(--vikinger_backend-font-weight-bold);
+  }
+}

@@ -1,0 +1,153 @@
+/*------------------------------------------------------------------
+[Table of contents]
+
+1. Table
+-------------------------------------------------------------------*/
+/**
+ * 1. Table
+ */
+.vikinger_backend-table {
+  width: 100%;
+  table-layout: fixed;
+  border-collapse: collapse;
+
+  th, td {
+    color: var(--vikinger_backend-text-primary-color);
+    font-size: var(--vikinger_backend-font-size-14);
+    text-align: center;
+
+    &:first-child {
+      width: 40%;
+      text-align: left;
+    }
+
+    &:last-child {
+      width: 36px;
+      padding-right: 0;
+    }
+  }
+
+  th {
+    padding-bottom: 18px;
+  }
+
+  td {
+    padding: 12px;
+
+    a {
+      color: var(--vikinger_backend-global-primary-color);
+    }
+
+    &:first-child {
+      padding-left: 0;
+    }
+
+    .vikinger_backend-item-status {
+      margin: 0 auto;
+    }
+  }
+}
+
+.vikinger_backend-plugin-list,
+.vikinger_backend-demo-import-list {
+  @extend .vikinger_backend-grid-limit;
+
+  .vikinger_backend-button-wrap {
+    margin-top: 60px;
+  }
+}
+
+.vikinger_backend-checkbox-wrap {
+  display: flex;
+  position: relative;
+  top: -2px;
+
+  input[type="checkbox"] {
+    opacity: 0;
+    pointer-events: none;
+
+    &:checked {
+      & + {
+        .vikinger_backend-checkbox {
+          .vikinger_backend-checkbox-box {
+            border-color: var(--vikinger_backend-global-primary-color);
+            background-color: var(--vikinger_backend-global-primary-color);
+
+            .vikinger_backend-checkbox-box-icon {
+              display: block;
+            }
+          }
+
+          label {
+            font-weight: var(--vikinger_backend-font-weight-bold);
+          }
+        }
+      }
+    }
+
+    &:focus {
+      & + {
+        .vikinger_backend-checkbox {
+          label {
+            text-decoration: underline;
+          }
+        }
+      }
+    }
+  }
+
+  .vikinger_backend-checkbox {
+    display: flex;
+    position: absolute;
+    left: 0;
+  }
+
+  .vikinger_backend-checkbox-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    width: 16px;
+    height: 16px;
+    margin-right: 12px;
+    border-radius: 4px;
+    border: 1px solid var(--vikinger_backend-text-primary-color);
+    position: relative;
+    top: 1px;
+
+    .vikinger_backend-checkbox-box-icon {
+      fill: #fff;
+      width: 8px;
+      height: 8px;
+      display: none;
+    }
+  }
+
+  label {
+    cursor: pointer;
+  }
+}
+
+.vikinger_backend-item-status {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: var(--vikinger_backend-global-neutral-color);
+
+  &.vikinger_backend-item-status_success {
+    background-color: var(--vikinger_backend-global-success-color);
+  }
+
+  &.vikinger_backend-item-status_error {
+    background-color: var(--vikinger_backend-global-error-color);
+  }
+
+  .vikinger_backend-item-status-icon {
+    fill: #fff;
+    width: 8px;
+    height: 8px;
+  }
+}

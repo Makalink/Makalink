@@ -1,0 +1,95 @@
+/*------------------------------------------------------------------
+[Table of contents]
+
+1. Import Box
+-------------------------------------------------------------------*/
+/**
+ * 1. Import Box
+ */
+.vikinger_backend-import-box {
+  &.vikinger_backend-import-box_disabled {
+    filter: grayscale(.8);
+    opacity: .4;
+    pointer-events: none;
+  }
+
+  .vikinger_backend-import-box-preview {
+    margin-bottom: 32px;
+  }
+}
+
+.vikinger_backend-import-box-preview {
+  padding-top: 56.25%;
+  border-radius: 20px;
+  background-color: var(--vikinger_backend-global-neutral-color);
+  position: relative;
+
+  .vikinger_backend-tag {
+    position: absolute;
+    top: 16px;
+    right: -12px;
+    z-index: 2;
+  }
+
+  .vikinger_backend-import-box-preview-overlay {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+  }
+}
+
+.vikinger_backend-import-box-preview-overlay {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--vikinger_backend-overlay-background-color);
+}
+
+.vikinger_backend-import-box-action {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  & + {
+    .vikinger_backend-import-box-action {
+      margin-top: 20px;
+    }
+  }
+}
+
+.vikinger_backend-import-box-action-details {
+  padding-right: 20px;
+
+  .vikinger_backend-import-box-action-text {
+    margin-top: 4px;
+  }
+}
+
+.vikinger_backend-import-box-action-title,
+.vikinger_backend-import-box-action-text {
+  color: var(--vikinger_backend-text-primary-color);
+}
+
+.vikinger_backend-import-box-action-title {
+  font-size: var(--vikinger_backend-font-size-22);
+  font-weight: var(--vikinger_backend-font-weight-bold);
+
+  &.vikinger_backend-import-box-action-title_small {
+    font-size: var(--vikinger_backend-font-size-16);
+  }
+}
+
+.vikinger_backend-import-box-action-text {
+  font-size: var(--vikinger_backend-font-size-14);
+  line-height: var(--vikinger_backend-line-height-24-14);
+  font-weight: var(--vikinger_backend-font-weight-medium);
+}
+
+.vikinger_backend-import-box-action-button {
+  min-width: 104px;
+}

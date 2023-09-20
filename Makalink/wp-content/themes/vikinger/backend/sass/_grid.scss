@@ -1,0 +1,26 @@
+/*------------------------------------------------------------------
+[Table of contents]
+
+1. Grid Limit
+2. Grid
+-------------------------------------------------------------------*/
+/**
+ * 1. Grid Limit
+ */
+.vikinger_backend-grid-limit {
+  max-width: 940px;
+  margin: 0 auto;
+}
+
+/**
+ * 2. Grid
+ */
+.vikinger_backend-grid {
+  display: grid;
+  gap: 60px 20px;
+  @extend .vikinger_backend-grid-limit;
+
+  &.vikinger_backend-grid_half {
+    grid-template-columns: 1fr 1fr;
+  }
+}

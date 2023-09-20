@@ -1,0 +1,1018 @@
+2023-08-26T01:24:29+00:00 CRITICAL Uncaught Error: Failed opening required '/home/hyprojec/zairdrop.com/wp-content/plugins/buddypress/bp-activity/bp-activity-embeds.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/hyprojec/zairdrop.com/wp-content/plugins/buddypress/bp-core/classes/class-bp-component.php:417
+Stack trace:
+#0 /home/hyprojec/zairdrop.com/wp-content/plugins/buddypress/bp-activity/classes/class-bp-activity-component.php(97): BP_Component->includes()
+#1 /home/hyprojec/zairdrop.com/wp-includes/class-wp-hook.php(310): BP_Activity_Component->includes()
+#2 /home/hyprojec/zairdrop.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#3 /home/hyprojec/zairdrop.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#4 /home/hyprojec/zairdrop.com/wp-content/plugins/buddypress/bp-core/bp-core-dependency.php(33): do_action()
+#5 /home/hyprojec/zairdrop.com/wp-includes/class-wp-hook.php(310): bp_include()
+#6 /home/hyprojec/zairdrop.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#7 /home/hyprojec/zairdrop.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#8 /home/hyprojec/zairdrop.com/wp-content/plugins/buddypress/bp-core/bp-core-dependency.php(333): do_action()
+#9 /home/hyprojec/zairdrop.com/wp-includes/class-wp-hook.php(310): bp_loaded()
+#10 /home/hyprojec/zairdrop.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#11 /home/hyprojec/zairdrop.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#12 /home/hyprojec/zairdrop.com/wp-settings.php(495): do_action()
+#13 /home/hyprojec/zairdrop.com/wp-config.php(96): require_once('/home/hyprojec/...')
+#14 /home/hyprojec/zairdrop.com/wp-load.php(50): require_once('/home/hyprojec/...')
+#15 /home/hyprojec/zairdrop.com/wp-blog-header.php(13): require_once('/home/hyprojec/...')
+#16 /home/hyprojec/zairdrop.com/index.php(17): require('/home/hyprojec/...')
+#17 {main}
+  thrown in /home/hyprojec/zairdrop.com/wp-content/plugins/buddypress/bp-core/classes/class-bp-component.php on line 417
+
+2023-08-26T01:24:29+00:00 CRITICAL Uncaught Error: Failed opening required '/home/hyprojec/zairdrop.com/wp-content/plugins/bp-better-messages/addons/files.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/hyprojec/zairdrop.com/wp-content/plugins/bp-better-messages/bp-better-messages.php:142
+Stack trace:
+#0 /home/hyprojec/zairdrop.com/wp-content/plugins/bp-better-messages/bp-better-messages.php(109): Better_Messages->require_files()
+#1 /home/hyprojec/zairdrop.com/wp-content/plugins/bp-better-messages/bp-better-messages.php(88): Better_Messages->setup_actions()
+#2 /home/hyprojec/zairdrop.com/wp-content/plugins/bp-better-messages/bp-better-messages.php(570): Better_Messages::instance()
+#3 /home/hyprojec/zairdrop.com/wp-content/plugins/bp-better-messages/bp-better-messages.php(664): Better_Messages()
+#4 /home/hyprojec/zairdrop.com/wp-includes/class-wp-hook.php(310): Better_Messages_Init()
+#5 /home/hyprojec/zairdrop.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#6 /home/hyprojec/zairdrop.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#7 /home/hyprojec/zairdrop.com/wp-settings.php(495): do_action()
+#8 /home/hyprojec/zairdrop.com/wp-config.php(96): require_once('/home/hyprojec/...')
+#9 /home/hyprojec/zairdrop.com/wp-load.php(50): require_once('/home/hyprojec/...')
+#10 /home/hyprojec/zairdrop.com/wp-admin/admin-ajax.php(22): require_once('/home/hyprojec/...')
+#11 {main}
+  thrown in /home/hyprojec/zairdrop.com/wp-content/plugins/bp-better-messages/bp-better-messages.php on line 142
+
+2023-08-26T01:24:30+00:00 CRITICAL Uncaught Error: Failed opening required '/home/hyprojec/zairdrop.com/wp-content/plugins/buddypress/bp-core/classes/class-bp-block.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/hyprojec/zairdrop.com/wp-content/plugins/buddypress/class-buddypress.php:718
+Stack trace:
+#0 /home/hyprojec/zairdrop.com/wp-content/plugins/buddypress/bp-core/bp-core-blocks.php(164): BuddyPress->autoload()
+#1 /home/hyprojec/zairdrop.com/wp-content/plugins/buddypress/bp-core/classes/class-bp-component.php(980): bp_register_block()
+#2 /home/hyprojec/zairdrop.com/wp-content/plugins/buddypress/bp-core/classes/class-bp-core.php(411): BP_Component->blocks_init()
+#3 /home/hyprojec/zairdrop.com/wp-includes/class-wp-hook.php(310): BP_Core->blocks_init()
+#4 /home/hyprojec/zairdrop.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#5 /home/hyprojec/zairdrop.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#6 /home/hyprojec/zairdrop.com/wp-content/plugins/buddypress/bp-core/bp-core-dependency.php(296): do_action()
+#7 /home/hyprojec/zairdrop.com/wp-includes/class-wp-hook.php(310): bp_blocks_init()
+#8 /home/hyprojec/zairdrop.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#9 /home/hyprojec/zairdrop.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#10 /home/hyprojec/zairdrop.com/wp-content/plugins/buddypress/bp-core/bp-core-dependency.php(267): do_action()
+#11 /home/hyprojec/zairdrop.com/wp-includes/class-wp-hook.php(310): bp_init()
+#12 /home/hyprojec/zairdrop.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#13 /home/hyprojec/zairdrop.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#14 /home/hyprojec/zairdrop.com/wp-settings.php(632): do_action()
+#15 /home/hyprojec/zairdrop.com/wp-config.php(96): require_once('/home/hyprojec/...')
+#16 /home/hyprojec/zairdrop.com/wp-load.php(50): require_once('/home/hyprojec/...')
+#17 /home/hyprojec/zairdrop.com/wp-admin/admin-ajax.php(22): require_once('/home/hyprojec/...')
+#18 {main}
+  thrown in /home/hyprojec/zairdrop.com/wp-content/plugins/buddypress/class-buddypress.php on line 718
+
+2023-08-26T01:24:30+00:00 CRITICAL Uncaught Error: Failed opening required '/home/hyprojec/zairdrop.com/wp-content/plugins/elementor/modules/landing-pages/module.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/hyprojec/zairdrop.com/wp-content/plugins/elementor/includes/autoloader.php:294
+Stack trace:
+#0 /home/hyprojec/zairdrop.com/wp-content/plugins/elementor/includes/autoloader.php(330): Elementor\Autoloader::load_class()
+#1 /home/hyprojec/zairdrop.com/wp-content/plugins/elementor/core/modules-manager.php(53): Elementor\Autoloader::autoload()
+#2 /home/hyprojec/zairdrop.com/wp-content/plugins/elementor/includes/plugin.php(730): Elementor\Core\Modules_Manager->__construct()
+#3 /home/hyprojec/zairdrop.com/wp-content/plugins/elementor/includes/plugin.php(647): Elementor\Plugin->init_components()
+#4 /home/hyprojec/zairdrop.com/wp-includes/class-wp-hook.php(310): Elementor\Plugin->init()
+#5 /home/hyprojec/zairdrop.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#6 /home/hyprojec/zairdrop.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#7 /home/hyprojec/zairdrop.com/wp-settings.php(632): do_action()
+#8 /home/hyprojec/zairdrop.com/wp-config.php(96): require_once('/home/hyprojec/...')
+#9 /home/hyprojec/zairdrop.com/wp-load.php(50): require_once('/home/hyprojec/...')
+#10 /home/hyprojec/zairdrop.com/wp-admin/admin-ajax.php(22): require_once('/home/hyprojec/...')
+#11 {main}
+  thrown in /home/hyprojec/zairdrop.com/wp-content/plugins/elementor/includes/autoloader.php on line 294
+
+2023-08-26T01:25:31+00:00 CRITICAL Uncaught Error: Failed opening required '/home/hyprojec/zairdrop.com/wp-content/themes/vikinger/includes/functions/buddypress/vikinger-functions-buddypress-notification.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/hyprojec/zairdrop.com/wp-content/themes/vikinger/includes/functions/buddypress/vikinger-functions-buddypress.php:41
+Stack trace:
+#0 /home/hyprojec/zairdrop.com/wp-content/themes/vikinger/includes/functions/vikinger-functions.php(73): require_once()
+#1 /home/hyprojec/zairdrop.com/wp-content/themes/vikinger/functions.php(293): require_once('/home/hyprojec/...')
+#2 /home/hyprojec/zairdrop.com/wp-settings.php(600): include('/home/hyprojec/...')
+#3 /home/hyprojec/zairdrop.com/wp-config.php(96): require_once('/home/hyprojec/...')
+#4 /home/hyprojec/zairdrop.com/wp-load.php(50): require_once('/home/hyprojec/...')
+#5 /home/hyprojec/zairdrop.com/wp-admin/admin-ajax.php(22): require_once('/home/hyprojec/...')
+#6 {main}
+  thrown in /home/hyprojec/zairdrop.com/wp-content/themes/vikinger/includes/functions/buddypress/vikinger-functions-buddypress.php on line 41
+
+2023-08-26T01:25:31+00:00 CRITICAL Uncaught Error: Failed opening required '/home/hyprojec/zairdrop.com/wp-content/plugins/buddypress/bp-templates/bp-legacy/buddypress-functions.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/hyprojec/zairdrop.com/wp-includes/template.php:785
+Stack trace:
+#0 /home/hyprojec/zairdrop.com/wp-content/plugins/buddypress/bp-core/bp-core-template-loader.php(222): load_template()
+#1 /home/hyprojec/zairdrop.com/wp-content/plugins/buddypress/bp-core/bp-core-template-loader.php(678): bp_locate_template()
+#2 /home/hyprojec/zairdrop.com/wp-includes/class-wp-hook.php(310): bp_load_theme_functions()
+#3 /home/hyprojec/zairdrop.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#4 /home/hyprojec/zairdrop.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#5 /home/hyprojec/zairdrop.com/wp-content/plugins/buddypress/bp-core/bp-core-dependency.php(637): do_action()
+#6 /home/hyprojec/zairdrop.com/wp-includes/class-wp-hook.php(310): bp_after_setup_theme()
+#7 /home/hyprojec/zairdrop.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#8 /home/hyprojec/zairdrop.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#9 /home/hyprojec/zairdrop.com/wp-settings.php(610): do_action()
+#10 /home/hyprojec/zairdrop.com/wp-config.php(96): require_once('/home/hyprojec/...')
+#11 /home/hyprojec/zairdrop.com/wp-load.php(50): require_once('/home/hyprojec/...')
+#12 /home/hyprojec/zairdrop.com/wp-admin/admin-ajax.php(22): require_once('/home/hyprojec/...')
+#13 {main}
+  thrown in /home/hyprojec/zairdrop.com/wp-includes/template.php on line 785
+
+2023-08-26T01:25:31+00:00 CRITICAL Uncaught Error: Failed opening required '/home/hyprojec/zairdrop.com/wp-content/plugins/elementor//includes/db.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/hyprojec/zairdrop.com/wp-content/plugins/elementor/includes/autoloader.php:294
+Stack trace:
+#0 /home/hyprojec/zairdrop.com/wp-content/plugins/elementor/includes/autoloader.php(330): Elementor\Autoloader::load_class()
+#1 /home/hyprojec/zairdrop.com/wp-content/plugins/elementor/includes/plugin.php(712): Elementor\Autoloader::autoload()
+#2 /home/hyprojec/zairdrop.com/wp-content/plugins/elementor/includes/plugin.php(647): Elementor\Plugin->init_components()
+#3 /home/hyprojec/zairdrop.com/wp-includes/class-wp-hook.php(310): Elementor\Plugin->init()
+#4 /home/hyprojec/zairdrop.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#5 /home/hyprojec/zairdrop.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#6 /home/hyprojec/zairdrop.com/wp-settings.php(632): do_action()
+#7 /home/hyprojec/zairdrop.com/wp-config.php(96): require_once('/home/hyprojec/...')
+#8 /home/hyprojec/zairdrop.com/wp-load.php(50): require_once('/home/hyprojec/...')
+#9 /home/hyprojec/zairdrop.com/wp-blog-header.php(13): require_once('/home/hyprojec/...')
+#10 /home/hyprojec/zairdrop.com/index.php(17): require('/home/hyprojec/...')
+#11 {main}
+  thrown in /home/hyprojec/zairdrop.com/wp-content/plugins/elementor/includes/autoloader.php on line 294
+
+2023-08-26T01:25:31+00:00 CRITICAL Uncaught Error: Failed opening required '/home/hyprojec/zairdrop.com/wp-content/plugins/elementor/core/files/file-types/base.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/hyprojec/zairdrop.com/wp-content/plugins/elementor/includes/autoloader.php:294
+Stack trace:
+#0 /home/hyprojec/zairdrop.com/wp-content/plugins/elementor/includes/autoloader.php(330): Elementor\Autoloader::load_class()
+#1 /home/hyprojec/zairdrop.com/wp-content/plugins/elementor/core/files/file-types/json.php(8): Elementor\Autoloader::autoload()
+#2 /home/hyprojec/zairdrop.com/wp-content/plugins/elementor/includes/autoloader.php(294): require('/home/hyprojec/...')
+#3 /home/hyprojec/zairdrop.com/wp-content/plugins/elementor/includes/autoloader.php(330): Elementor\Autoloader::load_class()
+#4 /home/hyprojec/zairdrop.com/wp-content/plugins/elementor/core/files/uploads-manager.php(56): Elementor\Autoloader::autoload()
+#5 /home/hyprojec/zairdrop.com/wp-content/plugins/elementor/core/files/uploads-manager.php(647): Elementor\Core\Files\Uploads_Manager->register_file_types()
+#6 /home/hyprojec/zairdrop.com/wp-content/plugins/elementor/includes/plugin.php(738): Elementor\Core\Files\Uploads_Manager->__construct()
+#7 /home/hyprojec/zairdrop.com/wp-content/plugins/elementor/includes/plugin.php(647): Elementor\Plugin->init_components()
+#8 /home/hyprojec/zairdrop.com/wp-includes/class-wp-hook.php(310): Elementor\Plugin->init()
+#9 /home/hyprojec/zairdrop.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#10 /home/hyprojec/zairdrop.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#11 /home/hyprojec/zairdrop.com/wp-settings.php(632): do_action()
+#12 /home/hyprojec/zairdrop.com/wp-config.php(96): require_once('/home/hyprojec/...')
+#13 /home/hyprojec/zairdrop.com/wp-load.php(50): require_once('/home/hyprojec/...')
+#14 /home/hyprojec/zairdrop.com/wp-blog-header.php(13): require_once('/home/hyprojec/...')
+#15 /home/hyprojec/zairdrop.com/index.php(17): require('/home/hyprojec/...')
+#16 {main}
+  thrown in /home/hyprojec/zairdrop.com/wp-content/plugins/elementor/includes/autoloader.php on line 294
+
+2023-08-26T02:24:13+00:00 CRITICAL Uncaught Error: Class "WpOrg\Requests\Response" not found in /home/hyprojec/zairdrop.com/wp-includes/Requests/src/Requests.php:724
+Stack trace:
+#0 /home/hyprojec/zairdrop.com/wp-includes/Requests/src/Requests.php(473): WpOrg\Requests\Requests::parse_response()
+#1 /home/hyprojec/zairdrop.com/wp-includes/class-wp-http.php(396): WpOrg\Requests\Requests::request()
+#2 /home/hyprojec/zairdrop.com/wp-includes/class-wp-http.php(616): WP_Http->request()
+#3 /home/hyprojec/zairdrop.com/wp-includes/http.php(186): WP_Http->post()
+#4 /home/hyprojec/zairdrop.com/wp-includes/cron.php(932): wp_remote_post()
+#5 /home/hyprojec/zairdrop.com/wp-includes/cron.php(1004): spawn_cron()
+#6 /home/hyprojec/zairdrop.com/wp-includes/class-wp-hook.php(310): _wp_cron()
+#7 /home/hyprojec/zairdrop.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#8 /home/hyprojec/zairdrop.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#9 /home/hyprojec/zairdrop.com/wp-settings.php(654): do_action()
+#10 /home/hyprojec/zairdrop.com/wp-config.php(96): require_once('/home/hyprojec/...')
+#11 /home/hyprojec/zairdrop.com/wp-load.php(50): require_once('/home/hyprojec/...')
+#12 /home/hyprojec/zairdrop.com/wp-blog-header.php(13): require_once('/home/hyprojec/...')
+#13 /home/hyprojec/zairdrop.com/index.php(17): require('/home/hyprojec/...')
+#14 {main}
+  thrown in /home/hyprojec/zairdrop.com/wp-includes/Requests/src/Requests.php on line 724
+
+2023-08-26T02:24:13+00:00 CRITICAL Uncaught Error: Failed opening required '/home/hyprojec/zairdrop.com/wp-content/plugins/automatorwp/integrations/wordpress/filters/user-role.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/hyprojec/zairdrop.com/wp-content/plugins/automatorwp/integrations/wordpress/wordpress.php:73
+Stack trace:
+#0 /home/hyprojec/zairdrop.com/wp-content/plugins/automatorwp/automatorwp.php(221): require_once()
+#1 /home/hyprojec/zairdrop.com/wp-content/plugins/automatorwp/automatorwp.php(376): AutomatorWP->integrations()
+#2 /home/hyprojec/zairdrop.com/wp-includes/class-wp-hook.php(310): AutomatorWP->pre_init()
+#3 /home/hyprojec/zairdrop.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#4 /home/hyprojec/zairdrop.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#5 /home/hyprojec/zairdrop.com/wp-settings.php(495): do_action()
+#6 /home/hyprojec/zairdrop.com/wp-config.php(96): require_once('/home/hyprojec/...')
+#7 /home/hyprojec/zairdrop.com/wp-load.php(50): require_once('/home/hyprojec/...')
+#8 /home/hyprojec/zairdrop.com/wp-blog-header.php(13): require_once('/home/hyprojec/...')
+#9 /home/hyprojec/zairdrop.com/index.php(17): require('/home/hyprojec/...')
+#10 {main}
+  thrown in /home/hyprojec/zairdrop.com/wp-content/plugins/automatorwp/integrations/wordpress/wordpress.php on line 73
+
+2023-08-26T02:24:14+00:00 CRITICAL Uncaught Error: Failed opening required '/home/hyprojec/zairdrop.com/wp-content/plugins/woocommerce/src/Admin/Features/OnboardingTasks/Tasks/AdditionalPayments.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/hyprojec/zairdrop.com/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php:90
+Stack trace:
+#0 /home/hyprojec/zairdrop.com/wp-content/plugins/woocommerce/src/Admin/Features/OnboardingTasks/TaskList.php(148): Automattic\Jetpack\Autoloader\jpc770d59a5d7d253965990351cc321de7\PHP_Autoloader::load_class()
+#1 /home/hyprojec/zairdrop.com/wp-content/plugins/woocommerce/src/Admin/Features/OnboardingTasks/TaskLists.php(252): Automattic\WooCommerce\Admin\Features\OnboardingTasks\TaskList->__construct()
+#2 /home/hyprojec/zairdrop.com/wp-content/plugins/woocommerce/src/Admin/Features/OnboardingTasks/TaskLists.php(143): Automattic\WooCommerce\Admin\Features\OnboardingTasks\TaskLists::add_list()
+#3 /home/hyprojec/zairdrop.com/wp-content/plugins/woocommerce/src/Admin/Features/OnboardingTasks/TaskLists.php(73): Automattic\WooCommerce\Admin\Features\OnboardingTasks\TaskLists::init_default_lists()
+#4 /home/hyprojec/zairdrop.com/wp-content/plugins/woocommerce/src/Admin/Features/OnboardingTasks/Init.php(36): Automattic\WooCommerce\Admin\Features\OnboardingTasks\TaskLists::init()
+#5 /home/hyprojec/zairdrop.com/wp-content/plugins/woocommerce/src/Admin/Features/Features.php(138): Automattic\WooCommerce\Admin\Features\OnboardingTasks\Init->__construct()
+#6 /home/hyprojec/zairdrop.com/wp-includes/class-wp-hook.php(310): Automattic\WooCommerce\Admin\Features\Features::load_features()
+#7 /home/hyprojec/zairdrop.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#8 /home/hyprojec/zairdrop.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#9 /home/hyprojec/zairdrop.com/wp-settings.php(632): do_action()
+#10 /home/hyprojec/zairdrop.com/wp-config.php(96): require_once('/home/hyprojec/...')
+#11 /home/hyprojec/zairdrop.com/wp-load.php(50): require_once('/home/hyprojec/...')
+#12 /home/hyprojec/zairdrop.com/wp-admin/admin-ajax.php(22): require_once('/home/hyprojec/...')
+#13 {main}
+  thrown in /home/hyprojec/zairdrop.com/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php on line 90
+
+2023-08-26T02:25:44+00:00 CRITICAL Uncaught Error: Failed opening required '/home/hyprojec/zairdrop.com/wp-content/plugins/gamipress/integrations/advanced-ads/includes/listeners.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/hyprojec/zairdrop.com/wp-content/plugins/gamipress/integrations/advanced-ads/advanced-ads.php:77
+Stack trace:
+#0 /home/hyprojec/zairdrop.com/wp-content/plugins/gamipress/integrations/advanced-ads/advanced-ads.php(39): GamiPress_Integration_Advanced_Ads->includes()
+#1 /home/hyprojec/zairdrop.com/wp-content/plugins/gamipress/integrations/advanced-ads/advanced-ads.php(152): GamiPress_Integration_Advanced_Ads::instance()
+#2 /home/hyprojec/zairdrop.com/wp-includes/class-wp-hook.php(310): GamiPress_Integration_Advanced_Ads()
+#3 /home/hyprojec/zairdrop.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#4 /home/hyprojec/zairdrop.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#5 /home/hyprojec/zairdrop.com/wp-content/plugins/gamipress/gamipress.php(432): do_action()
+#6 /home/hyprojec/zairdrop.com/wp-includes/class-wp-hook.php(310): GamiPress->pre_init()
+#7 /home/hyprojec/zairdrop.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#8 /home/hyprojec/zairdrop.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#9 /home/hyprojec/zairdrop.com/wp-settings.php(495): do_action()
+#10 /home/hyprojec/zairdrop.com/wp-config.php(96): require_once('/home/hyprojec/...')
+#11 /home/hyprojec/zairdrop.com/wp-load.php(50): require_once('/home/hyprojec/...')
+#12 /home/hyprojec/zairdrop.com/wp-admin/admin-ajax.php(22): require_once('/home/hyprojec/...')
+#13 {main}
+  thrown in /home/hyprojec/zairdrop.com/wp-content/plugins/gamipress/integrations/advanced-ads/advanced-ads.php on line 77
+
+2023-08-26T02:25:44+00:00 CRITICAL Uncaught Error: Failed opening required '/home/hyprojec/zairdrop.com/wp-content/plugins/buddypress/bp-members/classes/class-bp-members-component.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/hyprojec/zairdrop.com/wp-content/plugins/buddypress/class-buddypress.php:718
+Stack trace:
+#0 /home/hyprojec/zairdrop.com/wp-content/plugins/buddypress/bp-members/bp-members-loader.php(19): BuddyPress->autoload()
+#1 /home/hyprojec/zairdrop.com/wp-includes/class-wp-hook.php(310): bp_setup_members()
+#2 /home/hyprojec/zairdrop.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#3 /home/hyprojec/zairdrop.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#4 /home/hyprojec/zairdrop.com/wp-content/plugins/buddypress/bp-core/bp-core-dependency.php(65): do_action()
+#5 /home/hyprojec/zairdrop.com/wp-includes/class-wp-hook.php(310): bp_setup_components()
+#6 /home/hyprojec/zairdrop.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#7 /home/hyprojec/zairdrop.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#8 /home/hyprojec/zairdrop.com/wp-content/plugins/buddypress/bp-core/bp-core-dependency.php(333): do_action()
+#9 /home/hyprojec/zairdrop.com/wp-includes/class-wp-hook.php(310): bp_loaded()
+#10 /home/hyprojec/zairdrop.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#11 /home/hyprojec/zairdrop.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#12 /home/hyprojec/zairdrop.com/wp-settings.php(495): do_action()
+#13 /home/hyprojec/zairdrop.com/wp-config.php(96): require_once('/home/hyprojec/...')
+#14 /home/hyprojec/zairdrop.com/wp-load.php(50): require_once('/home/hyprojec/...')
+#15 /home/hyprojec/zairdrop.com/wp-admin/admin-ajax.php(22): require_once('/home/hyprojec/...')
+#16 {main}
+  thrown in /home/hyprojec/zairdrop.com/wp-content/plugins/buddypress/class-buddypress.php on line 718
+
+2023-08-26T02:25:44+00:00 CRITICAL Uncaught Error: Failed opening required '/home/hyprojec/zairdrop.com/wp-content/themes/vikinger/includes/functions/buddypress/activity/vikinger-functions-buddypress-activity.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/hyprojec/zairdrop.com/wp-content/themes/vikinger/includes/functions/buddypress/vikinger-functions-buddypress.php:31
+Stack trace:
+#0 /home/hyprojec/zairdrop.com/wp-content/themes/vikinger/includes/functions/vikinger-functions.php(73): require_once()
+#1 /home/hyprojec/zairdrop.com/wp-content/themes/vikinger/functions.php(293): require_once('/home/hyprojec/...')
+#2 /home/hyprojec/zairdrop.com/wp-settings.php(600): include('/home/hyprojec/...')
+#3 /home/hyprojec/zairdrop.com/wp-config.php(96): require_once('/home/hyprojec/...')
+#4 /home/hyprojec/zairdrop.com/wp-load.php(50): require_once('/home/hyprojec/...')
+#5 /home/hyprojec/zairdrop.com/wp-admin/admin-ajax.php(22): require_once('/home/hyprojec/...')
+#6 {main}
+  thrown in /home/hyprojec/zairdrop.com/wp-content/themes/vikinger/includes/functions/buddypress/vikinger-functions-buddypress.php on line 31
+
+2023-08-26T02:25:44+00:00 CRITICAL Uncaught Error: Failed opening required '/home/hyprojec/zairdrop.com/wp-content/plugins/gamipress/integrations/sensei/sensei.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/hyprojec/zairdrop.com/wp-content/plugins/gamipress/gamipress.php:321
+Stack trace:
+#0 /home/hyprojec/zairdrop.com/wp-content/plugins/gamipress/gamipress.php(413): GamiPress->integrations()
+#1 /home/hyprojec/zairdrop.com/wp-includes/class-wp-hook.php(310): GamiPress->pre_init()
+#2 /home/hyprojec/zairdrop.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#3 /home/hyprojec/zairdrop.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#4 /home/hyprojec/zairdrop.com/wp-settings.php(495): do_action()
+#5 /home/hyprojec/zairdrop.com/wp-config.php(96): require_once('/home/hyprojec/...')
+#6 /home/hyprojec/zairdrop.com/wp-load.php(50): require_once('/home/hyprojec/...')
+#7 /home/hyprojec/zairdrop.com/wp-admin/admin-ajax.php(22): require_once('/home/hyprojec/...')
+#8 {main}
+  thrown in /home/hyprojec/zairdrop.com/wp-content/plugins/gamipress/gamipress.php on line 321
+
+2023-08-26T02:25:44+00:00 CRITICAL Uncaught Error: Failed opening required '/home/hyprojec/zairdrop.com/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/Domain/Bootstrap.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/hyprojec/zairdrop.com/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php:90
+Stack trace:
+#0 /home/hyprojec/zairdrop.com/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/Package.php(124): Automattic\Jetpack\Autoloader\jpc770d59a5d7d253965990351cc321de7\PHP_Autoloader::load_class()
+#1 /home/hyprojec/zairdrop.com/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/Registry/AbstractDependencyType.php(42): Automattic\WooCommerce\Blocks\Package::Automattic\WooCommerce\Blocks\{closure}()
+#2 /home/hyprojec/zairdrop.com/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/Registry/SharedType.php(28): Automattic\WooCommerce\Blocks\Registry\AbstractDependencyType->resolve_value()
+#3 /home/hyprojec/zairdrop.com/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/Registry/Container.php(96): Automattic\WooCommerce\Blocks\Registry\SharedType->get()
+#4 /home/hyprojec/zairdrop.com/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/Package.php(44): Automattic\WooCommerce\Blocks\Registry\Container->get()
+#5 [internal function]: Automattic\WooCommerce\Blocks\Package::init()
+#6 /home/hyprojec/zairdrop.com/wp-content/plugins/woocommerce/src/Packages.php(71): call_user_func()
+#7 /home/hyprojec/zairdrop.com/wp-content/plugins/woocommerce/src/Packages.php(44): Automattic\WooCommerce\Packages::load_packages()
+#8 /home/hyprojec/zairdrop.com/wp-includes/class-wp-hook.php(310): Automattic\WooCommerce\Packages::on_init()
+#9 /home/hyprojec/zairdrop.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#10 /home/hyprojec/zairdrop.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#11 /home/hyprojec/zairdrop.com/wp-settings.php(495): do_action()
+#12 /home/hyprojec/zairdrop.com/wp-config.php(96): require_once('/home/hyprojec/...')
+#13 /home/hyprojec/zairdrop.com/wp-load.php(50): require_once('/home/hyprojec/...')
+#14 /home/hyprojec/zairdrop.com/wp-admin/admin-ajax.php(22): require_once('/home/hyprojec/...')
+#15 {main}
+  thrown in /home/hyprojec/zairdrop.com/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php on line 90
+
+2023-08-26T02:25:44+00:00 CRITICAL Uncaught Error: Failed opening required '/home/hyprojec/zairdrop.com/wp-content/plugins/buddypress/bp-members/classes/class-bp-members-admin.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/hyprojec/zairdrop.com/wp-content/plugins/buddypress/class-buddypress.php:718
+Stack trace:
+#0 /home/hyprojec/zairdrop.com/wp-includes/class-wp-hook.php(310): BuddyPress->autoload()
+#1 /home/hyprojec/zairdrop.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#2 /home/hyprojec/zairdrop.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#3 /home/hyprojec/zairdrop.com/wp-content/plugins/buddypress/bp-core/bp-core-dependency.php(267): do_action()
+#4 /home/hyprojec/zairdrop.com/wp-includes/class-wp-hook.php(310): bp_init()
+#5 /home/hyprojec/zairdrop.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#6 /home/hyprojec/zairdrop.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#7 /home/hyprojec/zairdrop.com/wp-settings.php(632): do_action()
+#8 /home/hyprojec/zairdrop.com/wp-config.php(96): require_once('/home/hyprojec/...')
+#9 /home/hyprojec/zairdrop.com/wp-load.php(50): require_once('/home/hyprojec/...')
+#10 /home/hyprojec/zairdrop.com/wp-admin/admin-ajax.php(22): require_once('/home/hyprojec/...')
+#11 {main}
+
+Next TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class "BP_Members_Admin" not found in /home/hyprojec/zairdrop.com/wp-includes/class-wp-hook.php:310
+Stack trace:
+#0 /home/hyprojec/zairdrop.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#1 /home/hyprojec/zairdrop.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#2 /home/hyprojec/zairdrop.com/wp-content/plugins/buddypress/bp-core/bp-core-dependency.php(267): do_action()
+#3 /home/hyprojec/zairdrop.com/wp-includes/class-wp-hook.php(310): bp_init()
+#4 /home/hyprojec/zairdrop.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#5 /home/hyprojec/zairdrop.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#6 /home/hyprojec/zairdrop.com/wp-settings.php(632): do_action()
+#7 /home/hyprojec/zairdrop.com/wp-config.php(96): require_once('/home/hyprojec/...')
+#8 /home/hyprojec/zairdrop.com/wp-load.php(50): require_once('/home/hyprojec/...')
+#9 /home/hyprojec/zairdrop.com/wp-admin/admin-ajax.php(22): require_once('/home/hyprojec/...')
+#10 {main}
+  thrown in /home/hyprojec/zairdrop.com/wp-includes/class-wp-hook.php on line 310
+
+2023-08-26T02:25:44+00:00 CRITICAL Uncaught Error: Failed opening required '/home/hyprojec/zairdrop.com/wp-content/plugins/elementor/core/files/uploads-manager.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/hyprojec/zairdrop.com/wp-content/plugins/elementor/includes/autoloader.php:294
+Stack trace:
+#0 /home/hyprojec/zairdrop.com/wp-content/plugins/elementor/includes/autoloader.php(330): Elementor\Autoloader::load_class()
+#1 /home/hyprojec/zairdrop.com/wp-content/plugins/elementor/includes/plugin.php(738): Elementor\Autoloader::autoload()
+#2 /home/hyprojec/zairdrop.com/wp-content/plugins/elementor/includes/plugin.php(647): Elementor\Plugin->init_components()
+#3 /home/hyprojec/zairdrop.com/wp-includes/class-wp-hook.php(310): Elementor\Plugin->init()
+#4 /home/hyprojec/zairdrop.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#5 /home/hyprojec/zairdrop.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#6 /home/hyprojec/zairdrop.com/wp-settings.php(632): do_action()
+#7 /home/hyprojec/zairdrop.com/wp-config.php(96): require_once('/home/hyprojec/...')
+#8 /home/hyprojec/zairdrop.com/wp-load.php(50): require_once('/home/hyprojec/...')
+#9 /home/hyprojec/zairdrop.com/wp-admin/admin-ajax.php(22): require_once('/home/hyprojec/...')
+#10 {main}
+  thrown in /home/hyprojec/zairdrop.com/wp-content/plugins/elementor/includes/autoloader.php on line 294
+
+2023-08-26T02:25:44+00:00 CRITICAL Uncaught Error: Failed opening required '/home/hyprojec/zairdrop.com/wp-content/plugins/elementor/core/settings/base/manager.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/hyprojec/zairdrop.com/wp-content/plugins/elementor/includes/autoloader.php:294
+Stack trace:
+#0 /home/hyprojec/zairdrop.com/wp-content/plugins/elementor/includes/autoloader.php(330): Elementor\Autoloader::load_class()
+#1 /home/hyprojec/zairdrop.com/wp-content/plugins/elementor/core/settings/base/css-manager.php(11): Elementor\Autoloader::autoload()
+#2 /home/hyprojec/zairdrop.com/wp-content/plugins/elementor/includes/autoloader.php(294): require('/home/hyprojec/...')
+#3 /home/hyprojec/zairdrop.com/wp-content/plugins/elementor/includes/autoloader.php(330): Elementor\Autoloader::load_class()
+#4 /home/hyprojec/zairdrop.com/wp-content/plugins/elementor/core/settings/page/manager.php(26): Elementor\Autoloader::autoload()
+#5 /home/hyprojec/zairdrop.com/wp-content/plugins/elementor/includes/autoloader.php(294): require('/home/hyprojec/...')
+#6 /home/hyprojec/zairdrop.com/wp-content/plugins/elementor/includes/autoloader.php(330): Elementor\Autoloader::load_class()
+#7 /home/hyprojec/zairdrop.com/wp-content/plugins/elementor/core/settings/manager.php(115): Elementor\Autoloader::autoload()
+#8 /home/hyprojec/zairdrop.com/wp-content/plugins/elementor/core/settings/manager.php(208): Elementor\Core\Settings\Manager::register_default_settings_managers()
+#9 /home/hyprojec/zairdrop.com/wp-content/plugins/elementor/includes/plugin.php(710): Elementor\Core\Settings\Manager::run()
+#10 /home/hyprojec/zairdrop.com/wp-content/plugins/elementor/includes/plugin.php(647): Elementor\Plugin->init_components()
+#11 /home/hyprojec/zairdrop.com/wp-includes/class-wp-hook.php(310): Elementor\Plugin->init()
+#12 /home/hyprojec/zairdrop.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#13 /home/hyprojec/zairdrop.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#14 /home/hyprojec/zairdrop.com/wp-settings.php(632): do_action()
+#15 /home/hyprojec/zairdrop.com/wp-config.php(96): require_once('/home/hyprojec/...')
+#16 /home/hyprojec/zairdrop.com/wp-load.php(50): require_once('/home/hyprojec/...')
+#17 /home/hyprojec/zairdrop.com/wp-admin/admin-ajax.php(22): require_once('/home/hyprojec/...')
+#18 {main}
+  thrown in /home/hyprojec/zairdrop.com/wp-content/plugins/elementor/includes/autoloader.php on line 294
+
+2023-08-26T03:55:26+00:00 CRITICAL Uncaught Error: Failed opening required '/home/hyprojec/zairdrop.com/wp-content/plugins/woocommerce/includes/rest-api/Controllers/Version1/class-wc-rest-product-attributes-v1-controller.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/hyprojec/zairdrop.com/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php:90
+Stack trace:
+#0 /home/hyprojec/zairdrop.com/wp-content/plugins/woocommerce/includes/rest-api/Controllers/Version2/class-wc-rest-product-attributes-v2-controller.php(19): Automattic\Jetpack\Autoloader\jpc770d59a5d7d253965990351cc321de7\PHP_Autoloader::load_class()
+#1 /home/hyprojec/zairdrop.com/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php(90): require('/home/hyprojec/...')
+#2 /home/hyprojec/zairdrop.com/wp-content/plugins/woocommerce/includes/rest-api/Controllers/Version3/class-wc-rest-product-attributes-controller.php(19): Automattic\Jetpack\Autoloader\jpc770d59a5d7d253965990351cc321de7\PHP_Autoloader::load_class()
+#3 /home/hyprojec/zairdrop.com/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php(90): require('/home/hyprojec/...')
+#4 /home/hyprojec/zairdrop.com/wp-content/plugins/woocommerce/src/Admin/API/ProductAttributes.php(18): Automattic\Jetpack\Autoloader\jpc770d59a5d7d253965990351cc321de7\PHP_Autoloader::load_class()
+#5 /home/hyprojec/zairdrop.com/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php(90): require('/home/hyprojec/...')
+#6 /home/hyprojec/zairdrop.com/wp-content/plugins/woocommerce/src/Admin/API/Init.php(146): Automattic\Jetpack\Autoloader\jpc770d59a5d7d253965990351cc321de7\PHP_Autoloader::load_class()
+#7 /home/hyprojec/zairdrop.com/wp-includes/class-wp-hook.php(310): Automattic\WooCommerce\Admin\API\Init->rest_api_init()
+#8 /home/hyprojec/zairdrop.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#9 /home/hyprojec/zairdrop.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#10 /home/hyprojec/zairdrop.com/wp-includes/rest-api.php(587): do_action()
+#11 /home/hyprojec/zairdrop.com/wp-includes/rest-api.php(411): rest_get_server()
+#12 /home/hyprojec/zairdrop.com/wp-includes/class-wp-hook.php(310): rest_api_loaded()
+#13 /home/hyprojec/zairdrop.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#14 /home/hyprojec/zairdrop.com/wp-includes/plugin.php(565): WP_Hook->do_action()
+#15 /home/hyprojec/zairdrop.com/wp-includes/class-wp.php(398): do_action_ref_array()
+#16 /home/hyprojec/zairdrop.com/wp-includes/class-wp.php(779): WP->parse_request()
+#17 /home/hyprojec/zairdrop.com/wp-includes/functions.php(1335): WP->main()
+#18 /home/hyprojec/zairdrop.com/wp-blog-header.php(16): wp()
+#19 /home/hyprojec/zairdrop.com/index.php(17): require('/home/hyprojec/...')
+#20 {main}
+  thrown in /home/hyprojec/zairdrop.com/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php on line 90
+
+2023-08-26T03:55:26+00:00 CRITICAL Uncaught Error: Failed opening required '/home/hyprojec/zairdrop.com/wp-content/plugins/woocommerce/src/Admin/Notes/Notes.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/hyprojec/zairdrop.com/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php:90
+Stack trace:
+#0 /home/hyprojec/zairdrop.com/wp-content/plugins/woocommerce/src/Internal/Admin/FeaturePlugin.php(151): Automattic\Jetpack\Autoloader\jpc770d59a5d7d253965990351cc321de7\PHP_Autoloader::load_class()
+#1 /home/hyprojec/zairdrop.com/wp-content/plugins/woocommerce/src/Internal/Admin/FeaturePlugin.php(99): Automattic\WooCommerce\Internal\Admin\FeaturePlugin->includes()
+#2 /home/hyprojec/zairdrop.com/wp-content/plugins/woocommerce/src/Internal/Admin/FeaturePlugin.php(82): Automattic\WooCommerce\Internal\Admin\FeaturePlugin->on_plugins_loaded()
+#3 /home/hyprojec/zairdrop.com/wp-content/plugins/woocommerce/src/Admin/Composer/Package.php(65): Automattic\WooCommerce\Internal\Admin\FeaturePlugin->init()
+#4 /home/hyprojec/zairdrop.com/wp-content/plugins/woocommerce/src/Packages.php(64): Automattic\WooCommerce\Admin\Composer\Package::init()
+#5 /home/hyprojec/zairdrop.com/wp-content/plugins/woocommerce/src/Packages.php(44): Automattic\WooCommerce\Packages::load_packages()
+#6 /home/hyprojec/zairdrop.com/wp-includes/class-wp-hook.php(310): Automattic\WooCommerce\Packages::on_init()
+#7 /home/hyprojec/zairdrop.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#8 /home/hyprojec/zairdrop.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#9 /home/hyprojec/zairdrop.com/wp-settings.php(495): do_action()
+#10 /home/hyprojec/zairdrop.com/wp-config.php(96): require_once('/home/hyprojec/...')
+#11 /home/hyprojec/zairdrop.com/wp-load.php(50): require_once('/home/hyprojec/...')
+#12 /home/hyprojec/zairdrop.com/wp-blog-header.php(13): require_once('/home/hyprojec/...')
+#13 /home/hyprojec/zairdrop.com/index.php(17): require('/home/hyprojec/...')
+#14 {main}
+  thrown in /home/hyprojec/zairdrop.com/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php on line 90
+
+2023-08-26T04:18:50+00:00 CRITICAL Uncaught Error: Failed opening required '/home/hyprojec/zairdrop.com/wp-content/plugins/buddypress/bp-core/classes/class-bp-theme-compat.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/hyprojec/zairdrop.com/wp-content/plugins/buddypress/class-buddypress.php:718
+Stack trace:
+#0 /home/hyprojec/zairdrop.com/wp-content/plugins/buddypress/bp-core/bp-core-theme-compatibility.php(513): BuddyPress->autoload()
+#1 /home/hyprojec/zairdrop.com/wp-content/plugins/buddypress/class-buddypress.php(841): bp_register_theme_package()
+#2 /home/hyprojec/zairdrop.com/wp-includes/class-wp-hook.php(310): BuddyPress->register_theme_packages()
+#3 /home/hyprojec/zairdrop.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#4 /home/hyprojec/zairdrop.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#5 /home/hyprojec/zairdrop.com/wp-content/plugins/buddypress/bp-core/bp-core-dependency.php(483): do_action()
+#6 /home/hyprojec/zairdrop.com/wp-includes/class-wp-hook.php(310): bp_register_theme_packages()
+#7 /home/hyprojec/zairdrop.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#8 /home/hyprojec/zairdrop.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#9 /home/hyprojec/zairdrop.com/wp-content/plugins/buddypress/bp-core/bp-core-dependency.php(333): do_action()
+#10 /home/hyprojec/zairdrop.com/wp-includes/class-wp-hook.php(310): bp_loaded()
+#11 /home/hyprojec/zairdrop.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#12 /home/hyprojec/zairdrop.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#13 /home/hyprojec/zairdrop.com/wp-settings.php(495): do_action()
+#14 /home/hyprojec/zairdrop.com/wp-config.php(96): require_once('/home/hyprojec/...')
+#15 /home/hyprojec/zairdrop.com/wp-load.php(50): require_once('/home/hyprojec/...')
+#16 /home/hyprojec/zairdrop.com/wp-admin/admin-ajax.php(22): require_once('/home/hyprojec/...')
+#17 {main}
+  thrown in /home/hyprojec/zairdrop.com/wp-content/plugins/buddypress/class-buddypress.php on line 718
+
+2023-08-26T04:18:51+00:00 CRITICAL Uncaught Error: Failed opening required '/home/hyprojec/zairdrop.com/wp-content/plugins/elementor//includes/settings/settings.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/hyprojec/zairdrop.com/wp-content/plugins/elementor/includes/autoloader.php:294
+Stack trace:
+#0 /home/hyprojec/zairdrop.com/wp-content/plugins/elementor/includes/autoloader.php(330): Elementor\Autoloader::load_class()
+#1 /home/hyprojec/zairdrop.com/wp-content/plugins/elementor/core/experiments/manager.php(901): Elementor\Autoloader::autoload()
+#2 /home/hyprojec/zairdrop.com/wp-content/plugins/elementor/includes/plugin.php(706): Elementor\Core\Experiments\Manager->__construct()
+#3 /home/hyprojec/zairdrop.com/wp-content/plugins/elementor/includes/plugin.php(647): Elementor\Plugin->init_components()
+#4 /home/hyprojec/zairdrop.com/wp-includes/class-wp-hook.php(310): Elementor\Plugin->init()
+#5 /home/hyprojec/zairdrop.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#6 /home/hyprojec/zairdrop.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#7 /home/hyprojec/zairdrop.com/wp-settings.php(632): do_action()
+#8 /home/hyprojec/zairdrop.com/wp-config.php(96): require_once('/home/hyprojec/...')
+#9 /home/hyprojec/zairdrop.com/wp-load.php(50): require_once('/home/hyprojec/...')
+#10 /home/hyprojec/zairdrop.com/wp-admin/admin-ajax.php(22): require_once('/home/hyprojec/...')
+#11 {main}
+  thrown in /home/hyprojec/zairdrop.com/wp-content/plugins/elementor/includes/autoloader.php on line 294
+
+2023-08-26T04:26:00+00:00 CRITICAL Uncaught Error: Failed opening required '/home/hyprojec/zairdrop.com/wp-content/plugins/woocommerce/includes/rest-api/Controllers/Version2/class-wc-rest-system-status-v2-controller.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/hyprojec/zairdrop.com/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php:90
+Stack trace:
+#0 /home/hyprojec/zairdrop.com/wp-content/plugins/woocommerce/includes/rest-api/Server.php(33): Automattic\Jetpack\Autoloader\jpc770d59a5d7d253965990351cc321de7\PHP_Autoloader::load_class()
+#1 /home/hyprojec/zairdrop.com/wp-content/plugins/woocommerce/includes/class-woocommerce.php(397): Automattic\WooCommerce\RestApi\Server->init()
+#2 /home/hyprojec/zairdrop.com/wp-includes/class-wp-hook.php(310): WooCommerce->load_rest_api()
+#3 /home/hyprojec/zairdrop.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#4 /home/hyprojec/zairdrop.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#5 /home/hyprojec/zairdrop.com/wp-settings.php(632): do_action()
+#6 /home/hyprojec/zairdrop.com/wp-config.php(96): require_once('/home/hyprojec/...')
+#7 /home/hyprojec/zairdrop.com/wp-load.php(50): require_once('/home/hyprojec/...')
+#8 /home/hyprojec/zairdrop.com/wp-blog-header.php(13): require_once('/home/hyprojec/...')
+#9 /home/hyprojec/zairdrop.com/index.php(17): require('/home/hyprojec/...')
+#10 {main}
+  thrown in /home/hyprojec/zairdrop.com/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php on line 90
+
+2023-08-26T04:26:00+00:00 CRITICAL Uncaught Error: Failed opening required '/home/hyprojec/zairdrop.com/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/Templates/ProductAttributeTemplate.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/hyprojec/zairdrop.com/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php:90
+Stack trace:
+#0 /home/hyprojec/zairdrop.com/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/Domain/Bootstrap.php(280): Automattic\Jetpack\Autoloader\jpc770d59a5d7d253965990351cc321de7\PHP_Autoloader::load_class()
+#1 /home/hyprojec/zairdrop.com/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/Registry/AbstractDependencyType.php(42): Automattic\WooCommerce\Blocks\Domain\Bootstrap->Automattic\WooCommerce\Blocks\Domain\{closure}()
+#2 /home/hyprojec/zairdrop.com/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/Registry/SharedType.php(28): Automattic\WooCommerce\Blocks\Registry\AbstractDependencyType->resolve_value()
+#3 /home/hyprojec/zairdrop.com/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/Registry/Container.php(96): Automattic\WooCommerce\Blocks\Registry\SharedType->get()
+#4 /home/hyprojec/zairdrop.com/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/Domain/Bootstrap.php(137): Automattic\WooCommerce\Blocks\Registry\Container->get()
+#5 /home/hyprojec/zairdrop.com/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/Domain/Bootstrap.php(79): Automattic\WooCommerce\Blocks\Domain\Bootstrap->init()
+#6 /home/hyprojec/zairdrop.com/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/Package.php(125): Automattic\WooCommerce\Blocks\Domain\Bootstrap->__construct()
+#7 /home/hyprojec/zairdrop.com/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/Registry/AbstractDependencyType.php(42): Automattic\WooCommerce\Blocks\Package::Automattic\WooCommerce\Blocks\{closure}()
+#8 /home/hyprojec/zairdrop.com/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/Registry/SharedType.php(28): Automattic\WooCommerce\Blocks\Registry\AbstractDependencyType->resolve_value()
+#9 /home/hyprojec/zairdrop.com/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/Registry/Container.php(96): Automattic\WooCommerce\Blocks\Registry\SharedType->get()
+#10 /home/hyprojec/zairdrop.com/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/Package.php(44): Automattic\WooCommerce\Blocks\Registry\Container->get()
+#11 [internal function]: Automattic\WooCommerce\Blocks\Package::init()
+#12 /home/hyprojec/zairdrop.com/wp-content/plugins/woocommerce/src/Packages.php(71): call_user_func()
+#13 /home/hyprojec/zairdrop.com/wp-content/plugins/woocommerce/src/Packages.php(44): Automattic\WooCommerce\Packages::load_packages()
+#14 /home/hyprojec/zairdrop.com/wp-includes/class-wp-hook.php(310): Automattic\WooCommerce\Packages::on_init()
+#15 /home/hyprojec/zairdrop.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#16 /home/hyprojec/zairdrop.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#17 /home/hyprojec/zairdrop.com/wp-settings.php(495): do_action()
+#18 /home/hyprojec/zairdrop.com/wp-config.php(96): require_once('/home/hyprojec/...')
+#19 /home/hyprojec/zairdrop.com/wp-load.php(50): require_once('/home/hyprojec/...')
+#20 /home/hyprojec/zairdrop.com/wp-admin/admin.php(34): require_once('/home/hyprojec/...')
+#21 /home/hyprojec/zairdrop.com/wp-admin/post.php(12): require_once('/home/hyprojec/...')
+#22 {main}
+  thrown in /home/hyprojec/zairdrop.com/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php on line 90
+
+2023-08-26T04:26:00+00:00 CRITICAL Uncaught Error: Failed opening required '/home/hyprojec/zairdrop.com/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/Templates/ProductAttributeTemplate.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/hyprojec/zairdrop.com/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php:90
+Stack trace:
+#0 /home/hyprojec/zairdrop.com/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/Domain/Bootstrap.php(280): Automattic\Jetpack\Autoloader\jpc770d59a5d7d253965990351cc321de7\PHP_Autoloader::load_class()
+#1 /home/hyprojec/zairdrop.com/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/Registry/AbstractDependencyType.php(42): Automattic\WooCommerce\Blocks\Domain\Bootstrap->Automattic\WooCommerce\Blocks\Domain\{closure}()
+#2 /home/hyprojec/zairdrop.com/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/Registry/SharedType.php(28): Automattic\WooCommerce\Blocks\Registry\AbstractDependencyType->resolve_value()
+#3 /home/hyprojec/zairdrop.com/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/Registry/Container.php(96): Automattic\WooCommerce\Blocks\Registry\SharedType->get()
+#4 /home/hyprojec/zairdrop.com/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/Domain/Bootstrap.php(137): Automattic\WooCommerce\Blocks\Registry\Container->get()
+#5 /home/hyprojec/zairdrop.com/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/Domain/Bootstrap.php(79): Automattic\WooCommerce\Blocks\Domain\Bootstrap->init()
+#6 /home/hyprojec/zairdrop.com/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/Package.php(125): Automattic\WooCommerce\Blocks\Domain\Bootstrap->__construct()
+#7 /home/hyprojec/zairdrop.com/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/Registry/AbstractDependencyType.php(42): Automattic\WooCommerce\Blocks\Package::Automattic\WooCommerce\Blocks\{closure}()
+#8 /home/hyprojec/zairdrop.com/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/Registry/SharedType.php(28): Automattic\WooCommerce\Blocks\Registry\AbstractDependencyType->resolve_value()
+#9 /home/hyprojec/zairdrop.com/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/Registry/Container.php(96): Automattic\WooCommerce\Blocks\Registry\SharedType->get()
+#10 /home/hyprojec/zairdrop.com/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/Package.php(44): Automattic\WooCommerce\Blocks\Registry\Container->get()
+#11 [internal function]: Automattic\WooCommerce\Blocks\Package::init()
+#12 /home/hyprojec/zairdrop.com/wp-content/plugins/woocommerce/src/Packages.php(71): call_user_func()
+#13 /home/hyprojec/zairdrop.com/wp-content/plugins/woocommerce/src/Packages.php(44): Automattic\WooCommerce\Packages::load_packages()
+#14 /home/hyprojec/zairdrop.com/wp-includes/class-wp-hook.php(310): Automattic\WooCommerce\Packages::on_init()
+#15 /home/hyprojec/zairdrop.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#16 /home/hyprojec/zairdrop.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#17 /home/hyprojec/zairdrop.com/wp-settings.php(495): do_action()
+#18 /home/hyprojec/zairdrop.com/wp-config.php(96): require_once('/home/hyprojec/...')
+#19 /home/hyprojec/zairdrop.com/wp-load.php(50): require_once('/home/hyprojec/...')
+#20 /home/hyprojec/zairdrop.com/wp-admin/admin-ajax.php(22): require_once('/home/hyprojec/...')
+#21 {main}
+  thrown in /home/hyprojec/zairdrop.com/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php on line 90
+
+2023-08-26T04:28:55+00:00 CRITICAL Uncaught Error: Failed opening required '/home/hyprojec/zairdrop.com/wp-content/plugins/buddypress/bp-settings/bp-settings-functions.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/hyprojec/zairdrop.com/wp-content/plugins/buddypress/bp-core/classes/class-bp-component.php:417
+Stack trace:
+#0 /home/hyprojec/zairdrop.com/wp-content/plugins/buddypress/bp-settings/classes/class-bp-settings-component.php(45): BP_Component->includes()
+#1 /home/hyprojec/zairdrop.com/wp-includes/class-wp-hook.php(310): BP_Settings_Component->includes()
+#2 /home/hyprojec/zairdrop.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#3 /home/hyprojec/zairdrop.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#4 /home/hyprojec/zairdrop.com/wp-content/plugins/buddypress/bp-core/bp-core-dependency.php(33): do_action()
+#5 /home/hyprojec/zairdrop.com/wp-includes/class-wp-hook.php(310): bp_include()
+#6 /home/hyprojec/zairdrop.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#7 /home/hyprojec/zairdrop.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#8 /home/hyprojec/zairdrop.com/wp-content/plugins/buddypress/bp-core/bp-core-dependency.php(333): do_action()
+#9 /home/hyprojec/zairdrop.com/wp-includes/class-wp-hook.php(310): bp_loaded()
+#10 /home/hyprojec/zairdrop.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#11 /home/hyprojec/zairdrop.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#12 /home/hyprojec/zairdrop.com/wp-settings.php(495): do_action()
+#13 /home/hyprojec/zairdrop.com/wp-config.php(96): require_once('/home/hyprojec/...')
+#14 /home/hyprojec/zairdrop.com/wp-load.php(50): require_once('/home/hyprojec/...')
+#15 /home/hyprojec/zairdrop.com/wp-admin/admin-ajax.php(22): require_once('/home/hyprojec/...')
+#16 {main}
+  thrown in /home/hyprojec/zairdrop.com/wp-content/plugins/buddypress/bp-core/classes/class-bp-component.php on line 417
+
+2023-08-26T04:28:55+00:00 CRITICAL Uncaught Error: Failed opening required '/home/hyprojec/zairdrop.com/wp-content/plugins/elementor/core/common/modules/connect/apps/base-app.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/hyprojec/zairdrop.com/wp-content/plugins/elementor/includes/autoloader.php:294
+Stack trace:
+#0 /home/hyprojec/zairdrop.com/wp-content/plugins/elementor/includes/autoloader.php(330): Elementor\Autoloader::load_class()
+#1 /home/hyprojec/zairdrop.com/wp-content/plugins/elementor/core/common/modules/connect/apps/base-user-app.php(8): Elementor\Autoloader::autoload()
+#2 /home/hyprojec/zairdrop.com/wp-content/plugins/elementor/includes/autoloader.php(294): require('/home/hyprojec/...')
+#3 /home/hyprojec/zairdrop.com/wp-content/plugins/elementor/includes/autoloader.php(330): Elementor\Autoloader::load_class()
+#4 /home/hyprojec/zairdrop.com/wp-content/plugins/elementor/core/common/modules/connect/apps/common-app.php(8): Elementor\Autoloader::autoload()
+#5 /home/hyprojec/zairdrop.com/wp-content/plugins/elementor/includes/autoloader.php(294): require('/home/hyprojec/...')
+#6 /home/hyprojec/zairdrop.com/wp-content/plugins/elementor/includes/autoloader.php(330): Elementor\Autoloader::load_class()
+#7 /home/hyprojec/zairdrop.com/wp-content/plugins/elementor/core/common/modules/connect/apps/connect.php(8): Elementor\Autoloader::autoload()
+#8 /home/hyprojec/zairdrop.com/wp-content/plugins/elementor/includes/autoloader.php(294): require('/home/hyprojec/...')
+#9 /home/hyprojec/zairdrop.com/wp-content/plugins/elementor/includes/autoloader.php(330): Elementor\Autoloader::load_class()
+#10 /home/hyprojec/zairdrop.com/wp-content/plugins/elementor/core/common/modules/connect/module.php(67): Elementor\Autoloader::autoload()
+#11 /home/hyprojec/zairdrop.com/wp-content/plugins/elementor/core/common/app.php(69): Elementor\Core\Common\Modules\Connect\Module->__construct()
+#12 /home/hyprojec/zairdrop.com/wp-content/plugins/elementor/includes/plugin.php(767): Elementor\Core\Common\App->init_components()
+#13 /home/hyprojec/zairdrop.com/wp-content/plugins/elementor/includes/plugin.php(691): Elementor\Plugin->init_common()
+#14 /home/hyprojec/zairdrop.com/wp-includes/class-wp-hook.php(310): Elementor\Plugin->on_rest_api_init()
+#15 /home/hyprojec/zairdrop.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#16 /home/hyprojec/zairdrop.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#17 /home/hyprojec/zairdrop.com/wp-includes/rest-api.php(587): do_action()
+#18 /home/hyprojec/zairdrop.com/wp-includes/rest-api.php(411): rest_get_server()
+#19 /home/hyprojec/zairdrop.com/wp-includes/class-wp-hook.php(310): rest_api_loaded()
+#20 /home/hyprojec/zairdrop.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#21 /home/hyprojec/zairdrop.com/wp-includes/plugin.php(565): WP_Hook->do_action()
+#22 /home/hyprojec/zairdrop.com/wp-includes/class-wp.php(398): do_action_ref_array()
+#23 /home/hyprojec/zairdrop.com/wp-includes/class-wp.php(779): WP->parse_request()
+#24 /home/hyprojec/zairdrop.com/wp-includes/functions.php(1335): WP->main()
+#25 /home/hyprojec/zairdrop.com/wp-blog-header.php(16): wp()
+#26 /home/hyprojec/zairdrop.com/index.php(17): require('/home/hyprojec/...')
+#27 {main}
+  thrown in /home/hyprojec/zairdrop.com/wp-content/plugins/elementor/includes/autoloader.php on line 294
+
+2023-08-26T04:28:55+00:00 CRITICAL Uncaught Error: Failed opening required '/home/hyprojec/zairdrop.com/wp-content/plugins/elementor/core/common/modules/connect/module.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/hyprojec/zairdrop.com/wp-content/plugins/elementor/includes/autoloader.php:294
+Stack trace:
+#0 /home/hyprojec/zairdrop.com/wp-content/plugins/elementor/includes/autoloader.php(330): Elementor\Autoloader::load_class()
+#1 /home/hyprojec/zairdrop.com/wp-content/plugins/elementor/core/common/app.php(69): Elementor\Autoloader::autoload()
+#2 /home/hyprojec/zairdrop.com/wp-content/plugins/elementor/includes/plugin.php(767): Elementor\Core\Common\App->init_components()
+#3 /home/hyprojec/zairdrop.com/wp-content/plugins/elementor/includes/plugin.php(691): Elementor\Plugin->init_common()
+#4 /home/hyprojec/zairdrop.com/wp-includes/class-wp-hook.php(310): Elementor\Plugin->on_rest_api_init()
+#5 /home/hyprojec/zairdrop.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#6 /home/hyprojec/zairdrop.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#7 /home/hyprojec/zairdrop.com/wp-includes/rest-api.php(587): do_action()
+#8 /home/hyprojec/zairdrop.com/wp-includes/rest-api.php(411): rest_get_server()
+#9 /home/hyprojec/zairdrop.com/wp-includes/class-wp-hook.php(310): rest_api_loaded()
+#10 /home/hyprojec/zairdrop.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#11 /home/hyprojec/zairdrop.com/wp-includes/plugin.php(565): WP_Hook->do_action()
+#12 /home/hyprojec/zairdrop.com/wp-includes/class-wp.php(398): do_action_ref_array()
+#13 /home/hyprojec/zairdrop.com/wp-includes/class-wp.php(779): WP->parse_request()
+#14 /home/hyprojec/zairdrop.com/wp-includes/functions.php(1335): WP->main()
+#15 /home/hyprojec/zairdrop.com/wp-blog-header.php(16): wp()
+#16 /home/hyprojec/zairdrop.com/index.php(17): require('/home/hyprojec/...')
+#17 {main}
+  thrown in /home/hyprojec/zairdrop.com/wp-content/plugins/elementor/includes/autoloader.php on line 294
+
+2023-08-26T04:28:56+00:00 CRITICAL Uncaught Error: Failed opening required '/home/hyprojec/zairdrop.com/wp-content/plugins/elementor/app/modules/onboarding/module.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/hyprojec/zairdrop.com/wp-content/plugins/elementor/includes/autoloader.php:294
+Stack trace:
+#0 /home/hyprojec/zairdrop.com/wp-content/plugins/elementor/includes/autoloader.php(330): Elementor\Autoloader::load_class()
+#1 /home/hyprojec/zairdrop.com/wp-content/plugins/elementor/app/app.php(248): Elementor\Autoloader::autoload()
+#2 /home/hyprojec/zairdrop.com/wp-content/plugins/elementor/includes/plugin.php(750): Elementor\App\App->__construct()
+#3 /home/hyprojec/zairdrop.com/wp-content/plugins/elementor/includes/plugin.php(647): Elementor\Plugin->init_components()
+#4 /home/hyprojec/zairdrop.com/wp-includes/class-wp-hook.php(310): Elementor\Plugin->init()
+#5 /home/hyprojec/zairdrop.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#6 /home/hyprojec/zairdrop.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#7 /home/hyprojec/zairdrop.com/wp-settings.php(632): do_action()
+#8 /home/hyprojec/zairdrop.com/wp-config.php(96): require_once('/home/hyprojec/...')
+#9 /home/hyprojec/zairdrop.com/wp-load.php(50): require_once('/home/hyprojec/...')
+#10 /home/hyprojec/zairdrop.com/wp-blog-header.php(13): require_once('/home/hyprojec/...')
+#11 /home/hyprojec/zairdrop.com/index.php(17): require('/home/hyprojec/...')
+#12 {main}
+  thrown in /home/hyprojec/zairdrop.com/wp-content/plugins/elementor/includes/autoloader.php on line 294
+
+2023-08-26T05:56:27+00:00 CRITICAL Uncaught Error: Failed opening required '/home/hyprojec/zairdrop.com/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/CheckoutContactInformationBlock.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/hyprojec/zairdrop.com/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php:90
+Stack trace:
+#0 /home/hyprojec/zairdrop.com/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypesController.php(65): Automattic\Jetpack\Autoloader\jpc770d59a5d7d253965990351cc321de7\PHP_Autoloader::load_class()
+#1 /home/hyprojec/zairdrop.com/wp-includes/class-wp-hook.php(310): Automattic\WooCommerce\Blocks\BlockTypesController->register_blocks()
+#2 /home/hyprojec/zairdrop.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#3 /home/hyprojec/zairdrop.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#4 /home/hyprojec/zairdrop.com/wp-settings.php(632): do_action()
+#5 /home/hyprojec/zairdrop.com/wp-config.php(96): require_once('/home/hyprojec/...')
+#6 /home/hyprojec/zairdrop.com/wp-load.php(50): require_once('/home/hyprojec/...')
+#7 /home/hyprojec/zairdrop.com/wp-blog-header.php(13): require_once('/home/hyprojec/...')
+#8 /home/hyprojec/zairdrop.com/index.php(17): require('/home/hyprojec/...')
+#9 {main}
+  thrown in /home/hyprojec/zairdrop.com/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php on line 90
+
+2023-08-26T05:56:27+00:00 CRITICAL Uncaught Error: Failed opening required '/home/hyprojec/zairdrop.com/wp-content/plugins/woocommerce/includes/rest-api/Controllers/Version2/class-wc-rest-coupons-v2-controller.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/hyprojec/zairdrop.com/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php:90
+Stack trace:
+#0 /home/hyprojec/zairdrop.com/wp-content/plugins/woocommerce/includes/rest-api/Controllers/Version3/class-wc-rest-coupons-controller.php(19): Automattic\Jetpack\Autoloader\jpc770d59a5d7d253965990351cc321de7\PHP_Autoloader::load_class()
+#1 /home/hyprojec/zairdrop.com/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php(90): require('/home/hyprojec/...')
+#2 /home/hyprojec/zairdrop.com/wp-content/plugins/woocommerce/src/Admin/API/Coupons.php(18): Automattic\Jetpack\Autoloader\jpc770d59a5d7d253965990351cc321de7\PHP_Autoloader::load_class()
+#3 /home/hyprojec/zairdrop.com/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php(90): require('/home/hyprojec/...')
+#4 /home/hyprojec/zairdrop.com/wp-content/plugins/woocommerce/src/Admin/API/Init.php(146): Automattic\Jetpack\Autoloader\jpc770d59a5d7d253965990351cc321de7\PHP_Autoloader::load_class()
+#5 /home/hyprojec/zairdrop.com/wp-includes/class-wp-hook.php(310): Automattic\WooCommerce\Admin\API\Init->rest_api_init()
+#6 /home/hyprojec/zairdrop.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#7 /home/hyprojec/zairdrop.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#8 /home/hyprojec/zairdrop.com/wp-includes/rest-api.php(587): do_action()
+#9 /home/hyprojec/zairdrop.com/wp-includes/rest-api.php(411): rest_get_server()
+#10 /home/hyprojec/zairdrop.com/wp-includes/class-wp-hook.php(310): rest_api_loaded()
+#11 /home/hyprojec/zairdrop.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#12 /home/hyprojec/zairdrop.com/wp-includes/plugin.php(565): WP_Hook->do_action()
+#13 /home/hyprojec/zairdrop.com/wp-includes/class-wp.php(398): do_action_ref_array()
+#14 /home/hyprojec/zairdrop.com/wp-includes/class-wp.php(779): WP->parse_request()
+#15 /home/hyprojec/zairdrop.com/wp-includes/functions.php(1335): WP->main()
+#16 /home/hyprojec/zairdrop.com/wp-blog-header.php(16): wp()
+#17 /home/hyprojec/zairdrop.com/index.php(17): require('/home/hyprojec/...')
+#18 {main}
+  thrown in /home/hyprojec/zairdrop.com/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php on line 90
+
+2023-08-26T05:56:27+00:00 CRITICAL Uncaught Error: Failed opening required '/home/hyprojec/zairdrop.com/wp-content/plugins/buddypress/bp-groups/classes/class-bp-rest-groups-endpoint.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/hyprojec/zairdrop.com/wp-content/plugins/buddypress/class-buddypress.php:718
+Stack trace:
+#0 /home/hyprojec/zairdrop.com/wp-content/plugins/buddypress/bp-core/classes/class-bp-component.php(941): BuddyPress->autoload()
+#1 /home/hyprojec/zairdrop.com/wp-content/plugins/buddypress/bp-groups/classes/class-bp-groups-component.php(1017): BP_Component->rest_api_init()
+#2 /home/hyprojec/zairdrop.com/wp-includes/class-wp-hook.php(310): BP_Groups_Component->rest_api_init()
+#3 /home/hyprojec/zairdrop.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#4 /home/hyprojec/zairdrop.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#5 /home/hyprojec/zairdrop.com/wp-content/plugins/buddypress/bp-core/bp-core-dependency.php(282): do_action()
+#6 /home/hyprojec/zairdrop.com/wp-includes/class-wp-hook.php(310): bp_rest_api_init()
+#7 /home/hyprojec/zairdrop.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#8 /home/hyprojec/zairdrop.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#9 /home/hyprojec/zairdrop.com/wp-includes/rest-api.php(587): do_action()
+#10 /home/hyprojec/zairdrop.com/wp-includes/rest-api.php(411): rest_get_server()
+#11 /home/hyprojec/zairdrop.com/wp-includes/class-wp-hook.php(310): rest_api_loaded()
+#12 /home/hyprojec/zairdrop.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#13 /home/hyprojec/zairdrop.com/wp-includes/plugin.php(565): WP_Hook->do_action()
+#14 /home/hyprojec/zairdrop.com/wp-includes/class-wp.php(398): do_action_ref_array()
+#15 /home/hyprojec/zairdrop.com/wp-includes/class-wp.php(779): WP->parse_request()
+#16 /home/hyprojec/zairdrop.com/wp-includes/functions.php(1335): WP->main()
+#17 /home/hyprojec/zairdrop.com/wp-blog-header.php(16): wp()
+#18 /home/hyprojec/zairdrop.com/index.php(17): require('/home/hyprojec/...')
+#19 {main}
+  thrown in /home/hyprojec/zairdrop.com/wp-content/plugins/buddypress/class-buddypress.php on line 718
+
+2023-08-26T05:56:27+00:00 CRITICAL Uncaught Error: Failed opening required '/home/hyprojec/zairdrop.com/wp-content/plugins/woocommerce/includes/rest-api/Controllers/Version3/class-wc-rest-product-reviews-controller.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/hyprojec/zairdrop.com/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php:90
+Stack trace:
+#0 /home/hyprojec/zairdrop.com/wp-content/plugins/woocommerce/src/Admin/API/ProductReviews.php(18): Automattic\Jetpack\Autoloader\jpc770d59a5d7d253965990351cc321de7\PHP_Autoloader::load_class()
+#1 /home/hyprojec/zairdrop.com/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php(90): require('/home/hyprojec/...')
+#2 /home/hyprojec/zairdrop.com/wp-content/plugins/woocommerce/src/Admin/API/Init.php(146): Automattic\Jetpack\Autoloader\jpc770d59a5d7d253965990351cc321de7\PHP_Autoloader::load_class()
+#3 /home/hyprojec/zairdrop.com/wp-includes/class-wp-hook.php(310): Automattic\WooCommerce\Admin\API\Init->rest_api_init()
+#4 /home/hyprojec/zairdrop.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#5 /home/hyprojec/zairdrop.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#6 /home/hyprojec/zairdrop.com/wp-includes/rest-api.php(587): do_action()
+#7 /home/hyprojec/zairdrop.com/wp-includes/rest-api.php(411): rest_get_server()
+#8 /home/hyprojec/zairdrop.com/wp-includes/class-wp-hook.php(310): rest_api_loaded()
+#9 /home/hyprojec/zairdrop.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#10 /home/hyprojec/zairdrop.com/wp-includes/plugin.php(565): WP_Hook->do_action()
+#11 /home/hyprojec/zairdrop.com/wp-includes/class-wp.php(398): do_action_ref_array()
+#12 /home/hyprojec/zairdrop.com/wp-includes/class-wp.php(779): WP->parse_request()
+#13 /home/hyprojec/zairdrop.com/wp-includes/functions.php(1335): WP->main()
+#14 /home/hyprojec/zairdrop.com/wp-blog-header.php(16): wp()
+#15 /home/hyprojec/zairdrop.com/index.php(17): require('/home/hyprojec/...')
+#16 {main}
+  thrown in /home/hyprojec/zairdrop.com/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php on line 90
+
+2023-08-26T05:56:27+00:00 CRITICAL Uncaught Error: Failed opening required '/home/hyprojec/zairdrop.com/wp-content/plugins/woocommerce/includes/rest-api/Controllers/Version3/class-wc-rest-product-reviews-controller.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/hyprojec/zairdrop.com/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php:90
+Stack trace:
+#0 /home/hyprojec/zairdrop.com/wp-content/plugins/woocommerce/src/Admin/API/ProductReviews.php(18): Automattic\Jetpack\Autoloader\jpc770d59a5d7d253965990351cc321de7\PHP_Autoloader::load_class()
+#1 /home/hyprojec/zairdrop.com/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php(90): require('/home/hyprojec/...')
+#2 /home/hyprojec/zairdrop.com/wp-content/plugins/woocommerce/src/Admin/API/Init.php(146): Automattic\Jetpack\Autoloader\jpc770d59a5d7d253965990351cc321de7\PHP_Autoloader::load_class()
+#3 /home/hyprojec/zairdrop.com/wp-includes/class-wp-hook.php(310): Automattic\WooCommerce\Admin\API\Init->rest_api_init()
+#4 /home/hyprojec/zairdrop.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#5 /home/hyprojec/zairdrop.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#6 /home/hyprojec/zairdrop.com/wp-includes/rest-api.php(587): do_action()
+#7 /home/hyprojec/zairdrop.com/wp-includes/rest-api.php(411): rest_get_server()
+#8 /home/hyprojec/zairdrop.com/wp-includes/class-wp-hook.php(310): rest_api_loaded()
+#9 /home/hyprojec/zairdrop.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#10 /home/hyprojec/zairdrop.com/wp-includes/plugin.php(565): WP_Hook->do_action()
+#11 /home/hyprojec/zairdrop.com/wp-includes/class-wp.php(398): do_action_ref_array()
+#12 /home/hyprojec/zairdrop.com/wp-includes/class-wp.php(779): WP->parse_request()
+#13 /home/hyprojec/zairdrop.com/wp-includes/functions.php(1335): WP->main()
+#14 /home/hyprojec/zairdrop.com/wp-blog-header.php(16): wp()
+#15 /home/hyprojec/zairdrop.com/index.php(17): require('/home/hyprojec/...')
+#16 {main}
+  thrown in /home/hyprojec/zairdrop.com/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php on line 90
+
+2023-08-26T05:56:27+00:00 CRITICAL Uncaught Error: Failed opening required '/home/hyprojec/zairdrop.com/wp-content/plugins/woocommerce/includes/rest-api/Controllers/Version3/class-wc-rest-product-reviews-controller.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/hyprojec/zairdrop.com/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php:90
+Stack trace:
+#0 /home/hyprojec/zairdrop.com/wp-content/plugins/woocommerce/src/Admin/API/ProductReviews.php(18): Automattic\Jetpack\Autoloader\jpc770d59a5d7d253965990351cc321de7\PHP_Autoloader::load_class()
+#1 /home/hyprojec/zairdrop.com/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php(90): require('/home/hyprojec/...')
+#2 /home/hyprojec/zairdrop.com/wp-content/plugins/woocommerce/src/Admin/API/Init.php(146): Automattic\Jetpack\Autoloader\jpc770d59a5d7d253965990351cc321de7\PHP_Autoloader::load_class()
+#3 /home/hyprojec/zairdrop.com/wp-includes/class-wp-hook.php(310): Automattic\WooCommerce\Admin\API\Init->rest_api_init()
+#4 /home/hyprojec/zairdrop.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#5 /home/hyprojec/zairdrop.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#6 /home/hyprojec/zairdrop.com/wp-includes/rest-api.php(587): do_action()
+#7 /home/hyprojec/zairdrop.com/wp-includes/rest-api.php(411): rest_get_server()
+#8 /home/hyprojec/zairdrop.com/wp-includes/class-wp-hook.php(310): rest_api_loaded()
+#9 /home/hyprojec/zairdrop.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#10 /home/hyprojec/zairdrop.com/wp-includes/plugin.php(565): WP_Hook->do_action()
+#11 /home/hyprojec/zairdrop.com/wp-includes/class-wp.php(398): do_action_ref_array()
+#12 /home/hyprojec/zairdrop.com/wp-includes/class-wp.php(779): WP->parse_request()
+#13 /home/hyprojec/zairdrop.com/wp-includes/functions.php(1335): WP->main()
+#14 /home/hyprojec/zairdrop.com/wp-blog-header.php(16): wp()
+#15 /home/hyprojec/zairdrop.com/index.php(17): require('/home/hyprojec/...')
+#16 {main}
+  thrown in /home/hyprojec/zairdrop.com/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php on line 90
+
+2023-08-26T06:00:12+00:00 CRITICAL Uncaught Error: Failed opening required '/home/hyprojec/zairdrop.com/wp-content/plugins/woocommerce/src/Admin/API/Reports/Variations/Stats/Controller.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/hyprojec/zairdrop.com/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php:90
+Stack trace:
+#0 /home/hyprojec/zairdrop.com/wp-content/plugins/woocommerce/src/Admin/API/Init.php(146): Automattic\Jetpack\Autoloader\jpc770d59a5d7d253965990351cc321de7\PHP_Autoloader::load_class()
+#1 /home/hyprojec/zairdrop.com/wp-includes/class-wp-hook.php(310): Automattic\WooCommerce\Admin\API\Init->rest_api_init()
+#2 /home/hyprojec/zairdrop.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#3 /home/hyprojec/zairdrop.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#4 /home/hyprojec/zairdrop.com/wp-includes/rest-api.php(587): do_action()
+#5 /home/hyprojec/zairdrop.com/wp-includes/rest-api.php(411): rest_get_server()
+#6 /home/hyprojec/zairdrop.com/wp-includes/class-wp-hook.php(310): rest_api_loaded()
+#7 /home/hyprojec/zairdrop.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#8 /home/hyprojec/zairdrop.com/wp-includes/plugin.php(565): WP_Hook->do_action()
+#9 /home/hyprojec/zairdrop.com/wp-includes/class-wp.php(398): do_action_ref_array()
+#10 /home/hyprojec/zairdrop.com/wp-includes/class-wp.php(779): WP->parse_request()
+#11 /home/hyprojec/zairdrop.com/wp-includes/functions.php(1335): WP->main()
+#12 /home/hyprojec/zairdrop.com/wp-blog-header.php(16): wp()
+#13 /home/hyprojec/zairdrop.com/index.php(17): require('/home/hyprojec/...')
+#14 {main}
+  thrown in /home/hyprojec/zairdrop.com/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php on line 90
+
+2023-08-26T06:00:12+00:00 CRITICAL Uncaught Error: Failed opening required '/home/hyprojec/zairdrop.com/wp-content/plugins/woocommerce/src/Admin/API/Reports/Variations/Stats/Controller.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/hyprojec/zairdrop.com/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php:90
+Stack trace:
+#0 /home/hyprojec/zairdrop.com/wp-content/plugins/woocommerce/src/Admin/API/Init.php(146): Automattic\Jetpack\Autoloader\jpc770d59a5d7d253965990351cc321de7\PHP_Autoloader::load_class()
+#1 /home/hyprojec/zairdrop.com/wp-includes/class-wp-hook.php(310): Automattic\WooCommerce\Admin\API\Init->rest_api_init()
+#2 /home/hyprojec/zairdrop.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#3 /home/hyprojec/zairdrop.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#4 /home/hyprojec/zairdrop.com/wp-includes/rest-api.php(587): do_action()
+#5 /home/hyprojec/zairdrop.com/wp-includes/rest-api.php(411): rest_get_server()
+#6 /home/hyprojec/zairdrop.com/wp-includes/class-wp-hook.php(310): rest_api_loaded()
+#7 /home/hyprojec/zairdrop.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#8 /home/hyprojec/zairdrop.com/wp-includes/plugin.php(565): WP_Hook->do_action()
+#9 /home/hyprojec/zairdrop.com/wp-includes/class-wp.php(398): do_action_ref_array()
+#10 /home/hyprojec/zairdrop.com/wp-includes/class-wp.php(779): WP->parse_request()
+#11 /home/hyprojec/zairdrop.com/wp-includes/functions.php(1335): WP->main()
+#12 /home/hyprojec/zairdrop.com/wp-blog-header.php(16): wp()
+#13 /home/hyprojec/zairdrop.com/index.php(17): require('/home/hyprojec/...')
+#14 {main}
+  thrown in /home/hyprojec/zairdrop.com/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php on line 90
+
+2023-08-26T06:00:12+00:00 CRITICAL Uncaught Error: Failed opening required '/home/hyprojec/zairdrop.com/wp-content/plugins/woocommerce/includes/rest-api/Controllers/Version1/class-wc-rest-coupons-v1-controller.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/hyprojec/zairdrop.com/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php:90
+Stack trace:
+#0 /home/hyprojec/zairdrop.com/wp-content/plugins/woocommerce/includes/rest-api/Server.php(42): Automattic\Jetpack\Autoloader\jpc770d59a5d7d253965990351cc321de7\PHP_Autoloader::load_class()
+#1 /home/hyprojec/zairdrop.com/wp-includes/class-wp-hook.php(310): Automattic\WooCommerce\RestApi\Server->register_rest_routes()
+#2 /home/hyprojec/zairdrop.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#3 /home/hyprojec/zairdrop.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#4 /home/hyprojec/zairdrop.com/wp-includes/rest-api.php(587): do_action()
+#5 /home/hyprojec/zairdrop.com/wp-includes/rest-api.php(411): rest_get_server()
+#6 /home/hyprojec/zairdrop.com/wp-includes/class-wp-hook.php(310): rest_api_loaded()
+#7 /home/hyprojec/zairdrop.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#8 /home/hyprojec/zairdrop.com/wp-includes/plugin.php(565): WP_Hook->do_action()
+#9 /home/hyprojec/zairdrop.com/wp-includes/class-wp.php(398): do_action_ref_array()
+#10 /home/hyprojec/zairdrop.com/wp-includes/class-wp.php(779): WP->parse_request()
+#11 /home/hyprojec/zairdrop.com/wp-includes/functions.php(1335): WP->main()
+#12 /home/hyprojec/zairdrop.com/wp-blog-header.php(16): wp()
+#13 /home/hyprojec/zairdrop.com/index.php(17): require('/home/hyprojec/...')
+#14 {main}
+  thrown in /home/hyprojec/zairdrop.com/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php on line 90
+
+2023-08-26T06:00:13+00:00 CRITICAL Uncaught Error: Failed opening required '/home/hyprojec/zairdrop.com/wp-content/plugins/woocommerce/includes/rest-api/Controllers/Version1/class-wc-rest-coupons-v1-controller.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/hyprojec/zairdrop.com/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php:90
+Stack trace:
+#0 /home/hyprojec/zairdrop.com/wp-content/plugins/woocommerce/includes/rest-api/Server.php(42): Automattic\Jetpack\Autoloader\jpc770d59a5d7d253965990351cc321de7\PHP_Autoloader::load_class()
+#1 /home/hyprojec/zairdrop.com/wp-includes/class-wp-hook.php(310): Automattic\WooCommerce\RestApi\Server->register_rest_routes()
+#2 /home/hyprojec/zairdrop.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#3 /home/hyprojec/zairdrop.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#4 /home/hyprojec/zairdrop.com/wp-includes/rest-api.php(587): do_action()
+#5 /home/hyprojec/zairdrop.com/wp-includes/rest-api.php(411): rest_get_server()
+#6 /home/hyprojec/zairdrop.com/wp-includes/class-wp-hook.php(310): rest_api_loaded()
+#7 /home/hyprojec/zairdrop.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#8 /home/hyprojec/zairdrop.com/wp-includes/plugin.php(565): WP_Hook->do_action()
+#9 /home/hyprojec/zairdrop.com/wp-includes/class-wp.php(398): do_action_ref_array()
+#10 /home/hyprojec/zairdrop.com/wp-includes/class-wp.php(779): WP->parse_request()
+#11 /home/hyprojec/zairdrop.com/wp-includes/functions.php(1335): WP->main()
+#12 /home/hyprojec/zairdrop.com/wp-blog-header.php(16): wp()
+#13 /home/hyprojec/zairdrop.com/index.php(17): require('/home/hyprojec/...')
+#14 {main}
+  thrown in /home/hyprojec/zairdrop.com/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php on line 90
+
+2023-08-26T06:00:13+00:00 CRITICAL Uncaught Error: Failed opening required '/home/hyprojec/zairdrop.com/wp-content/plugins/buddypress/bp-messages/classes/class-bp-rest-messages-endpoint.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/hyprojec/zairdrop.com/wp-content/plugins/buddypress/class-buddypress.php:718
+Stack trace:
+#0 /home/hyprojec/zairdrop.com/wp-content/plugins/buddypress/bp-core/classes/class-bp-component.php(941): BuddyPress->autoload()
+#1 /home/hyprojec/zairdrop.com/wp-content/plugins/buddypress/bp-messages/classes/class-bp-messages-component.php(439): BP_Component->rest_api_init()
+#2 /home/hyprojec/zairdrop.com/wp-includes/class-wp-hook.php(310): BP_Messages_Component->rest_api_init()
+#3 /home/hyprojec/zairdrop.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#4 /home/hyprojec/zairdrop.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#5 /home/hyprojec/zairdrop.com/wp-content/plugins/buddypress/bp-core/bp-core-dependency.php(282): do_action()
+#6 /home/hyprojec/zairdrop.com/wp-includes/class-wp-hook.php(310): bp_rest_api_init()
+#7 /home/hyprojec/zairdrop.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#8 /home/hyprojec/zairdrop.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#9 /home/hyprojec/zairdrop.com/wp-includes/rest-api.php(587): do_action()
+#10 /home/hyprojec/zairdrop.com/wp-includes/rest-api.php(411): rest_get_server()
+#11 /home/hyprojec/zairdrop.com/wp-includes/class-wp-hook.php(310): rest_api_loaded()
+#12 /home/hyprojec/zairdrop.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#13 /home/hyprojec/zairdrop.com/wp-includes/plugin.php(565): WP_Hook->do_action()
+#14 /home/hyprojec/zairdrop.com/wp-includes/class-wp.php(398): do_action_ref_array()
+#15 /home/hyprojec/zairdrop.com/wp-includes/class-wp.php(779): WP->parse_request()
+#16 /home/hyprojec/zairdrop.com/wp-includes/functions.php(1335): WP->main()
+#17 /home/hyprojec/zairdrop.com/wp-blog-header.php(16): wp()
+#18 /home/hyprojec/zairdrop.com/index.php(17): require('/home/hyprojec/...')
+#19 {main}
+  thrown in /home/hyprojec/zairdrop.com/wp-content/plugins/buddypress/class-buddypress.php on line 718
+
+2023-08-26T06:00:15+00:00 CRITICAL Uncaught Error: Class "Advanced_Ads_AdSense_MAPI" not found in /home/hyprojec/zairdrop.com/wp-content/plugins/advanced-ads/modules/gadsense/main.php:12
+Stack trace:
+#0 /home/hyprojec/zairdrop.com/wp-includes/class-wp-hook.php(310): gadsense_init()
+#1 /home/hyprojec/zairdrop.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#2 /home/hyprojec/zairdrop.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#3 /home/hyprojec/zairdrop.com/wp-content/plugins/advanced-ads/public/class-advanced-ads.php(232): do_action()
+#4 /home/hyprojec/zairdrop.com/wp-includes/class-wp-hook.php(310): Advanced_Ads->advanced_ads_loaded()
+#5 /home/hyprojec/zairdrop.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#6 /home/hyprojec/zairdrop.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#7 /home/hyprojec/zairdrop.com/wp-settings.php(632): do_action()
+#8 /home/hyprojec/zairdrop.com/wp-config.php(96): require_once('/home/hyprojec/...')
+#9 /home/hyprojec/zairdrop.com/wp-load.php(50): require_once('/home/hyprojec/...')
+#10 /home/hyprojec/zairdrop.com/wp-admin/admin.php(34): require_once('/home/hyprojec/...')
+#11 /home/hyprojec/zairdrop.com/wp-admin/edit.php(10): require_once('/home/hyprojec/...')
+#12 {main}
+  thrown in /home/hyprojec/zairdrop.com/wp-content/plugins/advanced-ads/modules/gadsense/main.php on line 12
+
+2023-08-26T06:02:01+00:00 CRITICAL Uncaught Error: Failed opening required '/home/hyprojec/zairdrop.com/wp-content/plugins/woocommerce/includes/rest-api/Controllers/Version3/class-wc-rest-setting-options-controller.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/hyprojec/zairdrop.com/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php:90
+Stack trace:
+#0 /home/hyprojec/zairdrop.com/wp-content/plugins/woocommerce/src/Admin/API/SettingOptions.php(20): Automattic\Jetpack\Autoloader\jpc770d59a5d7d253965990351cc321de7\PHP_Autoloader::load_class()
+#1 /home/hyprojec/zairdrop.com/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php(90): require('/home/hyprojec/...')
+#2 /home/hyprojec/zairdrop.com/wp-content/plugins/woocommerce/src/Admin/API/Init.php(146): Automattic\Jetpack\Autoloader\jpc770d59a5d7d253965990351cc321de7\PHP_Autoloader::load_class()
+#3 /home/hyprojec/zairdrop.com/wp-includes/class-wp-hook.php(310): Automattic\WooCommerce\Admin\API\Init->rest_api_init()
+#4 /home/hyprojec/zairdrop.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#5 /home/hyprojec/zairdrop.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#6 /home/hyprojec/zairdrop.com/wp-includes/rest-api.php(587): do_action()
+#7 /home/hyprojec/zairdrop.com/wp-includes/rest-api.php(411): rest_get_server()
+#8 /home/hyprojec/zairdrop.com/wp-includes/class-wp-hook.php(310): rest_api_loaded()
+#9 /home/hyprojec/zairdrop.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#10 /home/hyprojec/zairdrop.com/wp-includes/plugin.php(565): WP_Hook->do_action()
+#11 /home/hyprojec/zairdrop.com/wp-includes/class-wp.php(398): do_action_ref_array()
+#12 /home/hyprojec/zairdrop.com/wp-includes/class-wp.php(779): WP->parse_request()
+#13 /home/hyprojec/zairdrop.com/wp-includes/functions.php(1335): WP->main()
+#14 /home/hyprojec/zairdrop.com/wp-blog-header.php(16): wp()
+#15 /home/hyprojec/zairdrop.com/index.php(17): require('/home/hyprojec/...')
+#16 {main}
+  thrown in /home/hyprojec/zairdrop.com/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php on line 90
+
+2023-08-26T06:02:01+00:00 CRITICAL Uncaught Error: Failed opening required '/home/hyprojec/zairdrop.com/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/CustomerAccount.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/hyprojec/zairdrop.com/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php:90
+Stack trace:
+#0 /home/hyprojec/zairdrop.com/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypesController.php(65): Automattic\Jetpack\Autoloader\jpc770d59a5d7d253965990351cc321de7\PHP_Autoloader::load_class()
+#1 /home/hyprojec/zairdrop.com/wp-includes/class-wp-hook.php(310): Automattic\WooCommerce\Blocks\BlockTypesController->register_blocks()
+#2 /home/hyprojec/zairdrop.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#3 /home/hyprojec/zairdrop.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#4 /home/hyprojec/zairdrop.com/wp-settings.php(632): do_action()
+#5 /home/hyprojec/zairdrop.com/wp-config.php(96): require_once('/home/hyprojec/...')
+#6 /home/hyprojec/zairdrop.com/wp-load.php(50): require_once('/home/hyprojec/...')
+#7 /home/hyprojec/zairdrop.com/wp-blog-header.php(13): require_once('/home/hyprojec/...')
+#8 /home/hyprojec/zairdrop.com/index.php(17): require('/home/hyprojec/...')
+#9 {main}
+  thrown in /home/hyprojec/zairdrop.com/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php on line 90
+
+2023-08-26T06:15:44+00:00 CRITICAL Uncaught Error: Failed opening required '/home/hyprojec/zairdrop.com/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/FeaturedCategory.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/hyprojec/zairdrop.com/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php:90
+Stack trace:
+#0 /home/hyprojec/zairdrop.com/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypesController.php(65): Automattic\Jetpack\Autoloader\jpc770d59a5d7d253965990351cc321de7\PHP_Autoloader::load_class()
+#1 /home/hyprojec/zairdrop.com/wp-includes/class-wp-hook.php(310): Automattic\WooCommerce\Blocks\BlockTypesController->register_blocks()
+#2 /home/hyprojec/zairdrop.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#3 /home/hyprojec/zairdrop.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#4 /home/hyprojec/zairdrop.com/wp-settings.php(632): do_action()
+#5 /home/hyprojec/zairdrop.com/wp-config.php(96): require_once('/home/hyprojec/...')
+#6 /home/hyprojec/zairdrop.com/wp-load.php(50): require_once('/home/hyprojec/...')
+#7 /home/hyprojec/zairdrop.com/wp-blog-header.php(13): require_once('/home/hyprojec/...')
+#8 /home/hyprojec/zairdrop.com/index.php(17): require('/home/hyprojec/...')
+#9 {main}
+  thrown in /home/hyprojec/zairdrop.com/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php on line 90
+
+2023-08-26T06:15:44+00:00 CRITICAL Uncaught Error: Failed opening required '/home/hyprojec/zairdrop.com/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/RatingFilter.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/hyprojec/zairdrop.com/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php:90
+Stack trace:
+#0 /home/hyprojec/zairdrop.com/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypesController.php(65): Automattic\Jetpack\Autoloader\jpc770d59a5d7d253965990351cc321de7\PHP_Autoloader::load_class()
+#1 /home/hyprojec/zairdrop.com/wp-includes/class-wp-hook.php(310): Automattic\WooCommerce\Blocks\BlockTypesController->register_blocks()
+#2 /home/hyprojec/zairdrop.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#3 /home/hyprojec/zairdrop.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#4 /home/hyprojec/zairdrop.com/wp-settings.php(632): do_action()
+#5 /home/hyprojec/zairdrop.com/wp-config.php(96): require_once('/home/hyprojec/...')
+#6 /home/hyprojec/zairdrop.com/wp-load.php(50): require_once('/home/hyprojec/...')
+#7 /home/hyprojec/zairdrop.com/wp-blog-header.php(13): require_once('/home/hyprojec/...')
+#8 /home/hyprojec/zairdrop.com/index.php(17): require('/home/hyprojec/...')
+#9 {main}
+  thrown in /home/hyprojec/zairdrop.com/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php on line 90
+
+2023-08-26T06:15:44+00:00 CRITICAL Uncaught Error: Failed opening required '/home/hyprojec/zairdrop.com/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/RatingFilter.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/hyprojec/zairdrop.com/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php:90
+Stack trace:
+#0 /home/hyprojec/zairdrop.com/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypesController.php(65): Automattic\Jetpack\Autoloader\jpc770d59a5d7d253965990351cc321de7\PHP_Autoloader::load_class()
+#1 /home/hyprojec/zairdrop.com/wp-includes/class-wp-hook.php(310): Automattic\WooCommerce\Blocks\BlockTypesController->register_blocks()
+#2 /home/hyprojec/zairdrop.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#3 /home/hyprojec/zairdrop.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#4 /home/hyprojec/zairdrop.com/wp-settings.php(632): do_action()
+#5 /home/hyprojec/zairdrop.com/wp-config.php(96): require_once('/home/hyprojec/...')
+#6 /home/hyprojec/zairdrop.com/wp-load.php(50): require_once('/home/hyprojec/...')
+#7 /home/hyprojec/zairdrop.com/wp-blog-header.php(13): require_once('/home/hyprojec/...')
+#8 /home/hyprojec/zairdrop.com/index.php(17): require('/home/hyprojec/...')
+#9 {main}
+  thrown in /home/hyprojec/zairdrop.com/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php on line 90
+
+2023-08-26T08:51:05+00:00 CRITICAL Uncaught Error: Call to undefined function wordthree_metamask_login() in /home/hyprojec/zairdrop.com/wp-content/themes/vikinger/template-part/header/header-logged-out.php:351
+Stack trace:
+#0 /home/hyprojec/zairdrop.com/wp-includes/template.php(787): require()
+#1 /home/hyprojec/zairdrop.com/wp-includes/template.php(720): load_template()
+#2 /home/hyprojec/zairdrop.com/wp-includes/general-template.php(206): locate_template()
+#3 /home/hyprojec/zairdrop.com/wp-content/themes/vikinger/header.php(92): get_template_part()
+#4 /home/hyprojec/zairdrop.com/wp-includes/template.php(785): require_once('/home/hyprojec/...')
+#5 /home/hyprojec/zairdrop.com/wp-includes/template.php(720): load_template()
+#6 /home/hyprojec/zairdrop.com/wp-includes/general-template.php(48): locate_template()
+#7 /home/hyprojec/zairdrop.com/wp-content/themes/vikinger/page.php(11): get_header()
+#8 /home/hyprojec/zairdrop.com/wp-includes/template-loader.php(106): include('/home/hyprojec/...')
+#9 /home/hyprojec/zairdrop.com/wp-blog-header.php(19): require_once('/home/hyprojec/...')
+#10 /home/hyprojec/zairdrop.com/index.php(17): require('/home/hyprojec/...')
+#11 {main}
+  thrown in /home/hyprojec/zairdrop.com/wp-content/themes/vikinger/template-part/header/header-logged-out.php on line 351
+
+2023-08-26T08:51:36+00:00 CRITICAL Uncaught Error: Call to undefined function wordthree_metamask_login() in /home/hyprojec/zairdrop.com/wp-content/themes/vikinger/template-part/header/header-logged-out.php:351
+Stack trace:
+#0 /home/hyprojec/zairdrop.com/wp-includes/template.php(787): require()
+#1 /home/hyprojec/zairdrop.com/wp-includes/template.php(720): load_template()
+#2 /home/hyprojec/zairdrop.com/wp-includes/general-template.php(206): locate_template()
+#3 /home/hyprojec/zairdrop.com/wp-content/themes/vikinger/header.php(92): get_template_part()
+#4 /home/hyprojec/zairdrop.com/wp-includes/template.php(785): require_once('/home/hyprojec/...')
+#5 /home/hyprojec/zairdrop.com/wp-includes/template.php(720): load_template()
+#6 /home/hyprojec/zairdrop.com/wp-includes/general-template.php(48): locate_template()
+#7 /home/hyprojec/zairdrop.com/wp-content/themes/vikinger/page.php(11): get_header()
+#8 /home/hyprojec/zairdrop.com/wp-includes/template-loader.php(106): include('/home/hyprojec/...')
+#9 /home/hyprojec/zairdrop.com/wp-blog-header.php(19): require_once('/home/hyprojec/...')
+#10 /home/hyprojec/zairdrop.com/index.php(17): require('/home/hyprojec/...')
+#11 {main}
+  thrown in /home/hyprojec/zairdrop.com/wp-content/themes/vikinger/template-part/header/header-logged-out.php on line 351
+
+2023-08-26T08:55:08+00:00 CRITICAL Uncaught Error: Undefined constant "wordthree_metamask_login" in /home/hyprojec/zairdrop.com/wp-content/themes/vikinger/template-part/header/header-logged-out.php:112
+Stack trace:
+#0 /home/hyprojec/zairdrop.com/wp-includes/template.php(787): require()
+#1 /home/hyprojec/zairdrop.com/wp-includes/template.php(720): load_template()
+#2 /home/hyprojec/zairdrop.com/wp-includes/general-template.php(206): locate_template()
+#3 /home/hyprojec/zairdrop.com/wp-content/themes/vikinger/header.php(92): get_template_part()
+#4 /home/hyprojec/zairdrop.com/wp-includes/template.php(785): require_once('/home/hyprojec/...')
+#5 /home/hyprojec/zairdrop.com/wp-includes/template.php(720): load_template()
+#6 /home/hyprojec/zairdrop.com/wp-includes/general-template.php(48): locate_template()
+#7 /home/hyprojec/zairdrop.com/wp-content/themes/vikinger/page.php(11): get_header()
+#8 /home/hyprojec/zairdrop.com/wp-includes/template-loader.php(106): include('/home/hyprojec/...')
+#9 /home/hyprojec/zairdrop.com/wp-blog-header.php(19): require_once('/home/hyprojec/...')
+#10 /home/hyprojec/zairdrop.com/index.php(17): require('/home/hyprojec/...')
+#11 {main}
+  thrown in /home/hyprojec/zairdrop.com/wp-content/themes/vikinger/template-part/header/header-logged-out.php on line 112
+
+2023-08-26T08:55:25+00:00 CRITICAL Uncaught Error: Undefined constant "wordthree_metamask_login" in /home/hyprojec/zairdrop.com/wp-content/themes/vikinger/template-part/header/header-logged-out.php:112
+Stack trace:
+#0 /home/hyprojec/zairdrop.com/wp-includes/template.php(787): require()
+#1 /home/hyprojec/zairdrop.com/wp-includes/template.php(720): load_template()
+#2 /home/hyprojec/zairdrop.com/wp-includes/general-template.php(206): locate_template()
+#3 /home/hyprojec/zairdrop.com/wp-content/themes/vikinger/header.php(92): get_template_part()
+#4 /home/hyprojec/zairdrop.com/wp-includes/template.php(785): require_once('/home/hyprojec/...')
+#5 /home/hyprojec/zairdrop.com/wp-includes/template.php(720): load_template()
+#6 /home/hyprojec/zairdrop.com/wp-includes/general-template.php(48): locate_template()
+#7 /home/hyprojec/zairdrop.com/wp-content/themes/vikinger/page.php(11): get_header()
+#8 /home/hyprojec/zairdrop.com/wp-includes/template-loader.php(106): include('/home/hyprojec/...')
+#9 /home/hyprojec/zairdrop.com/wp-blog-header.php(19): require_once('/home/hyprojec/...')
+#10 /home/hyprojec/zairdrop.com/index.php(17): require('/home/hyprojec/...')
+#11 {main}
+  thrown in /home/hyprojec/zairdrop.com/wp-content/themes/vikinger/template-part/header/header-logged-out.php on line 112
+
+2023-08-26T08:55:50+00:00 CRITICAL Uncaught Error: Undefined constant "wordthree_metamask_login" in /home/hyprojec/zairdrop.com/wp-content/themes/vikinger/template-part/header/header-logged-out.php:112
+Stack trace:
+#0 /home/hyprojec/zairdrop.com/wp-includes/template.php(787): require()
+#1 /home/hyprojec/zairdrop.com/wp-includes/template.php(720): load_template()
+#2 /home/hyprojec/zairdrop.com/wp-includes/general-template.php(206): locate_template()
+#3 /home/hyprojec/zairdrop.com/wp-content/themes/vikinger/header.php(92): get_template_part()
+#4 /home/hyprojec/zairdrop.com/wp-includes/template.php(785): require_once('/home/hyprojec/...')
+#5 /home/hyprojec/zairdrop.com/wp-includes/template.php(720): load_template()
+#6 /home/hyprojec/zairdrop.com/wp-includes/general-template.php(48): locate_template()
+#7 /home/hyprojec/zairdrop.com/wp-content/themes/vikinger/page.php(11): get_header()
+#8 /home/hyprojec/zairdrop.com/wp-includes/template-loader.php(106): include('/home/hyprojec/...')
+#9 /home/hyprojec/zairdrop.com/wp-blog-header.php(19): require_once('/home/hyprojec/...')
+#10 /home/hyprojec/zairdrop.com/index.php(17): require('/home/hyprojec/...')
+#11 {main}
+  thrown in /home/hyprojec/zairdrop.com/wp-content/themes/vikinger/template-part/header/header-logged-out.php on line 112
+
+2023-08-26T08:55:53+00:00 CRITICAL Uncaught Error: Undefined constant "wordthree_metamask_login" in /home/hyprojec/zairdrop.com/wp-content/themes/vikinger/template-part/header/header-logged-out.php:112
+Stack trace:
+#0 /home/hyprojec/zairdrop.com/wp-includes/template.php(787): require()
+#1 /home/hyprojec/zairdrop.com/wp-includes/template.php(720): load_template()
+#2 /home/hyprojec/zairdrop.com/wp-includes/general-template.php(206): locate_template()
+#3 /home/hyprojec/zairdrop.com/wp-content/themes/vikinger/header.php(92): get_template_part()
+#4 /home/hyprojec/zairdrop.com/wp-includes/template.php(785): require_once('/home/hyprojec/...')
+#5 /home/hyprojec/zairdrop.com/wp-includes/template.php(720): load_template()
+#6 /home/hyprojec/zairdrop.com/wp-includes/general-template.php(48): locate_template()
+#7 /home/hyprojec/zairdrop.com/wp-content/themes/vikinger/page.php(11): get_header()
+#8 /home/hyprojec/zairdrop.com/wp-includes/template-loader.php(106): include('/home/hyprojec/...')
+#9 /home/hyprojec/zairdrop.com/wp-blog-header.php(19): require_once('/home/hyprojec/...')
+#10 /home/hyprojec/zairdrop.com/index.php(17): require('/home/hyprojec/...')
+#11 {main}
+  thrown in /home/hyprojec/zairdrop.com/wp-content/themes/vikinger/template-part/header/header-logged-out.php on line 112
+
+2023-08-26T08:57:04+00:00 CRITICAL Uncaught Error: Undefined constant "wordthree_metamask_login" in /home/hyprojec/zairdrop.com/wp-content/themes/vikinger/template-part/header/header-logged-out.php:112
+Stack trace:
+#0 /home/hyprojec/zairdrop.com/wp-includes/template.php(787): require()
+#1 /home/hyprojec/zairdrop.com/wp-includes/template.php(720): load_template()
+#2 /home/hyprojec/zairdrop.com/wp-includes/general-template.php(206): locate_template()
+#3 /home/hyprojec/zairdrop.com/wp-content/themes/vikinger/header.php(92): get_template_part()
+#4 /home/hyprojec/zairdrop.com/wp-includes/template.php(785): require_once('/home/hyprojec/...')
+#5 /home/hyprojec/zairdrop.com/wp-includes/template.php(720): load_template()
+#6 /home/hyprojec/zairdrop.com/wp-includes/general-template.php(48): locate_template()
+#7 /home/hyprojec/zairdrop.com/wp-content/themes/vikinger/page.php(11): get_header()
+#8 /home/hyprojec/zairdrop.com/wp-includes/template-loader.php(106): include('/home/hyprojec/...')
+#9 /home/hyprojec/zairdrop.com/wp-blog-header.php(19): require_once('/home/hyprojec/...')
+#10 /home/hyprojec/zairdrop.com/index.php(17): require('/home/hyprojec/...')
+#11 {main}
+  thrown in /home/hyprojec/zairdrop.com/wp-content/themes/vikinger/template-part/header/header-logged-out.php on line 112
+

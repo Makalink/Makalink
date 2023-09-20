@@ -1,0 +1,1025 @@
+@charset "UTF-8";
+/*------------------------------------------------------------------
+[Table of contents]
+
+1. Font Variables
+  1.1. Font Size
+  1.2. Line Height
+  1.3. Font Weight
+-------------------------------------------------------------------*/
+/**
+ * 1. Font Variables
+ */
+:root {
+  /**
+   * 1.1. Font Size
+   */
+  --vikinger_backend-font-scale-factor: 1;
+  --vikinger_backend-font-size-base: calc(16 / var(--vikinger_backend-font-scale-factor));
+  --vikinger_backend-font-size-12: calc((12 / var(--vikinger_backend-font-size-base)) * 1rem);
+  --vikinger_backend-font-size-14: calc((14 / var(--vikinger_backend-font-size-base)) * 1rem);
+  --vikinger_backend-font-size-16: calc((16 / var(--vikinger_backend-font-size-base)) * 1rem);
+  --vikinger_backend-font-size-22: calc((22 / var(--vikinger_backend-font-size-base)) * 1rem);
+  --vikinger_backend-font-size-24: calc((24 / var(--vikinger_backend-font-size-base)) * 1rem);
+  --vikinger_backend-font-size-28: calc((28 / var(--vikinger_backend-font-size-base)) * 1rem);
+  --vikinger_backend-font-size-36: calc((36 / var(--vikinger_backend-font-size-base)) * 1rem);
+  --vikinger_backend-font-size-42: calc((42 / var(--vikinger_backend-font-size-base)) * 1rem);
+  /**
+   * 1.2. Line Height
+   */
+  --vikinger_backend-line-height-24-14: calc(24 / 14);
+  --vikinger_backend-line-height-32-16: calc(32 / 16);
+  /**
+   * 1.3. Font Weight
+   */
+  --vikinger_backend-font-weight-medium: 500;
+  --vikinger_backend-font-weight-bold: 700;
+}
+
+/*------------------------------------------------------------------
+[Table of contents]
+
+1. Color Variables
+-------------------------------------------------------------------*/
+/**
+ * 1. Color Variables
+ */
+:root {
+  /**
+   * Global
+   */
+  --vikinger_backend-global-primary-color: #6f58ff;
+  --vikinger_backend-global-neutral-color: #202232;
+  --vikinger_backend-global-error-color: #ff3d54;
+  --vikinger_backend-global-success-color: #00c48f;
+  /**
+   * Banner
+   */
+  --vikinger_backend-banner-background-color: #34314c;
+  --vikinger_backend-banner-text-color: #fff;
+  /**
+   * Text
+   */
+  --vikinger_backend-text-primary-color: #1c202a;
+  /**
+   * Code
+   */
+  --vikinger_backend-code-background-color: #f9f9f9;
+  /**
+   * Tag
+   */
+  --vikinger_backend-tag-text-color: #fff;
+  /**
+   * Button
+   */
+  --vikinger_backend-button-text-color: #fff;
+  /**
+   * Overlay
+   */
+  --vikinger_backend-overlay-background-color: rgba(32, 34, 50, .96);
+  /**
+   * Popup
+   */
+  --vikinger_backend-popup-background-color: #fff;
+  /**
+   * Message Box
+   */
+  --vikinger_backend-message-box-text-color: #fff;
+  --vikinger_backend-message-box-icon-color: #fff;
+}
+
+/*------------------------------------------------------------------
+[Table of contents]
+
+1. Body
+2. Aspect Ratio Container
+-------------------------------------------------------------------*/
+/**
+ * 1. Body
+ */
+.vikinger_backend-body {
+  padding: 60px 20px 60px 0;
+  font-family: 'Inter', sans-serif;
+  letter-spacing: -.04em;
+}
+
+.vikinger_backend-body *,
+.vikinger_backend-body *::before,
+.vikinger_backend-body *::after {
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+  box-sizing: border-box;
+}
+
+/**
+ * 2. Aspect Ratio Container
+ */
+.vikinger_backend-aspect-ratio-container {
+  position: relative;
+}
+
+.vikinger_backend-aspect-ratio-container.vikinger_backend-aspect-ratio-container_16-9 {
+  padding-top: 56.25%;
+}
+
+.vikinger_backend-aspect-ratio-container iframe {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+/**
+ * Medium Screens, Desktops (1025px — 1200px)
+ */
+/**
+ * Small Screens, Laptops (769px — 1024px)
+ */
+/**
+ * Tablets, iPads (481px — 768px)
+ */
+@media screen and (max-width: 782px) {
+  .vikinger_backend-body {
+    padding-left: 10px;
+  }
+}
+
+/**
+ * Mobiles Devices (320px — 480px)
+ */
+/*------------------------------------------------------------------
+[Table of contents]
+
+1. Grid Limit
+2. Grid
+-------------------------------------------------------------------*/
+/**
+ * 1. Grid Limit
+ */
+.vikinger_backend-grid-limit, .vikinger_backend-grid, .vikinger_backend-banner, .vikinger_backend-message-box, .vikinger_backend-plugin-list,
+.vikinger_backend-demo-import-list, .vikinger_backend-content {
+  max-width: 940px;
+  margin: 0 auto;
+}
+
+/**
+ * 2. Grid
+ */
+.vikinger_backend-grid {
+  display: grid;
+  gap: 60px 20px;
+}
+
+.vikinger_backend-grid.vikinger_backend-grid_half {
+  grid-template-columns: 1fr 1fr;
+}
+
+/*------------------------------------------------------------------
+[Table of contents]
+
+1. Button Wrap
+2. Button
+-------------------------------------------------------------------*/
+/**
+ * 1. Button Wrap
+ */
+.vikinger_backend-button-wrap {
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.vikinger_backend-button-wrap.vikinger_backend-button-wrap_align-right {
+  -ms-flex-pack: end;
+      justify-content: flex-end;
+}
+
+.vikinger_backend-button-wrap .vikinger_backend-button + .vikinger_backend-button {
+  margin-left: 12px;
+}
+
+/**
+ * 2. Button
+ */
+.vikinger_backend-button {
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+  padding: 14px 28px;
+  border-radius: 10px;
+  background-color: var(--vikinger_backend-global-neutral-color);
+  color: var(--vikinger_backend-button-text-color);
+  font-size: var(--vikinger_backend-font-size-14);
+  line-height: 1;
+  font-weight: var(--vikinger_backend-font-weight-bold);
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.vikinger_backend-button.vikinger_backend-button_small {
+  padding: 12px 20px;
+  font-size: var(--vikinger_backend-font-size-12);
+}
+
+.vikinger_backend-button.vikinger_backend-button_primary {
+  background-color: var(--vikinger_backend-global-primary-color);
+}
+
+.vikinger_backend-button.vikinger_backend-button_success {
+  background-color: var(--vikinger_backend-global-success-color);
+}
+
+.vikinger_backend-button.vikinger_backend-button_error {
+  background-color: var(--vikinger_backend-global-error-color);
+}
+
+.vikinger_backend-button:active, .vikinger_backend-button:hover, .vikinger_backend-button:focus {
+  color: var(--vikinger_backend-button-text-color);
+}
+
+.vikinger_backend-button:focus {
+  outline: none;
+  box-shadow: none;
+  text-decoration: underline;
+}
+
+/*------------------------------------------------------------------
+[Table of contents]
+
+1. Tag
+-------------------------------------------------------------------*/
+/**
+ * 1. Tag
+ */
+.vikinger_backend-tag {
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  padding: 6px 14px;
+  border-radius: 200px;
+  background-color: var(--vikinger_backend-global-neutral-color);
+  color: var(--vikinger_backend-tag-text-color);
+  font-size: var(--vikinger_backend-font-size-12);
+  line-height: 1;
+  font-weight: var(--vikinger_backend-font-weight-bold);
+}
+
+.vikinger_backend-tag.vikinger_backend-tag_success {
+  background-color: var(--vikinger_backend-global-success-color);
+}
+
+/*------------------------------------------------------------------
+[Table of contents]
+
+1. Loader Spinner
+-------------------------------------------------------------------*/
+/**
+ * 1. Loader Spinner
+ */
+.vikinger_backend-loader-spinner {
+  width: 64px;
+  height: 64px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.vikinger_backend-loader-spinner.vikinger_backend-loader-spinner_small {
+  width: 40px;
+  height: 40px;
+}
+
+.vikinger_backend-loader-spinner.vikinger_backend-loader-spinner_small > div {
+  border-width: 6px;
+}
+
+.vikinger_backend-loader-spinner.vikinger_backend-loader-spinner_tiny {
+  width: 20px;
+  height: 20px;
+}
+
+.vikinger_backend-loader-spinner.vikinger_backend-loader-spinner_tiny > div {
+  border-width: 3px;
+}
+
+.vikinger_backend-loader-spinner > div {
+  width: 100%;
+  height: 100%;
+  border-width: 8px;
+  border-style: solid;
+  border-color: var(--vikinger_backend-global-primary-color) transparent transparent transparent;
+  border-radius: 50%;
+  position: absolute;
+  -webkit-animation: vikinger_backend-loader-spinner 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+          animation: vikinger_backend-loader-spinner 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+}
+
+.vikinger_backend-loader-spinner > div:nth-child(1) {
+  -webkit-animation-delay: -.45s;
+          animation-delay: -.45s;
+}
+
+.vikinger_backend-loader-spinner > div:nth-child(2) {
+  -webkit-animation-delay: -.3s;
+          animation-delay: -.3s;
+}
+
+.vikinger_backend-loader-spinner > div:nth-child(3) {
+  -webkit-animation-delay: -.15s;
+          animation-delay: -.15s;
+}
+
+@-webkit-keyframes vikinger_backend-loader-spinner {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+@keyframes vikinger_backend-loader-spinner {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+/*------------------------------------------------------------------
+[Table of contents]
+
+1. Popup
+2. Popup Box
+3. Popup Pretitle
+4. Popup Title
+5. Popup Actions
+-------------------------------------------------------------------*/
+/**
+ * 1. Popup
+ */
+.vikinger_backend-popup {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
+  width: 100%;
+  height: 100%;
+  background-color: var(--vikinger_backend-overlay-background-color);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 99;
+  overflow-y: auto;
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  transition: opacity .2s ease-in-out, visibility .2s ease-in-out;
+}
+
+.vikinger_backend-popup.vikinger_backend-popup_active {
+  visibility: visible;
+  opacity: 1;
+  pointer-events: all;
+}
+
+/**
+ * 2. Popup Box
+ */
+.vikinger_backend-popup-box {
+  max-width: 500px;
+  padding: 36px 48px;
+  border-radius: 20px;
+  background-color: var(--vikinger_backend-popup-background-color);
+}
+
+.vikinger_backend-popup-box .vikinger_backend-popup-pretitle {
+  margin-bottom: 12px;
+}
+
+.vikinger_backend-popup-box .vikinger_backend-popup-text {
+  margin-top: 40px;
+}
+
+.vikinger_backend-popup-logo {
+  display: block;
+  width: 40px;
+  margin-bottom: 24px;
+}
+
+.vikinger_backend-popup-pretitle,
+.vikinger_backend-popup-title,
+.vikinger_backend-popup-text {
+  color: var(--vikinger_backend-text-primary-color);
+}
+
+/**
+ * 3. Popup Pretitle
+ */
+.vikinger_backend-popup-pretitle {
+  font-size: var(--vikinger_backend-font-size-12);
+  font-weight: var(--vikinger_backend-font-weight-medium);
+  text-transform: uppercase;
+}
+
+/**
+ * 4. Popup Title
+ */
+.vikinger_backend-popup-title {
+  font-size: var(--vikinger_backend-font-size-28);
+}
+
+/**
+ * 4. Popup Text
+ */
+.vikinger_backend-popup-text {
+  font-size: var(--vikinger_backend-font-size-14);
+  line-height: var(--vikinger_backend-line-height-24-14);
+}
+
+/**
+ * 5. Popup Actions
+ */
+.vikinger_backend-popup-actions {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: end;
+      justify-content: flex-end;
+  margin-top: 60px;
+}
+
+.vikinger_backend-popup-actions .vikinger_backend-popup-action + .vikinger_backend-popup-action {
+  margin-left: 12px;
+}
+
+.vikinger_backend-popup-message {
+  margin-top: 18px;
+  font-size: var(--vikinger_backend-font-size-12);
+  font-weight: var(--vikinger_backend-font-weight-bold);
+}
+
+.vikinger_backend-popup-message.vikinger_backend-popup-message_error {
+  color: var(--vikinger_backend-global-error-color);
+}
+
+/*------------------------------------------------------------------
+[Table of contents]
+
+1. Banner
+2. Banner PreTitle
+3. Banner Title
+4. Banner Text
+-------------------------------------------------------------------*/
+/**
+ * 1. Banner
+ */
+.vikinger_backend-banner {
+  min-height: 240px;
+  padding: 60px 160px;
+  margin-bottom: 100px;
+  border-radius: 20px;
+  background: url("../img/banner/banner-background.png") no-repeat center, var(--vikinger_backend-banner-background-color);
+  background-blend-mode: overlay;
+  background-size: cover;
+  position: relative;
+}
+
+.vikinger_backend-banner .vikinger_backend-banner-logo {
+  position: absolute;
+  top: 64px;
+  left: 50px;
+}
+
+.vikinger_backend-banner .vikinger_backend-banner-pretitle,
+.vikinger_backend-banner .vikinger_backend-banner-title,
+.vikinger_backend-banner .vikinger_backend-banner-text {
+  color: var(--vikinger_backend-banner-text-color);
+}
+
+/**
+ * 2. Banner Pre Title
+ */
+.vikinger_backend-banner-pretitle {
+  font-size: var(--vikinger_backend-font-size-12);
+  font-weight: var(--vikinger_backend-font-weight-medium);
+  text-transform: uppercase;
+}
+
+/**
+ * 3. Banner Title
+ */
+.vikinger_backend-banner-title {
+  font-size: var(--vikinger_backend-font-size-42);
+  font-weight: var(--vikinger_backend-font-weight-bold);
+}
+
+/**
+ * 4. Banner Text
+ */
+.vikinger_backend-banner-text {
+  margin-top: 8px;
+  font-size: var(--vikinger_backend-font-size-14);
+  line-height: var(--vikinger_backend-line-height-24-14);
+  font-weight: var(--vikinger_backend-font-weight-medium);
+}
+
+/*------------------------------------------------------------------
+[Table of contents]
+
+1. Message Box
+2. Message Box Title
+3. Message Box Text
+-------------------------------------------------------------------*/
+/**
+ * 1. Message Box
+ */
+.vikinger_backend-message-box {
+  min-height: 100px;
+  padding: 32px 32px 26px 108px;
+  border-radius: 12px;
+  background-color: var(--vikinger_backend-global-neutral-color);
+  position: relative;
+}
+
+.vikinger_backend-message-box.vikinger_backend-message-box_success {
+  background-color: var(--vikinger_backend-global-success-color);
+}
+
+.vikinger_backend-message-box.vikinger_backend-message-box_info {
+  background-color: var(--vikinger_backend-global-primary-color);
+}
+
+.vikinger_backend-message-box.vikinger_backend-message-box_error {
+  background-color: var(--vikinger_backend-global-error-color);
+}
+
+.vikinger_backend-message-box + .vikinger_backend-message-box,
+.vikinger_backend-message-box + .vikinger_backend-content,
+.vikinger_backend-message-box + .vikinger_backend-grid,
+.vikinger_backend-message-box + .vikinger_backend-loader-spinner,
+.vikinger_backend-message-box + .vikinger_backend-table {
+  margin-top: 40px;
+}
+
+.vikinger_backend-message-box .vikinger_backend-message-box-icon-wrap {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
+  width: 60px;
+  height: 60px;
+  border-radius: 12px;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  box-shadow: 3px 5px 20px 0 rgba(0, 0, 0, 0.16);
+}
+
+.vikinger_backend-message-box .vikinger_backend-message-box-icon-wrap .vikinger_backend-message-box-icon {
+  fill: var(--vikinger_backend-message-box-icon-color);
+  width: 20px;
+  height: 20px;
+}
+
+.vikinger_backend-message-box-title,
+.vikinger_backend-message-box-text {
+  color: var(--vikinger_backend-message-box-text-color);
+}
+
+/**
+ * 2. Message Box Title
+ */
+.vikinger_backend-message-box-title {
+  font-size: var(--vikinger_backend-font-size-16);
+  font-weight: var(--vikinger_backend-font-weight-bold);
+}
+
+/**
+ * 3. Message Box Text
+ */
+.vikinger_backend-message-box-text {
+  margin-top: 6px;
+  font-size: var(--vikinger_backend-font-size-14);
+  line-height: var(--vikinger_backend-line-height-24-14);
+}
+
+.vikinger_backend-message-box-text a {
+  color: var(--vikinger_backend-message-box-text-color);
+  font-weight: var(--vikinger_backend-font-weight-bold);
+}
+
+/*------------------------------------------------------------------
+[Table of contents]
+
+1. Table
+-------------------------------------------------------------------*/
+/**
+ * 1. Table
+ */
+.vikinger_backend-table {
+  width: 100%;
+  table-layout: fixed;
+  border-collapse: collapse;
+}
+
+.vikinger_backend-table th, .vikinger_backend-table td {
+  color: var(--vikinger_backend-text-primary-color);
+  font-size: var(--vikinger_backend-font-size-14);
+  text-align: center;
+}
+
+.vikinger_backend-table th:first-child, .vikinger_backend-table td:first-child {
+  width: 40%;
+  text-align: left;
+}
+
+.vikinger_backend-table th:last-child, .vikinger_backend-table td:last-child {
+  width: 36px;
+  padding-right: 0;
+}
+
+.vikinger_backend-table th {
+  padding-bottom: 18px;
+}
+
+.vikinger_backend-table td {
+  padding: 12px;
+}
+
+.vikinger_backend-table td a {
+  color: var(--vikinger_backend-global-primary-color);
+}
+
+.vikinger_backend-table td:first-child {
+  padding-left: 0;
+}
+
+.vikinger_backend-table td .vikinger_backend-item-status {
+  margin: 0 auto;
+}
+
+.vikinger_backend-plugin-list .vikinger_backend-button-wrap,
+.vikinger_backend-demo-import-list .vikinger_backend-button-wrap {
+  margin-top: 60px;
+}
+
+.vikinger_backend-checkbox-wrap {
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  top: -2px;
+}
+
+.vikinger_backend-checkbox-wrap input[type="checkbox"] {
+  opacity: 0;
+  pointer-events: none;
+}
+
+.vikinger_backend-checkbox-wrap input[type="checkbox"]:checked + .vikinger_backend-checkbox .vikinger_backend-checkbox-box {
+  border-color: var(--vikinger_backend-global-primary-color);
+  background-color: var(--vikinger_backend-global-primary-color);
+}
+
+.vikinger_backend-checkbox-wrap input[type="checkbox"]:checked + .vikinger_backend-checkbox .vikinger_backend-checkbox-box .vikinger_backend-checkbox-box-icon {
+  display: block;
+}
+
+.vikinger_backend-checkbox-wrap input[type="checkbox"]:checked + .vikinger_backend-checkbox label {
+  font-weight: var(--vikinger_backend-font-weight-bold);
+}
+
+.vikinger_backend-checkbox-wrap input[type="checkbox"]:focus + .vikinger_backend-checkbox label {
+  text-decoration: underline;
+}
+
+.vikinger_backend-checkbox-wrap .vikinger_backend-checkbox {
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  left: 0;
+}
+
+.vikinger_backend-checkbox-wrap .vikinger_backend-checkbox-box {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  width: 16px;
+  height: 16px;
+  margin-right: 12px;
+  border-radius: 4px;
+  border: 1px solid var(--vikinger_backend-text-primary-color);
+  position: relative;
+  top: 1px;
+}
+
+.vikinger_backend-checkbox-wrap .vikinger_backend-checkbox-box .vikinger_backend-checkbox-box-icon {
+  fill: #fff;
+  width: 8px;
+  height: 8px;
+  display: none;
+}
+
+.vikinger_backend-checkbox-wrap label {
+  cursor: pointer;
+}
+
+.vikinger_backend-item-status {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: var(--vikinger_backend-global-neutral-color);
+}
+
+.vikinger_backend-item-status.vikinger_backend-item-status_success {
+  background-color: var(--vikinger_backend-global-success-color);
+}
+
+.vikinger_backend-item-status.vikinger_backend-item-status_error {
+  background-color: var(--vikinger_backend-global-error-color);
+}
+
+.vikinger_backend-item-status .vikinger_backend-item-status-icon {
+  fill: #fff;
+  width: 8px;
+  height: 8px;
+}
+
+/*------------------------------------------------------------------
+[Table of contents]
+
+1. Content
+-------------------------------------------------------------------*/
+/**
+ * 1. Content
+ */
+.vikinger_backend-content {
+  margin-top: 100px;
+  color: var(--vikinger_backend-text-primary-color);
+}
+
+.vikinger_backend-content .vikinger_backend-content-pretitle,
+.vikinger_backend-content .vikinger_backend-content-title,
+.vikinger_backend-content .vikinger_backend-content-subtitle {
+  color: var(--vikinger_backend-text-primary-color);
+}
+
+.vikinger_backend-content .vikinger_backend-content-title,
+.vikinger_backend-content .vikinger_backend-content-subtitle {
+  font-weight: var(--vikinger_backend-font-weight-bold);
+}
+
+.vikinger_backend-content .vikinger_backend-content-pretitle {
+  margin-bottom: 0;
+  font-size: var(--vikinger_backend-font-size-12);
+  font-weight: var(--vikinger_backend-font-weight-medium);
+  line-height: 1;
+  text-transform: uppercase;
+}
+
+.vikinger_backend-content .vikinger_backend-content-title {
+  margin-top: 18px;
+  font-size: var(--vikinger_backend-font-size-36);
+}
+
+.vikinger_backend-content .vikinger_backend-content-subtitle {
+  font-size: var(--vikinger_backend-font-size-28);
+}
+
+.vikinger_backend-content > * {
+  margin-bottom: 40px;
+}
+
+.vikinger_backend-content > * + h1, .vikinger_backend-content > * + h2, .vikinger_backend-content > * + h3,
+.vikinger_backend-content > * + h4, .vikinger_backend-content > * + h5, .vikinger_backend-content > * + h6 {
+  margin-top: 70px;
+}
+
+.vikinger_backend-content > h1, .vikinger_backend-content > h2, .vikinger_backend-content > h3,
+.vikinger_backend-content > h4, .vikinger_backend-content > h5, .vikinger_backend-content > h6 {
+  margin-bottom: 80px;
+}
+
+.vikinger_backend-content > p {
+  margin-top: -8px;
+}
+
+.vikinger_backend-content > p:first-child {
+  margin-top: 0;
+}
+
+.vikinger_backend-content > p + * {
+  margin-top: -8px;
+}
+
+.vikinger_backend-content > p + h1, .vikinger_backend-content > p + h2, .vikinger_backend-content > p + h3,
+.vikinger_backend-content > p + h4, .vikinger_backend-content > p + h5, .vikinger_backend-content > p + h6 {
+  margin-top: 64px;
+}
+
+.vikinger_backend-content p {
+  font-size: var(--vikinger_backend-font-size-16);
+  line-height: var(--vikinger_backend-line-height-32-16);
+}
+
+.vikinger_backend-content p a {
+  color: var(--vikinger_backend-global-primary-color);
+  font-weight: var(--vikinger_backend-font-weight-bold);
+  text-decoration: underline;
+}
+
+.vikinger_backend-content a {
+  text-decoration: none;
+}
+
+.vikinger_backend-content strong.vikinger_backend-color_primary {
+  color: var(--vikinger_backend-global-primary-color);
+}
+
+.vikinger_backend-content strong.vikinger_backend-color_error {
+  color: var(--vikinger_backend-global-error-color);
+}
+
+.vikinger_backend-content ul, .vikinger_backend-content ol {
+  padding-left: 24px;
+}
+
+.vikinger_backend-content ul ::marker, .vikinger_backend-content ol ::marker {
+  color: var(--vikinger_backend-global-primary-color);
+  font-weight: var(--vikinger_backend-font-weight-bold);
+}
+
+.vikinger_backend-content ul ul, .vikinger_backend-content ul ol, .vikinger_backend-content ol ul, .vikinger_backend-content ol ol {
+  margin-top: 18px;
+}
+
+.vikinger_backend-content ul ul li, .vikinger_backend-content ul ol li, .vikinger_backend-content ol ul li, .vikinger_backend-content ol ol li {
+  margin-bottom: 14px;
+}
+
+.vikinger_backend-content ul ul li:last-child, .vikinger_backend-content ul ol li:last-child, .vikinger_backend-content ol ul li:last-child, .vikinger_backend-content ol ol li:last-child {
+  margin-bottom: 0;
+}
+
+.vikinger_backend-content ul li, .vikinger_backend-content ol li {
+  margin-bottom: 28px;
+  font-size: var(--vikinger_backend-font-size-16);
+}
+
+.vikinger_backend-content ul li a, .vikinger_backend-content ol li a {
+  color: var(--vikinger_backend-global-primary-color);
+  font-weight: var(--vikinger_backend-font-weight-bold);
+  text-decoration: underline;
+}
+
+.vikinger_backend-content ul li:last-child, .vikinger_backend-content ol li:last-child {
+  margin-bottom: 0;
+}
+
+.vikinger_backend-content ul {
+  list-style-type: disc;
+}
+
+.vikinger_backend-content ul ::marker {
+  font-size: var(--vikinger_backend-font-size-24);
+}
+
+.vikinger_backend-content ol ol {
+  margin-top: 24px;
+}
+
+.vikinger_backend-content ol ol li {
+  margin-bottom: 24px;
+}
+
+.vikinger_backend-content ol ol li:last-child {
+  margin-bottom: 0;
+}
+
+.vikinger_backend-content code {
+  padding: 32px;
+  border-radius: 8px;
+  background-color: var(--vikinger_backend-code-background-color);
+  font-size: var(--vikinger_backend-font-size-16);
+}
+
+/*------------------------------------------------------------------
+[Table of contents]
+
+1. Import Box
+-------------------------------------------------------------------*/
+/**
+ * 1. Import Box
+ */
+.vikinger_backend-import-box.vikinger_backend-import-box_disabled {
+  -webkit-filter: grayscale(0.8);
+          filter: grayscale(0.8);
+  opacity: .4;
+  pointer-events: none;
+}
+
+.vikinger_backend-import-box .vikinger_backend-import-box-preview {
+  margin-bottom: 32px;
+}
+
+.vikinger_backend-import-box-preview {
+  padding-top: 56.25%;
+  border-radius: 20px;
+  background-color: var(--vikinger_backend-global-neutral-color);
+  position: relative;
+}
+
+.vikinger_backend-import-box-preview .vikinger_backend-tag {
+  position: absolute;
+  top: 16px;
+  right: -12px;
+  z-index: 2;
+}
+
+.vikinger_backend-import-box-preview .vikinger_backend-import-box-preview-overlay {
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.vikinger_backend-import-box-preview-overlay {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
+  background-color: var(--vikinger_backend-overlay-background-color);
+}
+
+.vikinger_backend-import-box-action {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
+  -ms-flex-align: center;
+      align-items: center;
+}
+
+.vikinger_backend-import-box-action + .vikinger_backend-import-box-action {
+  margin-top: 20px;
+}
+
+.vikinger_backend-import-box-action-details {
+  padding-right: 20px;
+}
+
+.vikinger_backend-import-box-action-details .vikinger_backend-import-box-action-text {
+  margin-top: 4px;
+}
+
+.vikinger_backend-import-box-action-title,
+.vikinger_backend-import-box-action-text {
+  color: var(--vikinger_backend-text-primary-color);
+}
+
+.vikinger_backend-import-box-action-title {
+  font-size: var(--vikinger_backend-font-size-22);
+  font-weight: var(--vikinger_backend-font-weight-bold);
+}
+
+.vikinger_backend-import-box-action-title.vikinger_backend-import-box-action-title_small {
+  font-size: var(--vikinger_backend-font-size-16);
+}
+
+.vikinger_backend-import-box-action-text {
+  font-size: var(--vikinger_backend-font-size-14);
+  line-height: var(--vikinger_backend-line-height-24-14);
+  font-weight: var(--vikinger_backend-font-weight-medium);
+}
+
+.vikinger_backend-import-box-action-button {
+  min-width: 104px;
+}
+/*# sourceMappingURL=style.css.map */

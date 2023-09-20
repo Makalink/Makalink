@@ -1,0 +1,43 @@
+/*------------------------------------------------------------------
+[Table of contents]
+
+1. Font Variables
+  1.1. Font Size
+  1.2. Line Height
+  1.3. Font Weight
+-------------------------------------------------------------------*/
+/**
+ * 1. Font Variables
+ */
+:root {
+  /**
+   * 1.1. Font Size
+   */
+  --vikinger_backend-font-scale-factor: 1;
+  --vikinger_backend-font-size-base: calc(16 / var(--vikinger_backend-font-scale-factor));
+  
+  --vikinger_backend-font-size-12: calc((12 / var(--vikinger_backend-font-size-base)) * 1rem);
+  --vikinger_backend-font-size-14: calc((14 / var(--vikinger_backend-font-size-base)) * 1rem);
+  --vikinger_backend-font-size-16: calc((16 / var(--vikinger_backend-font-size-base)) * 1rem);
+
+  --vikinger_backend-font-size-22: calc((22 / var(--vikinger_backend-font-size-base)) * 1rem);
+  --vikinger_backend-font-size-24: calc((24 / var(--vikinger_backend-font-size-base)) * 1rem);
+  --vikinger_backend-font-size-28: calc((28 / var(--vikinger_backend-font-size-base)) * 1rem);
+
+  --vikinger_backend-font-size-36: calc((36 / var(--vikinger_backend-font-size-base)) * 1rem);
+
+  --vikinger_backend-font-size-42: calc((42 / var(--vikinger_backend-font-size-base)) * 1rem);
+
+  /**
+   * 1.2. Line Height
+   */
+  --vikinger_backend-line-height-24-14: calc(24 / 14);
+
+  --vikinger_backend-line-height-32-16: calc(32 / 16);
+
+  /**
+   * 1.3. Font Weight
+   */
+  --vikinger_backend-font-weight-medium: 500;
+  --vikinger_backend-font-weight-bold: 700;
+}

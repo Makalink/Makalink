@@ -1,0 +1,13 @@
+{
+    "name": "wordthree/metamask-auth",
+    "description": "Wordprss Plugin to Authenticate and Register Users with MetaMask.",
+    "autoload": {
+        "psr-4": {
+            "WordThree\\Metamask\\": "src/"
+        }
+    },
+    "require": {
+        "kornrunner/keccak": "^1.1",
+        "simplito/elliptic-php": "^1.0"
+    }
+}

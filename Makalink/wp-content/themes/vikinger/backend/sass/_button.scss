@@ -1,0 +1,70 @@
+/*------------------------------------------------------------------
+[Table of contents]
+
+1. Button Wrap
+2. Button
+-------------------------------------------------------------------*/
+/**
+ * 1. Button Wrap
+ */
+.vikinger_backend-button-wrap {
+  display: flex;
+
+  &.vikinger_backend-button-wrap_align-right {
+    justify-content: flex-end;
+  }
+
+  .vikinger_backend-button {
+    & + {
+      .vikinger_backend-button {
+        margin-left: 12px;
+      }
+    }
+  }
+}
+
+/**
+ * 2. Button
+ */
+.vikinger_backend-button {
+  display: inline-flex;
+  justify-content: center;
+  padding: 14px 28px;
+  border-radius: 10px;
+  background-color: var(--vikinger_backend-global-neutral-color);
+  color: var(--vikinger_backend-button-text-color);
+  font-size: var(--vikinger_backend-font-size-14);
+  line-height: 1;
+  font-weight: var(--vikinger_backend-font-weight-bold);
+  text-decoration: none;
+  white-space: nowrap;
+
+  &.vikinger_backend-button_small {
+    padding: 12px 20px;
+    font-size: var(--vikinger_backend-font-size-12);
+  }
+
+  &.vikinger_backend-button_primary {
+    background-color: var(--vikinger_backend-global-primary-color);
+  }
+
+  &.vikinger_backend-button_success {
+    background-color: var(--vikinger_backend-global-success-color);
+  }
+
+  &.vikinger_backend-button_error {
+    background-color: var(--vikinger_backend-global-error-color);
+  }
+
+  &:active,
+  &:hover,
+  &:focus {
+    color: var(--vikinger_backend-button-text-color);
+  }
+
+  &:focus {
+    outline: none;
+    box-shadow: none;
+    text-decoration: underline;
+  }
+}

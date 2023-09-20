@@ -1,0 +1,45 @@
+/**
+ * Medium Screens, Desktops (1025px — 1200px)
+ */
+@media screen and (max-width: 1200px) {
+  .grid {
+    &.grid_flexible {
+      &.grid-3-3-3-3 {
+        grid-template-columns: repeat(3, 1fr);
+      }
+    }
+  }
+}
+
+/**
+ * Small Screens, Laptops (769px — 1024px)
+ */
+@media screen and (max-width: 1024px) {
+  
+}
+
+/**
+ * Tablets, iPads (481px — 768px)
+ */
+@media screen and (max-width: 768px) {
+  .grid {
+    &.grid_flexible {
+      &.grid-3-3-3-3 {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+  }
+}
+
+/**
+ * Mobiles Devices (320px — 480px)
+ */
+@media screen and (max-width: 480px) {
+  .grid {
+    &.grid_flexible {
+      &.grid-3-3-3-3 {
+        grid-template-columns: 1fr;
+      }
+    }
+  }
+}

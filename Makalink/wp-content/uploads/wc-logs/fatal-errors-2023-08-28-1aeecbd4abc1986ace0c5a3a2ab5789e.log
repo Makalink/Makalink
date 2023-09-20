@@ -1,0 +1,1620 @@
+2023-08-28T01:13:35+00:00 CRITICAL Uncaught Error: Failed opening required '/home/hyprojec/makalink.com/wp-admin/includes/media.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/hyprojec/makalink.com/wp-admin/includes/admin.php:37
+Stack trace:
+#0 /home/hyprojec/makalink.com/wp-admin/admin-ajax.php(36): require_once()
+#1 {main}
+  thrown in /home/hyprojec/makalink.com/wp-admin/includes/admin.php on line 37
+
+2023-08-28T01:13:35+00:00 CRITICAL Uncaught Error: Failed opening required '/home/hyprojec/makalink.com/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/StoreApi/Utilities/CartController.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/hyprojec/makalink.com/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php:90
+Stack trace:
+#0 /home/hyprojec/makalink.com/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/StoreApi/Routes/V1/AbstractCartRoute.php(75): Automattic\Jetpack\Autoloader\jpc770d59a5d7d253965990351cc321de7\PHP_Autoloader::load_class()
+#1 /home/hyprojec/makalink.com/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/StoreApi/RoutesController.php(92): Automattic\WooCommerce\StoreApi\Routes\V1\AbstractCartRoute->__construct()
+#2 /home/hyprojec/makalink.com/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/StoreApi/RoutesController.php(108): Automattic\WooCommerce\StoreApi\RoutesController->get()
+#3 /home/hyprojec/makalink.com/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/StoreApi/RoutesController.php(69): Automattic\WooCommerce\StoreApi\RoutesController->register_routes()
+#4 /home/hyprojec/makalink.com/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/StoreApi/StoreApi.php(27): Automattic\WooCommerce\StoreApi\RoutesController->register_all_routes()
+#5 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(310): Automattic\WooCommerce\StoreApi\StoreApi->Automattic\WooCommerce\StoreApi\{closure}()
+#6 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#7 /home/hyprojec/makalink.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#8 /home/hyprojec/makalink.com/wp-includes/rest-api.php(587): do_action()
+#9 /home/hyprojec/makalink.com/wp-includes/rest-api.php(545): rest_get_server()
+#10 /home/hyprojec/makalink.com/wp-content/themes/vikinger/includes/functions/buddypress/member/vikinger-functions-buddypress-member-global.php(160): rest_do_request()
+#11 /home/hyprojec/makalink.com/wp-content/themes/vikinger/includes/functions/buddypress/member/vikinger-functions-buddypress-member-global.php(85): vikinger_members_get()
+#12 /home/hyprojec/makalink.com/wp-content/themes/vikinger/includes/ajax/vikinger-ajax-user.php(18): vikinger_get_logged_user_member_data()
+#13 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(310): vikinger_get_logged_user_member_data_ajax()
+#14 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#15 /home/hyprojec/makalink.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#16 /home/hyprojec/makalink.com/wp-admin/admin-ajax.php(188): do_action()
+#17 {main}
+  thrown in /home/hyprojec/makalink.com/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php on line 90
+
+2023-08-28T01:13:35+00:00 CRITICAL Uncaught Error: Failed opening required '/home/hyprojec/makalink.com/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/StoreApi/Utilities/CartController.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/hyprojec/makalink.com/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php:90
+Stack trace:
+#0 /home/hyprojec/makalink.com/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/StoreApi/Routes/V1/AbstractCartRoute.php(75): Automattic\Jetpack\Autoloader\jpc770d59a5d7d253965990351cc321de7\PHP_Autoloader::load_class()
+#1 /home/hyprojec/makalink.com/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/StoreApi/RoutesController.php(92): Automattic\WooCommerce\StoreApi\Routes\V1\AbstractCartRoute->__construct()
+#2 /home/hyprojec/makalink.com/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/StoreApi/RoutesController.php(108): Automattic\WooCommerce\StoreApi\RoutesController->get()
+#3 /home/hyprojec/makalink.com/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/StoreApi/RoutesController.php(69): Automattic\WooCommerce\StoreApi\RoutesController->register_routes()
+#4 /home/hyprojec/makalink.com/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/StoreApi/StoreApi.php(27): Automattic\WooCommerce\StoreApi\RoutesController->register_all_routes()
+#5 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(310): Automattic\WooCommerce\StoreApi\StoreApi->Automattic\WooCommerce\StoreApi\{closure}()
+#6 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#7 /home/hyprojec/makalink.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#8 /home/hyprojec/makalink.com/wp-includes/rest-api.php(587): do_action()
+#9 /home/hyprojec/makalink.com/wp-includes/rest-api.php(545): rest_get_server()
+#10 /home/hyprojec/makalink.com/wp-content/themes/vikinger/includes/functions/buddypress/vikinger-functions-buddypress-message.php(43): rest_do_request()
+#11 /home/hyprojec/makalink.com/wp-content/themes/vikinger/includes/ajax/buddypress/vikinger-ajax-buddypress-message.php(25): vikinger_get_messages()
+#12 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(310): vikinger_get_messages_ajax()
+#13 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#14 /home/hyprojec/makalink.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#15 /home/hyprojec/makalink.com/wp-admin/admin-ajax.php(188): do_action()
+#16 {main}
+  thrown in /home/hyprojec/makalink.com/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php on line 90
+
+2023-08-28T01:13:35+00:00 CRITICAL Uncaught Error: Failed opening required '/home/hyprojec/makalink.com/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/StoreApi/Utilities/CartController.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/hyprojec/makalink.com/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php:90
+Stack trace:
+#0 /home/hyprojec/makalink.com/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/StoreApi/Routes/V1/AbstractCartRoute.php(75): Automattic\Jetpack\Autoloader\jpc770d59a5d7d253965990351cc321de7\PHP_Autoloader::load_class()
+#1 /home/hyprojec/makalink.com/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/StoreApi/RoutesController.php(92): Automattic\WooCommerce\StoreApi\Routes\V1\AbstractCartRoute->__construct()
+#2 /home/hyprojec/makalink.com/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/StoreApi/RoutesController.php(108): Automattic\WooCommerce\StoreApi\RoutesController->get()
+#3 /home/hyprojec/makalink.com/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/StoreApi/RoutesController.php(69): Automattic\WooCommerce\StoreApi\RoutesController->register_routes()
+#4 /home/hyprojec/makalink.com/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/StoreApi/StoreApi.php(27): Automattic\WooCommerce\StoreApi\RoutesController->register_all_routes()
+#5 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(310): Automattic\WooCommerce\StoreApi\StoreApi->Automattic\WooCommerce\StoreApi\{closure}()
+#6 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#7 /home/hyprojec/makalink.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#8 /home/hyprojec/makalink.com/wp-includes/rest-api.php(587): do_action()
+#9 /home/hyprojec/makalink.com/wp-includes/rest-api.php(545): rest_get_server()
+#10 /home/hyprojec/makalink.com/wp-content/themes/vikinger/includes/functions/buddypress/group/vikinger-functions-buddypress-group-global.php(135): rest_do_request()
+#11 /home/hyprojec/makalink.com/wp-content/themes/vikinger/includes/ajax/buddypress/vikinger-ajax-buddypress-group.php(22): vikinger_groups_get()
+#12 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(310): vikinger_groups_get_ajax()
+#13 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#14 /home/hyprojec/makalink.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#15 /home/hyprojec/makalink.com/wp-admin/admin-ajax.php(188): do_action()
+#16 {main}
+  thrown in /home/hyprojec/makalink.com/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php on line 90
+
+2023-08-28T03:28:25+00:00 CRITICAL Uncaught Error: Failed opening required '/home/hyprojec/makalink.com/wp-content/plugins/buddypress/bp-members/classes/class-bp-rest-members-endpoint.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/hyprojec/makalink.com/wp-content/plugins/buddypress/class-buddypress.php:718
+Stack trace:
+#0 /home/hyprojec/makalink.com/wp-content/plugins/buddypress/bp-core/classes/class-bp-component.php(941): BuddyPress->autoload()
+#1 /home/hyprojec/makalink.com/wp-content/plugins/buddypress/bp-members/classes/class-bp-members-component.php(757): BP_Component->rest_api_init()
+#2 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(310): BP_Members_Component->rest_api_init()
+#3 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#4 /home/hyprojec/makalink.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#5 /home/hyprojec/makalink.com/wp-content/plugins/buddypress/bp-core/bp-core-dependency.php(282): do_action()
+#6 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(310): bp_rest_api_init()
+#7 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#8 /home/hyprojec/makalink.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#9 /home/hyprojec/makalink.com/wp-includes/rest-api.php(587): do_action()
+#10 /home/hyprojec/makalink.com/wp-includes/rest-api.php(545): rest_get_server()
+#11 /home/hyprojec/makalink.com/wp-content/themes/vikinger/includes/functions/buddypress/member/vikinger-functions-buddypress-member-global.php(160): rest_do_request()
+#12 /home/hyprojec/makalink.com/wp-content/themes/vikinger/includes/functions/buddypress/member/vikinger-functions-buddypress-member-global.php(101): vikinger_members_get()
+#13 /home/hyprojec/makalink.com/wp-content/themes/vikinger/includes/functions/buddypress/activity/vikinger-functions-buddypress-activity-global.php(115): vikinger_members_get_fallback()
+#14 /home/hyprojec/makalink.com/wp-content/themes/vikinger/includes/functions/buddypress/activity/vikinger-functions-buddypress-activity-global.php(62): vikinger_activity_data_get()
+#15 /home/hyprojec/makalink.com/wp-content/themes/vikinger/includes/ajax/buddypress/vikinger-ajax-buddypress-activity.php(27): vikinger_get_activities()
+#16 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(310): vikinger_get_activities_ajax()
+#17 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#18 /home/hyprojec/makalink.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#19 /home/hyprojec/makalink.com/wp-admin/admin-ajax.php(188): do_action()
+#20 {main}
+  thrown in /home/hyprojec/makalink.com/wp-content/plugins/buddypress/class-buddypress.php on line 718
+
+2023-08-28T03:34:09+00:00 CRITICAL Uncaught Error: Failed opening required '/home/hyprojec/makalink.com/wp-content/plugins/woocommerce/src/Admin/Notes/DataStore.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/hyprojec/makalink.com/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php:90
+Stack trace:
+#0 [internal function]: Automattic\Jetpack\Autoloader\jpc770d59a5d7d253965990351cc321de7\PHP_Autoloader::load_class()
+#1 /home/hyprojec/makalink.com/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(100): class_exists()
+#2 /home/hyprojec/makalink.com/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(139): WC_Data_Store->__construct()
+#3 /home/hyprojec/makalink.com/wp-content/plugins/woocommerce/src/Admin/Notes/Notes.php(471): WC_Data_Store::load()
+#4 /home/hyprojec/makalink.com/wp-content/plugins/woocommerce/src/Admin/Notes/Notes.php(298): Automattic\WooCommerce\Admin\Notes\Notes::load_data_store()
+#5 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(310): Automattic\WooCommerce\Admin\Notes\Notes::possibly_delete_survey_notes()
+#6 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#7 /home/hyprojec/makalink.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#8 /home/hyprojec/makalink.com/wp-admin/admin-ajax.php(45): do_action()
+#9 {main}
+  thrown in /home/hyprojec/makalink.com/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php on line 90
+
+2023-08-28T03:34:09+00:00 CRITICAL Uncaught Error: Failed opening required '/home/hyprojec/makalink.com/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/AbstractProductGrid.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/hyprojec/makalink.com/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php:90
+Stack trace:
+#0 /home/hyprojec/makalink.com/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/HandpickedProducts.php(7): Automattic\Jetpack\Autoloader\jpc770d59a5d7d253965990351cc321de7\PHP_Autoloader::load_class()
+#1 /home/hyprojec/makalink.com/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php(90): require('/home/hyprojec/...')
+#2 /home/hyprojec/makalink.com/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypesController.php(65): Automattic\Jetpack\Autoloader\jpc770d59a5d7d253965990351cc321de7\PHP_Autoloader::load_class()
+#3 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(310): Automattic\WooCommerce\Blocks\BlockTypesController->register_blocks()
+#4 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#5 /home/hyprojec/makalink.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#6 /home/hyprojec/makalink.com/wp-settings.php(632): do_action()
+#7 /home/hyprojec/makalink.com/wp-config.php(97): require_once('/home/hyprojec/...')
+#8 /home/hyprojec/makalink.com/wp-load.php(50): require_once('/home/hyprojec/...')
+#9 /home/hyprojec/makalink.com/wp-admin/admin-ajax.php(22): require_once('/home/hyprojec/...')
+#10 {main}
+  thrown in /home/hyprojec/makalink.com/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php on line 90
+
+2023-08-28T03:34:09+00:00 CRITICAL Uncaught Error: Failed opening required '/home/hyprojec/makalink.com/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/AbstractProductGrid.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/hyprojec/makalink.com/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php:90
+Stack trace:
+#0 /home/hyprojec/makalink.com/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/HandpickedProducts.php(7): Automattic\Jetpack\Autoloader\jpc770d59a5d7d253965990351cc321de7\PHP_Autoloader::load_class()
+#1 /home/hyprojec/makalink.com/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php(90): require('/home/hyprojec/...')
+#2 /home/hyprojec/makalink.com/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypesController.php(65): Automattic\Jetpack\Autoloader\jpc770d59a5d7d253965990351cc321de7\PHP_Autoloader::load_class()
+#3 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(310): Automattic\WooCommerce\Blocks\BlockTypesController->register_blocks()
+#4 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#5 /home/hyprojec/makalink.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#6 /home/hyprojec/makalink.com/wp-settings.php(632): do_action()
+#7 /home/hyprojec/makalink.com/wp-config.php(97): require_once('/home/hyprojec/...')
+#8 /home/hyprojec/makalink.com/wp-load.php(50): require_once('/home/hyprojec/...')
+#9 /home/hyprojec/makalink.com/wp-admin/admin-ajax.php(22): require_once('/home/hyprojec/...')
+#10 {main}
+  thrown in /home/hyprojec/makalink.com/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php on line 90
+
+2023-08-28T03:34:09+00:00 CRITICAL Uncaught Error: Failed opening required '/home/hyprojec/makalink.com/wp-content/plugins/elementor/data/v2/base/endpoint/index/all-children.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/hyprojec/makalink.com/wp-content/plugins/elementor/includes/autoloader.php:294
+Stack trace:
+#0 /home/hyprojec/makalink.com/wp-content/plugins/elementor/includes/autoloader.php(330): Elementor\Autoloader::load_class()
+#1 /home/hyprojec/makalink.com/wp-content/plugins/elementor/core/editor/data/globals/controller.php(34): Elementor\Autoloader::autoload()
+#2 /home/hyprojec/makalink.com/wp-content/plugins/elementor/data/v2/base/controller.php(409): Elementor\Core\Editor\Data\Globals\Controller->register_index_endpoint()
+#3 /home/hyprojec/makalink.com/wp-content/plugins/elementor/data/v2/base/controller.php(462): Elementor\Data\V2\Base\Controller->register()
+#4 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(310): Elementor\Data\V2\Base\Controller->Elementor\Data\V2\Base\{closure}()
+#5 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#6 /home/hyprojec/makalink.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#7 /home/hyprojec/makalink.com/wp-includes/rest-api.php(587): do_action()
+#8 /home/hyprojec/makalink.com/wp-includes/rest-api.php(545): rest_get_server()
+#9 /home/hyprojec/makalink.com/wp-content/themes/vikinger/includes/functions/buddypress/member/vikinger-functions-buddypress-member-global.php(160): rest_do_request()
+#10 /home/hyprojec/makalink.com/wp-content/themes/vikinger/includes/functions/buddypress/member/vikinger-functions-buddypress-member-global.php(85): vikinger_members_get()
+#11 /home/hyprojec/makalink.com/wp-content/themes/vikinger/includes/ajax/vikinger-ajax-user.php(18): vikinger_get_logged_user_member_data()
+#12 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(310): vikinger_get_logged_user_member_data_ajax()
+#13 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#14 /home/hyprojec/makalink.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#15 /home/hyprojec/makalink.com/wp-admin/admin-ajax.php(188): do_action()
+#16 {main}
+  thrown in /home/hyprojec/makalink.com/wp-content/plugins/elementor/includes/autoloader.php on line 294
+
+2023-08-28T03:34:09+00:00 CRITICAL Uncaught Error: Failed opening required '/home/hyprojec/makalink.com/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/AbstractProductGrid.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/hyprojec/makalink.com/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php:90
+Stack trace:
+#0 /home/hyprojec/makalink.com/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/HandpickedProducts.php(7): Automattic\Jetpack\Autoloader\jpc770d59a5d7d253965990351cc321de7\PHP_Autoloader::load_class()
+#1 /home/hyprojec/makalink.com/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php(90): require('/home/hyprojec/...')
+#2 /home/hyprojec/makalink.com/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypesController.php(65): Automattic\Jetpack\Autoloader\jpc770d59a5d7d253965990351cc321de7\PHP_Autoloader::load_class()
+#3 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(310): Automattic\WooCommerce\Blocks\BlockTypesController->register_blocks()
+#4 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#5 /home/hyprojec/makalink.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#6 /home/hyprojec/makalink.com/wp-settings.php(632): do_action()
+#7 /home/hyprojec/makalink.com/wp-config.php(97): require_once('/home/hyprojec/...')
+#8 /home/hyprojec/makalink.com/wp-load.php(50): require_once('/home/hyprojec/...')
+#9 /home/hyprojec/makalink.com/wp-admin/admin-ajax.php(22): require_once('/home/hyprojec/...')
+#10 {main}
+  thrown in /home/hyprojec/makalink.com/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php on line 90
+
+2023-08-28T06:10:31+00:00 CRITICAL Uncaught Error: Failed opening required '/home/hyprojec/makalink.com/wp-content/plugins/woocommerce/includes/rest-api/Controllers/Version1/class-wc-rest-customers-v1-controller.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/hyprojec/makalink.com/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php:90
+Stack trace:
+#0 /home/hyprojec/makalink.com/wp-content/plugins/woocommerce/includes/rest-api/Server.php(42): Automattic\Jetpack\Autoloader\jpc770d59a5d7d253965990351cc321de7\PHP_Autoloader::load_class()
+#1 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(310): Automattic\WooCommerce\RestApi\Server->register_rest_routes()
+#2 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#3 /home/hyprojec/makalink.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#4 /home/hyprojec/makalink.com/wp-includes/rest-api.php(587): do_action()
+#5 /home/hyprojec/makalink.com/wp-includes/rest-api.php(545): rest_get_server()
+#6 /home/hyprojec/makalink.com/wp-content/themes/vikinger/includes/functions/buddypress/vikinger-functions-buddypress-notification.php(115): rest_do_request()
+#7 /home/hyprojec/makalink.com/wp-content/themes/vikinger/includes/functions/buddypress/vikinger-functions-buddypress-notification.php(40): vikinger_get_notifications_data()
+#8 /home/hyprojec/makalink.com/wp-content/themes/vikinger/includes/ajax/buddypress/vikinger-ajax-buddypress-notification.php(22): vikinger_get_notifications()
+#9 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(310): vikinger_get_notifications_ajax()
+#10 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#11 /home/hyprojec/makalink.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#12 /home/hyprojec/makalink.com/wp-admin/admin-ajax.php(188): do_action()
+#13 {main}
+  thrown in /home/hyprojec/makalink.com/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php on line 90
+
+2023-08-28T06:10:31+00:00 CRITICAL Uncaught Error: Failed opening required '/home/hyprojec/makalink.com/wp-content/plugins/woocommerce/includes/rest-api/Controllers/Version3/class-wc-rest-taxes-controller.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/hyprojec/makalink.com/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php:90
+Stack trace:
+#0 /home/hyprojec/makalink.com/wp-content/plugins/woocommerce/src/Admin/API/Taxes.php(18): Automattic\Jetpack\Autoloader\jpc770d59a5d7d253965990351cc321de7\PHP_Autoloader::load_class()
+#1 /home/hyprojec/makalink.com/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php(90): require('/home/hyprojec/...')
+#2 /home/hyprojec/makalink.com/wp-content/plugins/woocommerce/src/Admin/API/Init.php(146): Automattic\Jetpack\Autoloader\jpc770d59a5d7d253965990351cc321de7\PHP_Autoloader::load_class()
+#3 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(310): Automattic\WooCommerce\Admin\API\Init->rest_api_init()
+#4 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#5 /home/hyprojec/makalink.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#6 /home/hyprojec/makalink.com/wp-includes/rest-api.php(587): do_action()
+#7 /home/hyprojec/makalink.com/wp-includes/rest-api.php(545): rest_get_server()
+#8 /home/hyprojec/makalink.com/wp-content/themes/vikinger/includes/functions/buddypress/member/vikinger-functions-buddypress-member-global.php(160): rest_do_request()
+#9 /home/hyprojec/makalink.com/wp-content/themes/vikinger/includes/functions/buddypress/member/vikinger-functions-buddypress-member-global.php(85): vikinger_members_get()
+#10 /home/hyprojec/makalink.com/wp-content/themes/vikinger/includes/ajax/vikinger-ajax-user.php(18): vikinger_get_logged_user_member_data()
+#11 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(310): vikinger_get_logged_user_member_data_ajax()
+#12 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#13 /home/hyprojec/makalink.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#14 /home/hyprojec/makalink.com/wp-admin/admin-ajax.php(188): do_action()
+#15 {main}
+  thrown in /home/hyprojec/makalink.com/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php on line 90
+
+2023-08-28T06:10:31+00:00 CRITICAL Uncaught Error: Failed opening required '/home/hyprojec/makalink.com/wp-content/plugins/woocommerce/includes/rest-api/Controllers/Version1/class-wc-rest-customers-v1-controller.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/hyprojec/makalink.com/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php:90
+Stack trace:
+#0 /home/hyprojec/makalink.com/wp-content/plugins/woocommerce/includes/rest-api/Server.php(42): Automattic\Jetpack\Autoloader\jpc770d59a5d7d253965990351cc321de7\PHP_Autoloader::load_class()
+#1 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(310): Automattic\WooCommerce\RestApi\Server->register_rest_routes()
+#2 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#3 /home/hyprojec/makalink.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#4 /home/hyprojec/makalink.com/wp-includes/rest-api.php(587): do_action()
+#5 /home/hyprojec/makalink.com/wp-includes/rest-api.php(545): rest_get_server()
+#6 /home/hyprojec/makalink.com/wp-content/themes/vikinger/includes/functions/buddypress/member/vikinger-functions-buddypress-member-global.php(160): rest_do_request()
+#7 /home/hyprojec/makalink.com/wp-content/themes/vikinger/includes/functions/buddypress/member/vikinger-functions-buddypress-member-global.php(85): vikinger_members_get()
+#8 /home/hyprojec/makalink.com/wp-content/themes/vikinger/includes/ajax/vikinger-ajax-user.php(18): vikinger_get_logged_user_member_data()
+#9 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(310): vikinger_get_logged_user_member_data_ajax()
+#10 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#11 /home/hyprojec/makalink.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#12 /home/hyprojec/makalink.com/wp-admin/admin-ajax.php(188): do_action()
+#13 {main}
+  thrown in /home/hyprojec/makalink.com/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php on line 90
+
+2023-08-28T06:10:31+00:00 CRITICAL Uncaught Error: Failed opening required '/home/hyprojec/makalink.com/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/MiniCartProductsTableBlock.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/hyprojec/makalink.com/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php:90
+Stack trace:
+#0 /home/hyprojec/makalink.com/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypesController.php(65): Automattic\Jetpack\Autoloader\jpc770d59a5d7d253965990351cc321de7\PHP_Autoloader::load_class()
+#1 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(310): Automattic\WooCommerce\Blocks\BlockTypesController->register_blocks()
+#2 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#3 /home/hyprojec/makalink.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#4 /home/hyprojec/makalink.com/wp-settings.php(632): do_action()
+#5 /home/hyprojec/makalink.com/wp-config.php(97): require_once('/home/hyprojec/...')
+#6 /home/hyprojec/makalink.com/wp-load.php(50): require_once('/home/hyprojec/...')
+#7 /home/hyprojec/makalink.com/wp-admin/admin-ajax.php(22): require_once('/home/hyprojec/...')
+#8 {main}
+  thrown in /home/hyprojec/makalink.com/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php on line 90
+
+2023-08-28T06:10:31+00:00 CRITICAL Uncaught Error: Failed opening required '/home/hyprojec/makalink.com/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/products-by-attribute.asset.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/hyprojec/makalink.com/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/Assets/Api.php:100
+Stack trace:
+#0 /home/hyprojec/makalink.com/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/AbstractBlock.php(127): Automattic\WooCommerce\Blocks\Assets\Api->get_script_data()
+#1 /home/hyprojec/makalink.com/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/AbstractBlock.php(115): Automattic\WooCommerce\Blocks\BlockTypes\AbstractBlock->register_block_type_assets()
+#2 /home/hyprojec/makalink.com/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/AbstractBlock.php(70): Automattic\WooCommerce\Blocks\BlockTypes\AbstractBlock->initialize()
+#3 /home/hyprojec/makalink.com/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypesController.php(65): Automattic\WooCommerce\Blocks\BlockTypes\AbstractBlock->__construct()
+#4 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(310): Automattic\WooCommerce\Blocks\BlockTypesController->register_blocks()
+#5 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#6 /home/hyprojec/makalink.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#7 /home/hyprojec/makalink.com/wp-settings.php(632): do_action()
+#8 /home/hyprojec/makalink.com/wp-config.php(97): require_once('/home/hyprojec/...')
+#9 /home/hyprojec/makalink.com/wp-load.php(50): require_once('/home/hyprojec/...')
+#10 /home/hyprojec/makalink.com/wp-admin/admin-ajax.php(22): require_once('/home/hyprojec/...')
+#11 {main}
+  thrown in /home/hyprojec/makalink.com/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/Assets/Api.php on line 100
+
+2023-08-28T06:10:32+00:00 CRITICAL Uncaught Error: Failed opening required '/home/hyprojec/makalink.com/wp-content/plugins/woocommerce/includes/rest-api/Controllers/Version2/class-wc-rest-taxes-v2-controller.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/hyprojec/makalink.com/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php:90
+Stack trace:
+#0 /home/hyprojec/makalink.com/wp-content/plugins/woocommerce/includes/rest-api/Controllers/Version3/class-wc-rest-taxes-controller.php(19): Automattic\Jetpack\Autoloader\jpc770d59a5d7d253965990351cc321de7\PHP_Autoloader::load_class()
+#1 /home/hyprojec/makalink.com/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php(90): require('/home/hyprojec/...')
+#2 /home/hyprojec/makalink.com/wp-content/plugins/woocommerce/src/Admin/API/Taxes.php(18): Automattic\Jetpack\Autoloader\jpc770d59a5d7d253965990351cc321de7\PHP_Autoloader::load_class()
+#3 /home/hyprojec/makalink.com/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php(90): require('/home/hyprojec/...')
+#4 /home/hyprojec/makalink.com/wp-content/plugins/woocommerce/src/Admin/API/Init.php(146): Automattic\Jetpack\Autoloader\jpc770d59a5d7d253965990351cc321de7\PHP_Autoloader::load_class()
+#5 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(310): Automattic\WooCommerce\Admin\API\Init->rest_api_init()
+#6 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#7 /home/hyprojec/makalink.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#8 /home/hyprojec/makalink.com/wp-includes/rest-api.php(587): do_action()
+#9 /home/hyprojec/makalink.com/wp-includes/rest-api.php(545): rest_get_server()
+#10 /home/hyprojec/makalink.com/wp-content/themes/vikinger/includes/functions/buddypress/member/vikinger-functions-buddypress-member-global.php(160): rest_do_request()
+#11 /home/hyprojec/makalink.com/wp-content/themes/vikinger/includes/functions/buddypress/member/vikinger-functions-buddypress-member-global.php(101): vikinger_members_get()
+#12 /home/hyprojec/makalink.com/wp-content/themes/vikinger/includes/functions/buddypress/activity/vikinger-functions-buddypress-activity-global.php(115): vikinger_members_get_fallback()
+#13 /home/hyprojec/makalink.com/wp-content/themes/vikinger/includes/functions/buddypress/activity/vikinger-functions-buddypress-activity-global.php(62): vikinger_activity_data_get()
+#14 /home/hyprojec/makalink.com/wp-content/themes/vikinger/includes/ajax/buddypress/vikinger-ajax-buddypress-activity.php(27): vikinger_get_activities()
+#15 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(310): vikinger_get_activities_ajax()
+#16 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#17 /home/hyprojec/makalink.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#18 /home/hyprojec/makalink.com/wp-admin/admin-ajax.php(188): do_action()
+#19 {main}
+  thrown in /home/hyprojec/makalink.com/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php on line 90
+
+2023-08-28T08:05:09+00:00 CRITICAL Uncaught Error: Failed opening required '/home/hyprojec/makalink.com/wp-content/plugins/paid-memberships-pro/includes/compatibility/elementor/class-pmpro-elementor.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/hyprojec/makalink.com/wp-content/plugins/paid-memberships-pro/includes/compatibility/elementor.php:4
+Stack trace:
+#0 /home/hyprojec/makalink.com/wp-content/plugins/paid-memberships-pro/includes/compatibility.php(73): include_once()
+#1 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(310): pmpro_compatibility_checker()
+#2 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#3 /home/hyprojec/makalink.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#4 /home/hyprojec/makalink.com/wp-settings.php(495): do_action()
+#5 /home/hyprojec/makalink.com/wp-config.php(97): require_once('/home/hyprojec/...')
+#6 /home/hyprojec/makalink.com/wp-load.php(50): require_once('/home/hyprojec/...')
+#7 /home/hyprojec/makalink.com/wp-blog-header.php(13): require_once('/home/hyprojec/...')
+#8 /home/hyprojec/makalink.com/index.php(17): require('/home/hyprojec/...')
+#9 {main}
+  thrown in /home/hyprojec/makalink.com/wp-content/plugins/paid-memberships-pro/includes/compatibility/elementor.php on line 4
+
+2023-08-28T08:05:09+00:00 CRITICAL Uncaught Error: Failed opening required '/home/hyprojec/makalink.com/wp-content/plugins/gamipress-buddypress-integration/includes/admin/recount-activity.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/hyprojec/makalink.com/wp-content/plugins/gamipress-buddypress-integration/includes/admin.php:12
+Stack trace:
+#0 /home/hyprojec/makalink.com/wp-content/plugins/gamipress-buddypress-integration/gamipress-buddypress.php(80): require_once()
+#1 /home/hyprojec/makalink.com/wp-content/plugins/gamipress-buddypress-integration/gamipress-buddypress.php(39): GamiPress_BuddyPress->includes()
+#2 /home/hyprojec/makalink.com/wp-content/plugins/gamipress-buddypress-integration/gamipress-buddypress.php(367): GamiPress_BuddyPress::instance()
+#3 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(310): GamiPress_BP()
+#4 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#5 /home/hyprojec/makalink.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#6 /home/hyprojec/makalink.com/wp-settings.php(495): do_action()
+#7 /home/hyprojec/makalink.com/wp-config.php(97): require_once('/home/hyprojec/...')
+#8 /home/hyprojec/makalink.com/wp-load.php(50): require_once('/home/hyprojec/...')
+#9 /home/hyprojec/makalink.com/wp-admin/admin-ajax.php(22): require_once('/home/hyprojec/...')
+#10 {main}
+  thrown in /home/hyprojec/makalink.com/wp-content/plugins/gamipress-buddypress-integration/includes/admin.php on line 12
+
+2023-08-28T08:05:09+00:00 CRITICAL Uncaught Error: Failed opening required '/home/hyprojec/makalink.com/wp-content/plugins/gamipress-buddypress-integration/includes/admin/recount-activity.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/hyprojec/makalink.com/wp-content/plugins/gamipress-buddypress-integration/includes/admin.php:12
+Stack trace:
+#0 /home/hyprojec/makalink.com/wp-content/plugins/gamipress-buddypress-integration/gamipress-buddypress.php(80): require_once()
+#1 /home/hyprojec/makalink.com/wp-content/plugins/gamipress-buddypress-integration/gamipress-buddypress.php(39): GamiPress_BuddyPress->includes()
+#2 /home/hyprojec/makalink.com/wp-content/plugins/gamipress-buddypress-integration/gamipress-buddypress.php(367): GamiPress_BuddyPress::instance()
+#3 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(310): GamiPress_BP()
+#4 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#5 /home/hyprojec/makalink.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#6 /home/hyprojec/makalink.com/wp-settings.php(495): do_action()
+#7 /home/hyprojec/makalink.com/wp-config.php(97): require_once('/home/hyprojec/...')
+#8 /home/hyprojec/makalink.com/wp-load.php(50): require_once('/home/hyprojec/...')
+#9 /home/hyprojec/makalink.com/wp-admin/admin-ajax.php(22): require_once('/home/hyprojec/...')
+#10 {main}
+  thrown in /home/hyprojec/makalink.com/wp-content/plugins/gamipress-buddypress-integration/includes/admin.php on line 12
+
+2023-08-28T08:05:09+00:00 CRITICAL Uncaught Error: Failed opening required '/home/hyprojec/makalink.com/wp-content/plugins/elementor/core/files/assets/svg/svg-handler.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/hyprojec/makalink.com/wp-content/plugins/elementor/includes/autoloader.php:294
+Stack trace:
+#0 /home/hyprojec/makalink.com/wp-content/plugins/elementor/includes/autoloader.php(330): Elementor\Autoloader::load_class()
+#1 /home/hyprojec/makalink.com/wp-content/plugins/elementor/core/files/assets/manager.php(63): Elementor\Autoloader::autoload()
+#2 /home/hyprojec/makalink.com/wp-content/plugins/elementor/core/files/assets/manager.php(33): Elementor\Core\Files\Assets\Manager->register_asset_types()
+#3 /home/hyprojec/makalink.com/wp-content/plugins/elementor/includes/plugin.php(721): Elementor\Core\Files\Assets\Manager->__construct()
+#4 /home/hyprojec/makalink.com/wp-content/plugins/elementor/includes/plugin.php(647): Elementor\Plugin->init_components()
+#5 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(310): Elementor\Plugin->init()
+#6 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#7 /home/hyprojec/makalink.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#8 /home/hyprojec/makalink.com/wp-settings.php(632): do_action()
+#9 /home/hyprojec/makalink.com/wp-config.php(97): require_once('/home/hyprojec/...')
+#10 /home/hyprojec/makalink.com/wp-load.php(50): require_once('/home/hyprojec/...')
+#11 /home/hyprojec/makalink.com/wp-cron.php(46): require_once('/home/hyprojec/...')
+#12 {main}
+  thrown in /home/hyprojec/makalink.com/wp-content/plugins/elementor/includes/autoloader.php on line 294
+
+2023-08-28T08:05:09+00:00 CRITICAL Uncaught Error: Failed opening required '/home/hyprojec/makalink.com/wp-content/plugins/elementor//includes/maintenance-mode.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/hyprojec/makalink.com/wp-content/plugins/elementor/includes/autoloader.php:294
+Stack trace:
+#0 /home/hyprojec/makalink.com/wp-content/plugins/elementor/includes/autoloader.php(330): Elementor\Autoloader::load_class()
+#1 /home/hyprojec/makalink.com/wp-content/plugins/elementor/includes/plugin.php(728): Elementor\Autoloader::autoload()
+#2 /home/hyprojec/makalink.com/wp-content/plugins/elementor/includes/plugin.php(647): Elementor\Plugin->init_components()
+#3 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(310): Elementor\Plugin->init()
+#4 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#5 /home/hyprojec/makalink.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#6 /home/hyprojec/makalink.com/wp-settings.php(632): do_action()
+#7 /home/hyprojec/makalink.com/wp-config.php(97): require_once('/home/hyprojec/...')
+#8 /home/hyprojec/makalink.com/wp-load.php(50): require_once('/home/hyprojec/...')
+#9 /home/hyprojec/makalink.com/wp-cron.php(46): require_once('/home/hyprojec/...')
+#10 {main}
+  thrown in /home/hyprojec/makalink.com/wp-content/plugins/elementor/includes/autoloader.php on line 294
+
+2023-08-28T08:15:26+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 65536 bytes) in /home/hyprojec/makalink.com/wp-content/plugins/buddypress/bp-groups/classes/class-bp-groups-group.php on line 1470
+
+2023-08-28T08:15:44+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 65536 bytes) in /home/hyprojec/makalink.com/wp-content/plugins/buddypress/bp-groups/classes/class-bp-groups-group.php on line 1470
+
+2023-08-28T08:21:28+00:00 CRITICAL Uncaught Error: Failed opening required '/home/hyprojec/makalink.com/wp-content/plugins/buddypress/bp-members/bp-members-functions.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/hyprojec/makalink.com/wp-content/plugins/buddypress/bp-core/classes/class-bp-component.php:417
+Stack trace:
+#0 /home/hyprojec/makalink.com/wp-content/plugins/buddypress/bp-members/classes/class-bp-members-component.php(95): BP_Component->includes()
+#1 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(310): BP_Members_Component->includes()
+#2 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#3 /home/hyprojec/makalink.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#4 /home/hyprojec/makalink.com/wp-content/plugins/buddypress/bp-core/bp-core-dependency.php(33): do_action()
+#5 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(310): bp_include()
+#6 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#7 /home/hyprojec/makalink.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#8 /home/hyprojec/makalink.com/wp-content/plugins/buddypress/bp-core/bp-core-dependency.php(333): do_action()
+#9 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(310): bp_loaded()
+#10 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#11 /home/hyprojec/makalink.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#12 /home/hyprojec/makalink.com/wp-settings.php(495): do_action()
+#13 /home/hyprojec/makalink.com/wp-config.php(97): require_once('/home/hyprojec/...')
+#14 /home/hyprojec/makalink.com/wp-load.php(50): require_once('/home/hyprojec/...')
+#15 /home/hyprojec/makalink.com/wp-admin/admin-ajax.php(22): require_once('/home/hyprojec/...')
+#16 {main}
+  thrown in /home/hyprojec/makalink.com/wp-content/plugins/buddypress/bp-core/classes/class-bp-component.php on line 417
+
+2023-08-28T08:21:28+00:00 CRITICAL Uncaught Error: Failed opening required '/home/hyprojec/makalink.com/wp-content/plugins/woocommerce/includes/rest-api/Controllers/Version2/class-wc-rest-products-v2-controller.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/hyprojec/makalink.com/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php:90
+Stack trace:
+#0 /home/hyprojec/makalink.com/wp-content/plugins/woocommerce/includes/rest-api/Controllers/Version3/class-wc-rest-products-controller.php(21): Automattic\Jetpack\Autoloader\jpc770d59a5d7d253965990351cc321de7\PHP_Autoloader::load_class()
+#1 /home/hyprojec/makalink.com/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php(90): require('/home/hyprojec/...')
+#2 /home/hyprojec/makalink.com/wp-content/plugins/woocommerce/src/Admin/API/Products.php(18): Automattic\Jetpack\Autoloader\jpc770d59a5d7d253965990351cc321de7\PHP_Autoloader::load_class()
+#3 /home/hyprojec/makalink.com/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php(90): require('/home/hyprojec/...')
+#4 /home/hyprojec/makalink.com/wp-content/plugins/woocommerce/src/Admin/API/Init.php(146): Automattic\Jetpack\Autoloader\jpc770d59a5d7d253965990351cc321de7\PHP_Autoloader::load_class()
+#5 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(310): Automattic\WooCommerce\Admin\API\Init->rest_api_init()
+#6 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#7 /home/hyprojec/makalink.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#8 /home/hyprojec/makalink.com/wp-includes/rest-api.php(587): do_action()
+#9 /home/hyprojec/makalink.com/wp-includes/rest-api.php(545): rest_get_server()
+#10 /home/hyprojec/makalink.com/wp-content/themes/vikinger/includes/functions/buddypress/group/vikinger-functions-buddypress-group-global.php(135): rest_do_request()
+#11 /home/hyprojec/makalink.com/wp-content/themes/vikinger/bbpress/loop-single-forum.php(49): vikinger_groups_get()
+#12 /home/hyprojec/makalink.com/wp-includes/template.php(787): require('/home/hyprojec/...')
+#13 /home/hyprojec/makalink.com/wp-content/plugins/bbpress/includes/core/template-functions.php(103): load_template()
+#14 /home/hyprojec/makalink.com/wp-content/plugins/bbpress/includes/core/template-functions.php(41): bbp_locate_template()
+#15 /home/hyprojec/makalink.com/wp-content/plugins/bbpress/templates/default/bbpress/loop-forums.php(35): bbp_get_template_part()
+#16 /home/hyprojec/makalink.com/wp-includes/template.php(787): require('/home/hyprojec/...')
+#17 /home/hyprojec/makalink.com/wp-content/plugins/bbpress/includes/core/template-functions.php(103): load_template()
+#18 /home/hyprojec/makalink.com/wp-content/plugins/bbpress/includes/core/template-functions.php(41): bbp_locate_template()
+#19 /home/hyprojec/makalink.com/wp-content/themes/vikinger/bbpress/content-archive-forum.php(25): bbp_get_template_part()
+#20 /home/hyprojec/makalink.com/wp-includes/template.php(787): require('/home/hyprojec/...')
+#21 /home/hyprojec/makalink.com/wp-content/plugins/bbpress/includes/core/template-functions.php(103): load_template()
+#22 /home/hyprojec/makalink.com/wp-content/plugins/bbpress/includes/core/template-functions.php(41): bbp_locate_template()
+#23 /home/hyprojec/makalink.com/wp-content/plugins/bbpress/includes/common/shortcodes.php(197): bbp_get_template_part()
+#24 /home/hyprojec/makalink.com/wp-content/plugins/bbpress/includes/core/theme-compat.php(549): BBP_Shortcodes->display_forum_index()
+#25 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(310): bbp_template_include_theme_compat()
+#26 /home/hyprojec/makalink.com/wp-includes/plugin.php(205): WP_Hook->apply_filters()
+#27 /home/hyprojec/makalink.com/wp-content/plugins/bbpress/includes/core/sub-actions.php(477): apply_filters()
+#28 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(310): bbp_template_include()
+#29 /home/hyprojec/makalink.com/wp-includes/plugin.php(205): WP_Hook->apply_filters()
+#30 /home/hyprojec/makalink.com/wp-includes/template-loader.php(104): apply_filters()
+#31 /home/hyprojec/makalink.com/wp-blog-header.php(19): require_once('/home/hyprojec/...')
+#32 /home/hyprojec/makalink.com/index.php(17): require('/home/hyprojec/...')
+#33 {main}
+  thrown in /home/hyprojec/makalink.com/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php on line 90
+
+2023-08-28T08:21:28+00:00 CRITICAL Uncaught Error: Failed opening required '/home/hyprojec/makalink.com/wp-content/plugins/buddypress/bp-members/bp-members-functions.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/hyprojec/makalink.com/wp-content/plugins/buddypress/bp-core/classes/class-bp-component.php:417
+Stack trace:
+#0 /home/hyprojec/makalink.com/wp-content/plugins/buddypress/bp-members/classes/class-bp-members-component.php(95): BP_Component->includes()
+#1 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(310): BP_Members_Component->includes()
+#2 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#3 /home/hyprojec/makalink.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#4 /home/hyprojec/makalink.com/wp-content/plugins/buddypress/bp-core/bp-core-dependency.php(33): do_action()
+#5 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(310): bp_include()
+#6 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#7 /home/hyprojec/makalink.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#8 /home/hyprojec/makalink.com/wp-content/plugins/buddypress/bp-core/bp-core-dependency.php(333): do_action()
+#9 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(310): bp_loaded()
+#10 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#11 /home/hyprojec/makalink.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#12 /home/hyprojec/makalink.com/wp-settings.php(495): do_action()
+#13 /home/hyprojec/makalink.com/wp-config.php(97): require_once('/home/hyprojec/...')
+#14 /home/hyprojec/makalink.com/wp-load.php(50): require_once('/home/hyprojec/...')
+#15 /home/hyprojec/makalink.com/wp-admin/admin-ajax.php(22): require_once('/home/hyprojec/...')
+#16 {main}
+  thrown in /home/hyprojec/makalink.com/wp-content/plugins/buddypress/bp-core/classes/class-bp-component.php on line 417
+
+2023-08-28T08:21:28+00:00 CRITICAL Uncaught Error: Failed opening required '/home/hyprojec/makalink.com/wp-content/plugins/buddypress/bp-members/bp-members-functions.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/hyprojec/makalink.com/wp-content/plugins/buddypress/bp-core/classes/class-bp-component.php:417
+Stack trace:
+#0 /home/hyprojec/makalink.com/wp-content/plugins/buddypress/bp-members/classes/class-bp-members-component.php(95): BP_Component->includes()
+#1 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(310): BP_Members_Component->includes()
+#2 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#3 /home/hyprojec/makalink.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#4 /home/hyprojec/makalink.com/wp-content/plugins/buddypress/bp-core/bp-core-dependency.php(33): do_action()
+#5 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(310): bp_include()
+#6 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#7 /home/hyprojec/makalink.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#8 /home/hyprojec/makalink.com/wp-content/plugins/buddypress/bp-core/bp-core-dependency.php(333): do_action()
+#9 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(310): bp_loaded()
+#10 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#11 /home/hyprojec/makalink.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#12 /home/hyprojec/makalink.com/wp-settings.php(495): do_action()
+#13 /home/hyprojec/makalink.com/wp-config.php(97): require_once('/home/hyprojec/...')
+#14 /home/hyprojec/makalink.com/wp-load.php(50): require_once('/home/hyprojec/...')
+#15 /home/hyprojec/makalink.com/wp-admin/admin-ajax.php(22): require_once('/home/hyprojec/...')
+#16 {main}
+  thrown in /home/hyprojec/makalink.com/wp-content/plugins/buddypress/bp-core/classes/class-bp-component.php on line 417
+
+2023-08-28T08:21:28+00:00 CRITICAL Uncaught Error: Failed opening required '/home/hyprojec/makalink.com/wp-content/plugins/buddypress/bp-members/bp-members-functions.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/hyprojec/makalink.com/wp-content/plugins/buddypress/bp-core/classes/class-bp-component.php:417
+Stack trace:
+#0 /home/hyprojec/makalink.com/wp-content/plugins/buddypress/bp-members/classes/class-bp-members-component.php(95): BP_Component->includes()
+#1 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(310): BP_Members_Component->includes()
+#2 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#3 /home/hyprojec/makalink.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#4 /home/hyprojec/makalink.com/wp-content/plugins/buddypress/bp-core/bp-core-dependency.php(33): do_action()
+#5 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(310): bp_include()
+#6 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#7 /home/hyprojec/makalink.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#8 /home/hyprojec/makalink.com/wp-content/plugins/buddypress/bp-core/bp-core-dependency.php(333): do_action()
+#9 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(310): bp_loaded()
+#10 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#11 /home/hyprojec/makalink.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#12 /home/hyprojec/makalink.com/wp-settings.php(495): do_action()
+#13 /home/hyprojec/makalink.com/wp-config.php(97): require_once('/home/hyprojec/...')
+#14 /home/hyprojec/makalink.com/wp-load.php(50): require_once('/home/hyprojec/...')
+#15 /home/hyprojec/makalink.com/wp-admin/admin-ajax.php(22): require_once('/home/hyprojec/...')
+#16 {main}
+  thrown in /home/hyprojec/makalink.com/wp-content/plugins/buddypress/bp-core/classes/class-bp-component.php on line 417
+
+2023-08-28T08:21:28+00:00 CRITICAL Uncaught Error: Failed opening required '/home/hyprojec/makalink.com/wp-content/plugins/buddypress/bp-members/bp-members-functions.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/hyprojec/makalink.com/wp-content/plugins/buddypress/bp-core/classes/class-bp-component.php:417
+Stack trace:
+#0 /home/hyprojec/makalink.com/wp-content/plugins/buddypress/bp-members/classes/class-bp-members-component.php(95): BP_Component->includes()
+#1 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(310): BP_Members_Component->includes()
+#2 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#3 /home/hyprojec/makalink.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#4 /home/hyprojec/makalink.com/wp-content/plugins/buddypress/bp-core/bp-core-dependency.php(33): do_action()
+#5 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(310): bp_include()
+#6 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#7 /home/hyprojec/makalink.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#8 /home/hyprojec/makalink.com/wp-content/plugins/buddypress/bp-core/bp-core-dependency.php(333): do_action()
+#9 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(310): bp_loaded()
+#10 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#11 /home/hyprojec/makalink.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#12 /home/hyprojec/makalink.com/wp-settings.php(495): do_action()
+#13 /home/hyprojec/makalink.com/wp-config.php(97): require_once('/home/hyprojec/...')
+#14 /home/hyprojec/makalink.com/wp-load.php(50): require_once('/home/hyprojec/...')
+#15 /home/hyprojec/makalink.com/wp-admin/admin-ajax.php(22): require_once('/home/hyprojec/...')
+#16 {main}
+  thrown in /home/hyprojec/makalink.com/wp-content/plugins/buddypress/bp-core/classes/class-bp-component.php on line 417
+
+2023-08-28T08:23:55+00:00 CRITICAL Uncaught Error: Class "ActionScheduler_Abstract_QueueRunner_Deprecated" not found in /home/hyprojec/makalink.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/abstracts/ActionScheduler_Abstract_QueueRunner.php:6
+Stack trace:
+#0 /home/hyprojec/makalink.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/abstracts/ActionScheduler.php(122): include()
+#1 /home/hyprojec/makalink.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(6): ActionScheduler::autoload()
+#2 /home/hyprojec/makalink.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/abstracts/ActionScheduler.php(122): include('/home/hyprojec/...')
+#3 /home/hyprojec/makalink.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/abstracts/ActionScheduler.php(37): ActionScheduler::autoload()
+#4 /home/hyprojec/makalink.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/abstracts/ActionScheduler.php(147): ActionScheduler::runner()
+#5 /home/hyprojec/makalink.com/wp-content/plugins/woocommerce/packages/action-scheduler/action-scheduler.php(55): ActionScheduler::init()
+#6 /home/hyprojec/makalink.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_Versions.php(59): action_scheduler_initialize_3_dot_6_dot_1()
+#7 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(308): ActionScheduler_Versions::initialize_latest_version()
+#8 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#9 /home/hyprojec/makalink.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#10 /home/hyprojec/makalink.com/wp-settings.php(495): do_action()
+#11 /home/hyprojec/makalink.com/wp-config.php(97): require_once('/home/hyprojec/...')
+#12 /home/hyprojec/makalink.com/wp-load.php(50): require_once('/home/hyprojec/...')
+#13 /home/hyprojec/makalink.com/wp-blog-header.php(13): require_once('/home/hyprojec/...')
+#14 /home/hyprojec/makalink.com/index.php(17): require('/home/hyprojec/...')
+#15 {main}
+  thrown in /home/hyprojec/makalink.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/abstracts/ActionScheduler_Abstract_QueueRunner.php on line 6
+
+2023-08-28T08:23:55+00:00 CRITICAL Uncaught Error: Failed opening required '/home/hyprojec/makalink.com/wp-content/plugins/gamipress/integrations/fluentcrm/fluentcrm.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/hyprojec/makalink.com/wp-content/plugins/gamipress/gamipress.php:321
+Stack trace:
+#0 /home/hyprojec/makalink.com/wp-content/plugins/gamipress/gamipress.php(413): GamiPress->integrations()
+#1 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(310): GamiPress->pre_init()
+#2 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#3 /home/hyprojec/makalink.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#4 /home/hyprojec/makalink.com/wp-settings.php(495): do_action()
+#5 /home/hyprojec/makalink.com/wp-config.php(97): require_once('/home/hyprojec/...')
+#6 /home/hyprojec/makalink.com/wp-load.php(50): require_once('/home/hyprojec/...')
+#7 /home/hyprojec/makalink.com/wp-admin/admin-ajax.php(22): require_once('/home/hyprojec/...')
+#8 {main}
+  thrown in /home/hyprojec/makalink.com/wp-content/plugins/gamipress/gamipress.php on line 321
+
+2023-08-28T08:23:55+00:00 CRITICAL Uncaught Error: Failed opening required '/home/hyprojec/makalink.com/wp-content/plugins/woocommerce/src/Internal/Admin/Onboarding/Onboarding.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/hyprojec/makalink.com/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php:90
+Stack trace:
+#0 /home/hyprojec/makalink.com/wp-content/plugins/woocommerce/src/Internal/Admin/FeaturePlugin.php(161): Automattic\Jetpack\Autoloader\jpc770d59a5d7d253965990351cc321de7\PHP_Autoloader::load_class()
+#1 /home/hyprojec/makalink.com/wp-content/plugins/woocommerce/src/Internal/Admin/FeaturePlugin.php(99): Automattic\WooCommerce\Internal\Admin\FeaturePlugin->includes()
+#2 /home/hyprojec/makalink.com/wp-content/plugins/woocommerce/src/Internal/Admin/FeaturePlugin.php(82): Automattic\WooCommerce\Internal\Admin\FeaturePlugin->on_plugins_loaded()
+#3 /home/hyprojec/makalink.com/wp-content/plugins/woocommerce/src/Admin/Composer/Package.php(65): Automattic\WooCommerce\Internal\Admin\FeaturePlugin->init()
+#4 /home/hyprojec/makalink.com/wp-content/plugins/woocommerce/src/Packages.php(64): Automattic\WooCommerce\Admin\Composer\Package::init()
+#5 /home/hyprojec/makalink.com/wp-content/plugins/woocommerce/src/Packages.php(44): Automattic\WooCommerce\Packages::load_packages()
+#6 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(310): Automattic\WooCommerce\Packages::on_init()
+#7 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#8 /home/hyprojec/makalink.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#9 /home/hyprojec/makalink.com/wp-settings.php(495): do_action()
+#10 /home/hyprojec/makalink.com/wp-config.php(97): require_once('/home/hyprojec/...')
+#11 /home/hyprojec/makalink.com/wp-load.php(50): require_once('/home/hyprojec/...')
+#12 /home/hyprojec/makalink.com/wp-admin/admin-ajax.php(22): require_once('/home/hyprojec/...')
+#13 {main}
+  thrown in /home/hyprojec/makalink.com/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php on line 90
+
+2023-08-28T08:23:56+00:00 CRITICAL Uncaught Error: Failed opening required '/home/hyprojec/makalink.com/wp-content/plugins/woocommerce/src/Internal/Admin/WcPayWelcomePage.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/hyprojec/makalink.com/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php:90
+Stack trace:
+#0 [internal function]: Automattic\Jetpack\Autoloader\jpc770d59a5d7d253965990351cc321de7\PHP_Autoloader::load_class()
+#1 /home/hyprojec/makalink.com/wp-content/plugins/woocommerce/src/Admin/Features/Features.php(377): class_alias()
+#2 /home/hyprojec/makalink.com/wp-content/plugins/woocommerce/src/Admin/Features/Features.php(60): Automattic\WooCommerce\Admin\Features\Features->register_internal_class_aliases()
+#3 /home/hyprojec/makalink.com/wp-content/plugins/woocommerce/src/Admin/Features/Features.php(51): Automattic\WooCommerce\Admin\Features\Features->__construct()
+#4 /home/hyprojec/makalink.com/wp-content/plugins/woocommerce/src/Internal/Admin/Loader.php(65): Automattic\WooCommerce\Admin\Features\Features::get_instance()
+#5 /home/hyprojec/makalink.com/wp-content/plugins/woocommerce/src/Internal/Admin/Loader.php(55): Automattic\WooCommerce\Internal\Admin\Loader->__construct()
+#6 /home/hyprojec/makalink.com/wp-content/plugins/woocommerce/src/Internal/Admin/FeaturePlugin.php(194): Automattic\WooCommerce\Internal\Admin\Loader::get_instance()
+#7 /home/hyprojec/makalink.com/wp-content/plugins/woocommerce/src/Internal/Admin/FeaturePlugin.php(98): Automattic\WooCommerce\Internal\Admin\FeaturePlugin->hooks()
+#8 /home/hyprojec/makalink.com/wp-content/plugins/woocommerce/src/Internal/Admin/FeaturePlugin.php(82): Automattic\WooCommerce\Internal\Admin\FeaturePlugin->on_plugins_loaded()
+#9 /home/hyprojec/makalink.com/wp-content/plugins/woocommerce/src/Admin/Composer/Package.php(65): Automattic\WooCommerce\Internal\Admin\FeaturePlugin->init()
+#10 /home/hyprojec/makalink.com/wp-content/plugins/woocommerce/src/Packages.php(64): Automattic\WooCommerce\Admin\Composer\Package::init()
+#11 /home/hyprojec/makalink.com/wp-content/plugins/woocommerce/src/Packages.php(44): Automattic\WooCommerce\Packages::load_packages()
+#12 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(310): Automattic\WooCommerce\Packages::on_init()
+#13 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#14 /home/hyprojec/makalink.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#15 /home/hyprojec/makalink.com/wp-settings.php(495): do_action()
+#16 /home/hyprojec/makalink.com/wp-config.php(97): require_once('/home/hyprojec/...')
+#17 /home/hyprojec/makalink.com/wp-load.php(50): require_once('/home/hyprojec/...')
+#18 /home/hyprojec/makalink.com/wp-admin/admin-ajax.php(22): require_once('/home/hyprojec/...')
+#19 {main}
+  thrown in /home/hyprojec/makalink.com/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php on line 90
+
+2023-08-28T08:24:07+00:00 CRITICAL Uncaught Error: Failed opening required '/home/hyprojec/makalink.com/wp-content/plugins/buddypress/bp-core/admin/bp-core-admin-tools.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/hyprojec/makalink.com/wp-content/plugins/buddypress/bp-core/classes/class-bp-admin.php:149
+Stack trace:
+#0 /home/hyprojec/makalink.com/wp-content/plugins/buddypress/bp-core/classes/class-bp-admin.php(112): BP_Admin->includes()
+#1 /home/hyprojec/makalink.com/wp-content/plugins/buddypress/bp-core/bp-core-admin.php(20): BP_Admin->__construct()
+#2 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(310): bp_admin()
+#3 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#4 /home/hyprojec/makalink.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#5 /home/hyprojec/makalink.com/wp-content/plugins/buddypress/bp-core/bp-core-dependency.php(333): do_action()
+#6 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(310): bp_loaded()
+#7 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#8 /home/hyprojec/makalink.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#9 /home/hyprojec/makalink.com/wp-settings.php(495): do_action()
+#10 /home/hyprojec/makalink.com/wp-config.php(97): require_once('/home/hyprojec/...')
+#11 /home/hyprojec/makalink.com/wp-load.php(50): require_once('/home/hyprojec/...')
+#12 /home/hyprojec/makalink.com/wp-admin/admin-ajax.php(22): require_once('/home/hyprojec/...')
+#13 {main}
+  thrown in /home/hyprojec/makalink.com/wp-content/plugins/buddypress/bp-core/classes/class-bp-admin.php on line 149
+
+2023-08-28T08:24:49+00:00 CRITICAL Uncaught Error: Failed opening required '/home/hyprojec/makalink.com/wp-content/plugins/woocommerce/includes/rest-api/Controllers/Version3/class-wc-rest-network-orders-controller.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/hyprojec/makalink.com/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php:90
+Stack trace:
+#0 /home/hyprojec/makalink.com/wp-content/plugins/woocommerce/includes/rest-api/Server.php(42): Automattic\Jetpack\Autoloader\jpc770d59a5d7d253965990351cc321de7\PHP_Autoloader::load_class()
+#1 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(310): Automattic\WooCommerce\RestApi\Server->register_rest_routes()
+#2 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#3 /home/hyprojec/makalink.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#4 /home/hyprojec/makalink.com/wp-includes/rest-api.php(587): do_action()
+#5 /home/hyprojec/makalink.com/wp-includes/rest-api.php(545): rest_get_server()
+#6 /home/hyprojec/makalink.com/wp-content/themes/vikinger/includes/functions/buddypress/member/vikinger-functions-buddypress-member-global.php(160): rest_do_request()
+#7 /home/hyprojec/makalink.com/wp-content/themes/vikinger/includes/functions/buddypress/member/vikinger-functions-buddypress-member-global.php(85): vikinger_members_get()
+#8 /home/hyprojec/makalink.com/wp-content/themes/vikinger/includes/ajax/vikinger-ajax-user.php(18): vikinger_get_logged_user_member_data()
+#9 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(310): vikinger_get_logged_user_member_data_ajax()
+#10 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#11 /home/hyprojec/makalink.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#12 /home/hyprojec/makalink.com/wp-admin/admin-ajax.php(188): do_action()
+#13 {main}
+  thrown in /home/hyprojec/makalink.com/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php on line 90
+
+2023-08-28T08:24:49+00:00 CRITICAL Uncaught Error: Failed opening required '/home/hyprojec/makalink.com/wp-content/plugins/woocommerce/includes/rest-api/Controllers/Version2/class-wc-rest-system-status-tools-v2-controller.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/hyprojec/makalink.com/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php:90
+Stack trace:
+#0 /home/hyprojec/makalink.com/wp-content/plugins/woocommerce/includes/rest-api/Server.php(42): Automattic\Jetpack\Autoloader\jpc770d59a5d7d253965990351cc321de7\PHP_Autoloader::load_class()
+#1 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(310): Automattic\WooCommerce\RestApi\Server->register_rest_routes()
+#2 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#3 /home/hyprojec/makalink.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#4 /home/hyprojec/makalink.com/wp-includes/rest-api.php(587): do_action()
+#5 /home/hyprojec/makalink.com/wp-includes/rest-api.php(545): rest_get_server()
+#6 /home/hyprojec/makalink.com/wp-content/themes/vikinger/includes/functions/buddypress/vikinger-functions-buddypress-notification.php(115): rest_do_request()
+#7 /home/hyprojec/makalink.com/wp-content/themes/vikinger/includes/functions/buddypress/vikinger-functions-buddypress-notification.php(40): vikinger_get_notifications_data()
+#8 /home/hyprojec/makalink.com/wp-content/themes/vikinger/includes/ajax/buddypress/vikinger-ajax-buddypress-notification.php(22): vikinger_get_notifications()
+#9 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(310): vikinger_get_notifications_ajax()
+#10 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#11 /home/hyprojec/makalink.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#12 /home/hyprojec/makalink.com/wp-admin/admin-ajax.php(188): do_action()
+#13 {main}
+  thrown in /home/hyprojec/makalink.com/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php on line 90
+
+2023-08-28T08:30:24+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 12288 bytes) in /home/hyprojec/makalink.com/wp-content/plugins/buddypress/bp-groups/classes/class-bp-groups-member.php on line 1327
+
+2023-08-28T08:30:51+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 32768 bytes) in /home/hyprojec/makalink.com/wp-content/plugins/buddypress/bp-groups/classes/class-bp-groups-group.php on line 1242
+
+2023-08-28T08:35:15+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 32768 bytes) in /home/hyprojec/makalink.com/wp-content/themes/vikinger/template-part/header/header-logged-in.php on line 489
+
+2023-08-28T08:35:38+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 20480 bytes) in /home/hyprojec/makalink.com/wp-includes/meta.php on line 1194
+
+2023-08-28T08:38:09+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 57344 bytes) in /home/hyprojec/makalink.com/wp-content/plugins/buddypress/class-buddypress.php on line 718
+
+2023-08-28T08:40:10+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 32768 bytes) in /home/hyprojec/makalink.com/wp-content/plugins/buddypress/bp-groups/classes/class-bp-groups-group.php on line 567
+
+2023-08-28T08:40:15+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 20480 bytes) in /home/hyprojec/makalink.com/wp-content/plugins/buddypress/bp-xprofile/classes/class-bp-xprofile-group.php on line 423
+
+2023-08-28T08:42:30+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 32768 bytes) in /home/hyprojec/makalink.com/wp-content/plugins/buddypress/bp-groups/classes/class-bp-groups-group.php on line 1
+
+2023-08-28T08:45:20+00:00 CRITICAL Uncaught Error: Failed opening required '/home/hyprojec/makalink.com/wp-content/plugins/elementor/modules/dev-tools/module.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/hyprojec/makalink.com/wp-content/plugins/elementor/includes/autoloader.php:294
+Stack trace:
+#0 /home/hyprojec/makalink.com/wp-content/plugins/elementor/includes/autoloader.php(330): Elementor\Autoloader::load_class()
+#1 /home/hyprojec/makalink.com/wp-content/plugins/elementor/core/modules-manager.php(53): Elementor\Autoloader::autoload()
+#2 /home/hyprojec/makalink.com/wp-content/plugins/elementor/includes/plugin.php(730): Elementor\Core\Modules_Manager->__construct()
+#3 /home/hyprojec/makalink.com/wp-content/plugins/elementor/includes/plugin.php(647): Elementor\Plugin->init_components()
+#4 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(310): Elementor\Plugin->init()
+#5 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#6 /home/hyprojec/makalink.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#7 /home/hyprojec/makalink.com/wp-settings.php(632): do_action()
+#8 /home/hyprojec/makalink.com/wp-config.php(97): require_once('/home/hyprojec/...')
+#9 /home/hyprojec/makalink.com/wp-load.php(50): require_once('/home/hyprojec/...')
+#10 /home/hyprojec/makalink.com/wp-admin/admin-ajax.php(22): require_once('/home/hyprojec/...')
+#11 {main}
+  thrown in /home/hyprojec/makalink.com/wp-content/plugins/elementor/includes/autoloader.php on line 294
+
+2023-08-28T08:45:20+00:00 CRITICAL Uncaught Error: Failed opening required '/home/hyprojec/makalink.com/wp-content/plugins/elementor/modules/dev-tools/module.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/hyprojec/makalink.com/wp-content/plugins/elementor/includes/autoloader.php:294
+Stack trace:
+#0 /home/hyprojec/makalink.com/wp-content/plugins/elementor/includes/autoloader.php(330): Elementor\Autoloader::load_class()
+#1 /home/hyprojec/makalink.com/wp-content/plugins/elementor/core/modules-manager.php(53): Elementor\Autoloader::autoload()
+#2 /home/hyprojec/makalink.com/wp-content/plugins/elementor/includes/plugin.php(730): Elementor\Core\Modules_Manager->__construct()
+#3 /home/hyprojec/makalink.com/wp-content/plugins/elementor/includes/plugin.php(647): Elementor\Plugin->init_components()
+#4 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(310): Elementor\Plugin->init()
+#5 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#6 /home/hyprojec/makalink.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#7 /home/hyprojec/makalink.com/wp-settings.php(632): do_action()
+#8 /home/hyprojec/makalink.com/wp-config.php(97): require_once('/home/hyprojec/...')
+#9 /home/hyprojec/makalink.com/wp-load.php(50): require_once('/home/hyprojec/...')
+#10 /home/hyprojec/makalink.com/wp-admin/admin-ajax.php(22): require_once('/home/hyprojec/...')
+#11 {main}
+  thrown in /home/hyprojec/makalink.com/wp-content/plugins/elementor/includes/autoloader.php on line 294
+
+2023-08-28T08:45:21+00:00 CRITICAL Uncaught Error: Failed opening required '/home/hyprojec/makalink.com/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/ProductDetails.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/hyprojec/makalink.com/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php:90
+Stack trace:
+#0 /home/hyprojec/makalink.com/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypesController.php(65): Automattic\Jetpack\Autoloader\jpc770d59a5d7d253965990351cc321de7\PHP_Autoloader::load_class()
+#1 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(310): Automattic\WooCommerce\Blocks\BlockTypesController->register_blocks()
+#2 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#3 /home/hyprojec/makalink.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#4 /home/hyprojec/makalink.com/wp-settings.php(632): do_action()
+#5 /home/hyprojec/makalink.com/wp-config.php(97): require_once('/home/hyprojec/...')
+#6 /home/hyprojec/makalink.com/wp-load.php(50): require_once('/home/hyprojec/...')
+#7 /home/hyprojec/makalink.com/wp-admin/admin-ajax.php(22): require_once('/home/hyprojec/...')
+#8 {main}
+  thrown in /home/hyprojec/makalink.com/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php on line 90
+
+2023-08-28T08:45:21+00:00 CRITICAL Uncaught Error: Failed opening required '/home/hyprojec/makalink.com/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/ProductDetails.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/hyprojec/makalink.com/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php:90
+Stack trace:
+#0 /home/hyprojec/makalink.com/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypesController.php(65): Automattic\Jetpack\Autoloader\jpc770d59a5d7d253965990351cc321de7\PHP_Autoloader::load_class()
+#1 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(310): Automattic\WooCommerce\Blocks\BlockTypesController->register_blocks()
+#2 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#3 /home/hyprojec/makalink.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#4 /home/hyprojec/makalink.com/wp-settings.php(632): do_action()
+#5 /home/hyprojec/makalink.com/wp-config.php(97): require_once('/home/hyprojec/...')
+#6 /home/hyprojec/makalink.com/wp-load.php(50): require_once('/home/hyprojec/...')
+#7 /home/hyprojec/makalink.com/wp-admin/admin-ajax.php(22): require_once('/home/hyprojec/...')
+#8 {main}
+  thrown in /home/hyprojec/makalink.com/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php on line 90
+
+2023-08-28T08:45:57+00:00 CRITICAL Uncaught Error: Failed opening required '/home/hyprojec/makalink.com/wp-content/plugins/gamipress/integrations/advanced-custom-fields/advanced-custom-fields.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/hyprojec/makalink.com/wp-content/plugins/gamipress/gamipress.php:321
+Stack trace:
+#0 /home/hyprojec/makalink.com/wp-content/plugins/gamipress/gamipress.php(413): GamiPress->integrations()
+#1 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(310): GamiPress->pre_init()
+#2 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#3 /home/hyprojec/makalink.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#4 /home/hyprojec/makalink.com/wp-settings.php(495): do_action()
+#5 /home/hyprojec/makalink.com/wp-config.php(97): require_once('/home/hyprojec/...')
+#6 /home/hyprojec/makalink.com/wp-load.php(50): require_once('/home/hyprojec/...')
+#7 /home/hyprojec/makalink.com/wp-admin/admin-ajax.php(22): require_once('/home/hyprojec/...')
+#8 {main}
+  thrown in /home/hyprojec/makalink.com/wp-content/plugins/gamipress/gamipress.php on line 321
+
+2023-08-28T08:45:57+00:00 CRITICAL Uncaught Error: Failed opening required '/home/hyprojec/makalink.com/wp-content/plugins/gamipress/integrations/advanced-custom-fields/advanced-custom-fields.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/hyprojec/makalink.com/wp-content/plugins/gamipress/gamipress.php:321
+Stack trace:
+#0 /home/hyprojec/makalink.com/wp-content/plugins/gamipress/gamipress.php(413): GamiPress->integrations()
+#1 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(310): GamiPress->pre_init()
+#2 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#3 /home/hyprojec/makalink.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#4 /home/hyprojec/makalink.com/wp-settings.php(495): do_action()
+#5 /home/hyprojec/makalink.com/wp-config.php(97): require_once('/home/hyprojec/...')
+#6 /home/hyprojec/makalink.com/wp-load.php(50): require_once('/home/hyprojec/...')
+#7 /home/hyprojec/makalink.com/wp-admin/admin-ajax.php(22): require_once('/home/hyprojec/...')
+#8 {main}
+  thrown in /home/hyprojec/makalink.com/wp-content/plugins/gamipress/gamipress.php on line 321
+
+2023-08-28T08:45:57+00:00 CRITICAL Uncaught Error: Failed opening required '/home/hyprojec/makalink.com/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/Templates/SingleProductTemplateCompatibility.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/hyprojec/makalink.com/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php:90
+Stack trace:
+#0 /home/hyprojec/makalink.com/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/Domain/Bootstrap.php(324): Automattic\Jetpack\Autoloader\jpc770d59a5d7d253965990351cc321de7\PHP_Autoloader::load_class()
+#1 /home/hyprojec/makalink.com/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/Registry/AbstractDependencyType.php(42): Automattic\WooCommerce\Blocks\Domain\Bootstrap->Automattic\WooCommerce\Blocks\Domain\{closure}()
+#2 /home/hyprojec/makalink.com/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/Registry/SharedType.php(28): Automattic\WooCommerce\Blocks\Registry\AbstractDependencyType->resolve_value()
+#3 /home/hyprojec/makalink.com/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/Registry/Container.php(96): Automattic\WooCommerce\Blocks\Registry\SharedType->get()
+#4 /home/hyprojec/makalink.com/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/Domain/Bootstrap.php(144): Automattic\WooCommerce\Blocks\Registry\Container->get()
+#5 /home/hyprojec/makalink.com/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/Domain/Bootstrap.php(79): Automattic\WooCommerce\Blocks\Domain\Bootstrap->init()
+#6 /home/hyprojec/makalink.com/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/Package.php(125): Automattic\WooCommerce\Blocks\Domain\Bootstrap->__construct()
+#7 /home/hyprojec/makalink.com/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/Registry/AbstractDependencyType.php(42): Automattic\WooCommerce\Blocks\Package::Automattic\WooCommerce\Blocks\{closure}()
+#8 /home/hyprojec/makalink.com/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/Registry/SharedType.php(28): Automattic\WooCommerce\Blocks\Registry\AbstractDependencyType->resolve_value()
+#9 /home/hyprojec/makalink.com/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/Registry/Container.php(96): Automattic\WooCommerce\Blocks\Registry\SharedType->get()
+#10 /home/hyprojec/makalink.com/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/Package.php(44): Automattic\WooCommerce\Blocks\Registry\Container->get()
+#11 [internal function]: Automattic\WooCommerce\Blocks\Package::init()
+#12 /home/hyprojec/makalink.com/wp-content/plugins/woocommerce/src/Packages.php(71): call_user_func()
+#13 /home/hyprojec/makalink.com/wp-content/plugins/woocommerce/src/Packages.php(44): Automattic\WooCommerce\Packages::load_packages()
+#14 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(310): Automattic\WooCommerce\Packages::on_init()
+#15 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#16 /home/hyprojec/makalink.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#17 /home/hyprojec/makalink.com/wp-settings.php(495): do_action()
+#18 /home/hyprojec/makalink.com/wp-config.php(97): require_once('/home/hyprojec/...')
+#19 /home/hyprojec/makalink.com/wp-load.php(50): require_once('/home/hyprojec/...')
+#20 /home/hyprojec/makalink.com/wp-admin/admin-ajax.php(22): require_once('/home/hyprojec/...')
+#21 {main}
+  thrown in /home/hyprojec/makalink.com/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php on line 90
+
+2023-08-28T08:45:57+00:00 CRITICAL Uncaught Error: Failed opening required '/home/hyprojec/makalink.com/wp-content/plugins/wp-optimize/includes/class-wp-optimize-preloader.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/hyprojec/makalink.com/wp-content/plugins/wp-optimize/wp-optimize.php:115
+Stack trace:
+#0 /home/hyprojec/makalink.com/wp-content/plugins/wp-optimize/minify/class-wp-optimize-minify-preloader.php(9): WP_Optimize->loader()
+#1 /home/hyprojec/makalink.com/wp-content/plugins/wp-optimize/wp-optimize.php(115): require_once('/home/hyprojec/...')
+#2 [internal function]: WP_Optimize->loader()
+#3 /home/hyprojec/makalink.com/wp-content/plugins/wp-optimize/minify/class-wp-optimize-minify-commands.php(5): class_exists()
+#4 /home/hyprojec/makalink.com/wp-content/plugins/wp-optimize/wp-optimize.php(115): require_once('/home/hyprojec/...')
+#5 /home/hyprojec/makalink.com/wp-content/plugins/wp-optimize/minify/class-wp-optimize-minify.php(29): WP_Optimize->loader()
+#6 /home/hyprojec/makalink.com/wp-content/plugins/wp-optimize/minify/class-wp-optimize-minify.php(80): WP_Optimize_Minify->__construct()
+#7 /home/hyprojec/makalink.com/wp-content/plugins/wp-optimize/wp-optimize.php(240): WP_Optimize_Minify::instance()
+#8 /home/hyprojec/makalink.com/wp-content/plugins/wp-optimize/wp-optimize.php(553): WP_Optimize->get_minify()
+#9 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(310): WP_Optimize->plugins_loaded()
+#10 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#11 /home/hyprojec/makalink.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#12 /home/hyprojec/makalink.com/wp-settings.php(495): do_action()
+#13 /home/hyprojec/makalink.com/wp-config.php(97): require_once('/home/hyprojec/...')
+#14 /home/hyprojec/makalink.com/wp-load.php(50): require_once('/home/hyprojec/...')
+#15 /home/hyprojec/makalink.com/wp-admin/admin-ajax.php(22): require_once('/home/hyprojec/...')
+#16 {main}
+  thrown in /home/hyprojec/makalink.com/wp-content/plugins/wp-optimize/wp-optimize.php on line 115
+
+2023-08-28T08:45:57+00:00 CRITICAL Uncaught Error: Failed opening required '/home/hyprojec/makalink.com/wp-content/plugins/woocommerce/src/Internal/Admin/CustomerEffortScoreTracks.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/hyprojec/makalink.com/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php:90
+Stack trace:
+#0 [internal function]: Automattic\Jetpack\Autoloader\jpc770d59a5d7d253965990351cc321de7\PHP_Autoloader::load_class()
+#1 /home/hyprojec/makalink.com/wp-content/plugins/woocommerce/src/Admin/Features/Features.php(377): class_alias()
+#2 /home/hyprojec/makalink.com/wp-content/plugins/woocommerce/src/Admin/Features/Features.php(60): Automattic\WooCommerce\Admin\Features\Features->register_internal_class_aliases()
+#3 /home/hyprojec/makalink.com/wp-content/plugins/woocommerce/src/Admin/Features/Features.php(51): Automattic\WooCommerce\Admin\Features\Features->__construct()
+#4 /home/hyprojec/makalink.com/wp-content/plugins/woocommerce/src/Internal/Admin/Loader.php(65): Automattic\WooCommerce\Admin\Features\Features::get_instance()
+#5 /home/hyprojec/makalink.com/wp-content/plugins/woocommerce/src/Internal/Admin/Loader.php(55): Automattic\WooCommerce\Internal\Admin\Loader->__construct()
+#6 /home/hyprojec/makalink.com/wp-content/plugins/woocommerce/src/Internal/Admin/FeaturePlugin.php(194): Automattic\WooCommerce\Internal\Admin\Loader::get_instance()
+#7 /home/hyprojec/makalink.com/wp-content/plugins/woocommerce/src/Internal/Admin/FeaturePlugin.php(98): Automattic\WooCommerce\Internal\Admin\FeaturePlugin->hooks()
+#8 /home/hyprojec/makalink.com/wp-content/plugins/woocommerce/src/Internal/Admin/FeaturePlugin.php(82): Automattic\WooCommerce\Internal\Admin\FeaturePlugin->on_plugins_loaded()
+#9 /home/hyprojec/makalink.com/wp-content/plugins/woocommerce/src/Admin/Composer/Package.php(65): Automattic\WooCommerce\Internal\Admin\FeaturePlugin->init()
+#10 /home/hyprojec/makalink.com/wp-content/plugins/woocommerce/src/Packages.php(64): Automattic\WooCommerce\Admin\Composer\Package::init()
+#11 /home/hyprojec/makalink.com/wp-content/plugins/woocommerce/src/Packages.php(44): Automattic\WooCommerce\Packages::load_packages()
+#12 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(310): Automattic\WooCommerce\Packages::on_init()
+#13 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#14 /home/hyprojec/makalink.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#15 /home/hyprojec/makalink.com/wp-settings.php(495): do_action()
+#16 /home/hyprojec/makalink.com/wp-config.php(97): require_once('/home/hyprojec/...')
+#17 /home/hyprojec/makalink.com/wp-load.php(50): require_once('/home/hyprojec/...')
+#18 /home/hyprojec/makalink.com/wp-admin/admin-ajax.php(22): require_once('/home/hyprojec/...')
+#19 {main}
+  thrown in /home/hyprojec/makalink.com/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php on line 90
+
+2023-08-28T08:45:58+00:00 CRITICAL Uncaught Error: Failed opening required '/home/hyprojec/makalink.com/wp-content/plugins/gamipress/integrations/advanced-custom-fields/advanced-custom-fields.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/hyprojec/makalink.com/wp-content/plugins/gamipress/gamipress.php:321
+Stack trace:
+#0 /home/hyprojec/makalink.com/wp-content/plugins/gamipress/gamipress.php(413): GamiPress->integrations()
+#1 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(310): GamiPress->pre_init()
+#2 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#3 /home/hyprojec/makalink.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#4 /home/hyprojec/makalink.com/wp-settings.php(495): do_action()
+#5 /home/hyprojec/makalink.com/wp-config.php(97): require_once('/home/hyprojec/...')
+#6 /home/hyprojec/makalink.com/wp-load.php(50): require_once('/home/hyprojec/...')
+#7 /home/hyprojec/makalink.com/wp-admin/admin-ajax.php(22): require_once('/home/hyprojec/...')
+#8 {main}
+  thrown in /home/hyprojec/makalink.com/wp-content/plugins/gamipress/gamipress.php on line 321
+
+2023-08-28T08:45:58+00:00 CRITICAL Uncaught Error: Failed opening required '/home/hyprojec/makalink.com/wp-content/plugins/gamipress-bbpress-integration/includes/admin.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/hyprojec/makalink.com/wp-content/plugins/gamipress-bbpress-integration/gamipress-bbpress.php:76
+Stack trace:
+#0 /home/hyprojec/makalink.com/wp-content/plugins/gamipress-bbpress-integration/gamipress-bbpress.php(39): GamiPress_bbPress->includes()
+#1 /home/hyprojec/makalink.com/wp-content/plugins/gamipress-bbpress-integration/gamipress-bbpress.php(250): GamiPress_bbPress::instance()
+#2 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(310): GamiPress_bbPress()
+#3 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#4 /home/hyprojec/makalink.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#5 /home/hyprojec/makalink.com/wp-settings.php(495): do_action()
+#6 /home/hyprojec/makalink.com/wp-config.php(97): require_once('/home/hyprojec/...')
+#7 /home/hyprojec/makalink.com/wp-load.php(50): require_once('/home/hyprojec/...')
+#8 /home/hyprojec/makalink.com/wp-admin/admin-ajax.php(22): require_once('/home/hyprojec/...')
+#9 {main}
+  thrown in /home/hyprojec/makalink.com/wp-content/plugins/gamipress-bbpress-integration/gamipress-bbpress.php on line 76
+
+2023-08-28T08:48:00+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 20480 bytes) in /home/hyprojec/makalink.com/wp-includes/functions.php on line 4867
+
+2023-08-28T08:49:49+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 98304 bytes) in /home/hyprojec/makalink.com/wp-content/themes/vikinger/template-part/navigation/dropdown-navigation-section.php on line 24
+
+2023-08-28T08:53:41+00:00 CRITICAL Uncaught Error: Failed opening required '/home/hyprojec/makalink.com/wp-content/plugins/gamipress/integrations/forminator/forminator.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/hyprojec/makalink.com/wp-content/plugins/gamipress/gamipress.php:321
+Stack trace:
+#0 /home/hyprojec/makalink.com/wp-content/plugins/gamipress/gamipress.php(413): GamiPress->integrations()
+#1 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(310): GamiPress->pre_init()
+#2 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#3 /home/hyprojec/makalink.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#4 /home/hyprojec/makalink.com/wp-settings.php(495): do_action()
+#5 /home/hyprojec/makalink.com/wp-config.php(97): require_once('/home/hyprojec/...')
+#6 /home/hyprojec/makalink.com/wp-load.php(50): require_once('/home/hyprojec/...')
+#7 /home/hyprojec/makalink.com/wp-admin/admin-ajax.php(22): require_once('/home/hyprojec/...')
+#8 {main}
+  thrown in /home/hyprojec/makalink.com/wp-content/plugins/gamipress/gamipress.php on line 321
+
+2023-08-28T08:55:15+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 20480 bytes) in /home/hyprojec/makalink.com/wp-content/plugins/buddypress/bp-xprofile/classes/class-bp-xprofile-group.php on line 423
+
+2023-08-28T08:58:22+00:00 CRITICAL Uncaught Error: Failed opening required '/home/hyprojec/makalink.com/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/all-products.asset.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/hyprojec/makalink.com/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/Assets/Api.php:100
+Stack trace:
+#0 /home/hyprojec/makalink.com/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/AbstractBlock.php(127): Automattic\WooCommerce\Blocks\Assets\Api->get_script_data()
+#1 /home/hyprojec/makalink.com/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/AllProducts.php(52): Automattic\WooCommerce\Blocks\BlockTypes\AbstractBlock->register_block_type_assets()
+#2 /home/hyprojec/makalink.com/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/AbstractBlock.php(115): Automattic\WooCommerce\Blocks\BlockTypes\AllProducts->register_block_type_assets()
+#3 /home/hyprojec/makalink.com/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/AbstractBlock.php(70): Automattic\WooCommerce\Blocks\BlockTypes\AbstractBlock->initialize()
+#4 /home/hyprojec/makalink.com/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypesController.php(65): Automattic\WooCommerce\Blocks\BlockTypes\AbstractBlock->__construct()
+#5 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(310): Automattic\WooCommerce\Blocks\BlockTypesController->register_blocks()
+#6 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#7 /home/hyprojec/makalink.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#8 /home/hyprojec/makalink.com/wp-settings.php(632): do_action()
+#9 /home/hyprojec/makalink.com/wp-config.php(97): require_once('/home/hyprojec/...')
+#10 /home/hyprojec/makalink.com/wp-load.php(50): require_once('/home/hyprojec/...')
+#11 /home/hyprojec/makalink.com/wp-blog-header.php(13): require_once('/home/hyprojec/...')
+#12 /home/hyprojec/makalink.com/index.php(17): require('/home/hyprojec/...')
+#13 {main}
+  thrown in /home/hyprojec/makalink.com/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/Assets/Api.php on line 100
+
+2023-08-28T08:58:23+00:00 CRITICAL Uncaught Error: Failed opening required '/home/hyprojec/makalink.com/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/ProductBestSellers.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/hyprojec/makalink.com/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php:90
+Stack trace:
+#0 /home/hyprojec/makalink.com/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypesController.php(65): Automattic\Jetpack\Autoloader\jpc770d59a5d7d253965990351cc321de7\PHP_Autoloader::load_class()
+#1 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(310): Automattic\WooCommerce\Blocks\BlockTypesController->register_blocks()
+#2 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#3 /home/hyprojec/makalink.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#4 /home/hyprojec/makalink.com/wp-settings.php(632): do_action()
+#5 /home/hyprojec/makalink.com/wp-config.php(97): require_once('/home/hyprojec/...')
+#6 /home/hyprojec/makalink.com/wp-load.php(50): require_once('/home/hyprojec/...')
+#7 /home/hyprojec/makalink.com/wp-admin/admin-ajax.php(22): require_once('/home/hyprojec/...')
+#8 {main}
+  thrown in /home/hyprojec/makalink.com/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php on line 90
+
+2023-08-28T08:58:23+00:00 CRITICAL Uncaught Error: Failed opening required '/home/hyprojec/makalink.com/wp-content/plugins/gamipress/libraries/cmb2/includes/CMB2_Base.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/hyprojec/makalink.com/wp-content/plugins/gamipress/libraries/cmb2/init.php:156
+Stack trace:
+#0 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(310): CMB2_Bootstrap_2101->include_cmb()
+#1 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#2 /home/hyprojec/makalink.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#3 /home/hyprojec/makalink.com/wp-settings.php(632): do_action()
+#4 /home/hyprojec/makalink.com/wp-config.php(97): require_once('/home/hyprojec/...')
+#5 /home/hyprojec/makalink.com/wp-load.php(50): require_once('/home/hyprojec/...')
+#6 /home/hyprojec/makalink.com/wp-admin/admin-ajax.php(22): require_once('/home/hyprojec/...')
+#7 {main}
+  thrown in /home/hyprojec/makalink.com/wp-content/plugins/gamipress/libraries/cmb2/init.php on line 156
+
+2023-08-28T08:58:24+00:00 CRITICAL Uncaught Error: Failed opening required '/home/hyprojec/makalink.com/wp-content/plugins/elementor/modules/ai/connect/ai.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/hyprojec/makalink.com/wp-content/plugins/elementor/includes/autoloader.php:294
+Stack trace:
+#0 /home/hyprojec/makalink.com/wp-content/plugins/elementor/includes/autoloader.php(330): Elementor\Autoloader::load_class()
+#1 /home/hyprojec/makalink.com/wp-content/plugins/elementor/modules/ai/module.php(23): Elementor\Autoloader::autoload()
+#2 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(310): Elementor\Modules\Ai\Module->Elementor\Modules\Ai\{closure}()
+#3 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#4 /home/hyprojec/makalink.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#5 /home/hyprojec/makalink.com/wp-content/plugins/elementor/core/common/modules/connect/module.php(107): do_action()
+#6 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(310): Elementor\Core\Common\Modules\Connect\Module->init()
+#7 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#8 /home/hyprojec/makalink.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#9 /home/hyprojec/makalink.com/wp-content/plugins/elementor/includes/plugin.php(658): do_action()
+#10 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(310): Elementor\Plugin->init()
+#11 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#12 /home/hyprojec/makalink.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#13 /home/hyprojec/makalink.com/wp-settings.php(632): do_action()
+#14 /home/hyprojec/makalink.com/wp-config.php(97): require_once('/home/hyprojec/...')
+#15 /home/hyprojec/makalink.com/wp-load.php(50): require_once('/home/hyprojec/...')
+#16 /home/hyprojec/makalink.com/wp-admin/admin-ajax.php(22): require_once('/home/hyprojec/...')
+#17 {main}
+  thrown in /home/hyprojec/makalink.com/wp-content/plugins/elementor/includes/autoloader.php on line 294
+
+2023-08-28T09:00:18+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 20480 bytes) in /home/hyprojec/makalink.com/wp-includes/functions.php on line 4867
+
+2023-08-28T09:00:48+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 20480 bytes) in /home/hyprojec/makalink.com/wp-includes/functions.php on line 4867
+
+2023-08-28T09:03:53+00:00 CRITICAL Uncaught Error: Failed opening required '/home/hyprojec/makalink.com/wp-content/plugins/wp-optimize/includes/class-updraft-ring-logger.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/hyprojec/makalink.com/wp-content/plugins/wp-optimize/wp-optimize.php:115
+Stack trace:
+#0 [internal function]: WP_Optimize->loader()
+#1 /home/hyprojec/makalink.com/wp-content/plugins/wp-optimize/wp-optimize.php(1446): class_exists()
+#2 /home/hyprojec/makalink.com/wp-content/plugins/wp-optimize/wp-optimize.php(1348): WP_Optimize->get_loggers_classes()
+#3 /home/hyprojec/makalink.com/wp-content/plugins/wp-optimize/wp-optimize.php(1311): WP_Optimize->wpo_loggers()
+#4 /home/hyprojec/makalink.com/wp-content/plugins/wp-optimize/wp-optimize.php(519): WP_Optimize->setup_loggers()
+#5 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(310): WP_Optimize->plugins_loaded()
+#6 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#7 /home/hyprojec/makalink.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#8 /home/hyprojec/makalink.com/wp-settings.php(495): do_action()
+#9 /home/hyprojec/makalink.com/wp-config.php(97): require_once('/home/hyprojec/...')
+#10 /home/hyprojec/makalink.com/wp-load.php(50): require_once('/home/hyprojec/...')
+#11 /home/hyprojec/makalink.com/wp-cron.php(46): require_once('/home/hyprojec/...')
+#12 {main}
+  thrown in /home/hyprojec/makalink.com/wp-content/plugins/wp-optimize/wp-optimize.php on line 115
+
+2023-08-28T09:15:24+00:00 CRITICAL Uncaught Error: Failed opening required '/home/hyprojec/makalink.com/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/Payments/Integrations/Cheque.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/hyprojec/makalink.com/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php:90
+Stack trace:
+#0 /home/hyprojec/makalink.com/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/Domain/Bootstrap.php(486): Automattic\Jetpack\Autoloader\jpc770d59a5d7d253965990351cc321de7\PHP_Autoloader::load_class()
+#1 /home/hyprojec/makalink.com/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/Registry/AbstractDependencyType.php(42): Automattic\WooCommerce\Blocks\Domain\Bootstrap->Automattic\WooCommerce\Blocks\Domain\{closure}()
+#2 /home/hyprojec/makalink.com/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/Registry/SharedType.php(28): Automattic\WooCommerce\Blocks\Registry\AbstractDependencyType->resolve_value()
+#3 /home/hyprojec/makalink.com/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/Registry/Container.php(96): Automattic\WooCommerce\Blocks\Registry\SharedType->get()
+#4 /home/hyprojec/makalink.com/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/Payments/Api.php(108): Automattic\WooCommerce\Blocks\Registry\Container->get()
+#5 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(310): Automattic\WooCommerce\Blocks\Payments\Api->register_payment_method_integrations()
+#6 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#7 /home/hyprojec/makalink.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#8 /home/hyprojec/makalink.com/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/Integrations/IntegrationRegistry.php(50): do_action()
+#9 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(310): Automattic\WooCommerce\Blocks\Integrations\IntegrationRegistry->initialize()
+#10 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#11 /home/hyprojec/makalink.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#12 /home/hyprojec/makalink.com/wp-settings.php(632): do_action()
+#13 /home/hyprojec/makalink.com/wp-config.php(97): require_once('/home/hyprojec/...')
+#14 /home/hyprojec/makalink.com/wp-load.php(50): require_once('/home/hyprojec/...')
+#15 /home/hyprojec/makalink.com/wp-cron.php(46): require_once('/home/hyprojec/...')
+#16 {main}
+  thrown in /home/hyprojec/makalink.com/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php on line 90
+
+2023-08-28T09:15:24+00:00 CRITICAL Uncaught Error: Failed opening required '/home/hyprojec/makalink.com/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/Payments/Integrations/Cheque.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/hyprojec/makalink.com/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php:90
+Stack trace:
+#0 /home/hyprojec/makalink.com/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/Domain/Bootstrap.php(486): Automattic\Jetpack\Autoloader\jpc770d59a5d7d253965990351cc321de7\PHP_Autoloader::load_class()
+#1 /home/hyprojec/makalink.com/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/Registry/AbstractDependencyType.php(42): Automattic\WooCommerce\Blocks\Domain\Bootstrap->Automattic\WooCommerce\Blocks\Domain\{closure}()
+#2 /home/hyprojec/makalink.com/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/Registry/SharedType.php(28): Automattic\WooCommerce\Blocks\Registry\AbstractDependencyType->resolve_value()
+#3 /home/hyprojec/makalink.com/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/Registry/Container.php(96): Automattic\WooCommerce\Blocks\Registry\SharedType->get()
+#4 /home/hyprojec/makalink.com/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/Payments/Api.php(108): Automattic\WooCommerce\Blocks\Registry\Container->get()
+#5 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(310): Automattic\WooCommerce\Blocks\Payments\Api->register_payment_method_integrations()
+#6 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#7 /home/hyprojec/makalink.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#8 /home/hyprojec/makalink.com/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/Integrations/IntegrationRegistry.php(50): do_action()
+#9 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(310): Automattic\WooCommerce\Blocks\Integrations\IntegrationRegistry->initialize()
+#10 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#11 /home/hyprojec/makalink.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#12 /home/hyprojec/makalink.com/wp-settings.php(632): do_action()
+#13 /home/hyprojec/makalink.com/wp-config.php(97): require_once('/home/hyprojec/...')
+#14 /home/hyprojec/makalink.com/wp-load.php(50): require_once('/home/hyprojec/...')
+#15 /home/hyprojec/makalink.com/wp-cron.php(46): require_once('/home/hyprojec/...')
+#16 {main}
+  thrown in /home/hyprojec/makalink.com/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php on line 90
+
+2023-08-28T09:15:24+00:00 CRITICAL Uncaught Error: Failed opening required '/home/hyprojec/makalink.com/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/Payments/Integrations/Cheque.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/hyprojec/makalink.com/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php:90
+Stack trace:
+#0 /home/hyprojec/makalink.com/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/Domain/Bootstrap.php(486): Automattic\Jetpack\Autoloader\jpc770d59a5d7d253965990351cc321de7\PHP_Autoloader::load_class()
+#1 /home/hyprojec/makalink.com/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/Registry/AbstractDependencyType.php(42): Automattic\WooCommerce\Blocks\Domain\Bootstrap->Automattic\WooCommerce\Blocks\Domain\{closure}()
+#2 /home/hyprojec/makalink.com/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/Registry/SharedType.php(28): Automattic\WooCommerce\Blocks\Registry\AbstractDependencyType->resolve_value()
+#3 /home/hyprojec/makalink.com/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/Registry/Container.php(96): Automattic\WooCommerce\Blocks\Registry\SharedType->get()
+#4 /home/hyprojec/makalink.com/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/Payments/Api.php(108): Automattic\WooCommerce\Blocks\Registry\Container->get()
+#5 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(310): Automattic\WooCommerce\Blocks\Payments\Api->register_payment_method_integrations()
+#6 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#7 /home/hyprojec/makalink.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#8 /home/hyprojec/makalink.com/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/Integrations/IntegrationRegistry.php(50): do_action()
+#9 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(310): Automattic\WooCommerce\Blocks\Integrations\IntegrationRegistry->initialize()
+#10 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#11 /home/hyprojec/makalink.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#12 /home/hyprojec/makalink.com/wp-settings.php(632): do_action()
+#13 /home/hyprojec/makalink.com/wp-config.php(97): require_once('/home/hyprojec/...')
+#14 /home/hyprojec/makalink.com/wp-load.php(50): require_once('/home/hyprojec/...')
+#15 /home/hyprojec/makalink.com/wp-cron.php(46): require_once('/home/hyprojec/...')
+#16 {main}
+  thrown in /home/hyprojec/makalink.com/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php on line 90
+
+2023-08-28T09:15:24+00:00 CRITICAL Uncaught Error: Failed opening required '/home/hyprojec/makalink.com/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/Payments/Integrations/Cheque.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/hyprojec/makalink.com/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php:90
+Stack trace:
+#0 /home/hyprojec/makalink.com/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/Domain/Bootstrap.php(486): Automattic\Jetpack\Autoloader\jpc770d59a5d7d253965990351cc321de7\PHP_Autoloader::load_class()
+#1 /home/hyprojec/makalink.com/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/Registry/AbstractDependencyType.php(42): Automattic\WooCommerce\Blocks\Domain\Bootstrap->Automattic\WooCommerce\Blocks\Domain\{closure}()
+#2 /home/hyprojec/makalink.com/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/Registry/SharedType.php(28): Automattic\WooCommerce\Blocks\Registry\AbstractDependencyType->resolve_value()
+#3 /home/hyprojec/makalink.com/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/Registry/Container.php(96): Automattic\WooCommerce\Blocks\Registry\SharedType->get()
+#4 /home/hyprojec/makalink.com/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/Payments/Api.php(108): Automattic\WooCommerce\Blocks\Registry\Container->get()
+#5 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(310): Automattic\WooCommerce\Blocks\Payments\Api->register_payment_method_integrations()
+#6 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#7 /home/hyprojec/makalink.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#8 /home/hyprojec/makalink.com/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/Integrations/IntegrationRegistry.php(50): do_action()
+#9 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(310): Automattic\WooCommerce\Blocks\Integrations\IntegrationRegistry->initialize()
+#10 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#11 /home/hyprojec/makalink.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#12 /home/hyprojec/makalink.com/wp-settings.php(632): do_action()
+#13 /home/hyprojec/makalink.com/wp-config.php(97): require_once('/home/hyprojec/...')
+#14 /home/hyprojec/makalink.com/wp-load.php(50): require_once('/home/hyprojec/...')
+#15 /home/hyprojec/makalink.com/wp-cron.php(46): require_once('/home/hyprojec/...')
+#16 {main}
+  thrown in /home/hyprojec/makalink.com/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php on line 90
+
+2023-08-28T09:15:24+00:00 CRITICAL Uncaught Error: Failed opening required '/home/hyprojec/makalink.com/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/Payments/Integrations/Cheque.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/hyprojec/makalink.com/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php:90
+Stack trace:
+#0 /home/hyprojec/makalink.com/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/Domain/Bootstrap.php(486): Automattic\Jetpack\Autoloader\jpc770d59a5d7d253965990351cc321de7\PHP_Autoloader::load_class()
+#1 /home/hyprojec/makalink.com/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/Registry/AbstractDependencyType.php(42): Automattic\WooCommerce\Blocks\Domain\Bootstrap->Automattic\WooCommerce\Blocks\Domain\{closure}()
+#2 /home/hyprojec/makalink.com/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/Registry/SharedType.php(28): Automattic\WooCommerce\Blocks\Registry\AbstractDependencyType->resolve_value()
+#3 /home/hyprojec/makalink.com/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/Registry/Container.php(96): Automattic\WooCommerce\Blocks\Registry\SharedType->get()
+#4 /home/hyprojec/makalink.com/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/Payments/Api.php(108): Automattic\WooCommerce\Blocks\Registry\Container->get()
+#5 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(310): Automattic\WooCommerce\Blocks\Payments\Api->register_payment_method_integrations()
+#6 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#7 /home/hyprojec/makalink.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#8 /home/hyprojec/makalink.com/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/Integrations/IntegrationRegistry.php(50): do_action()
+#9 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(310): Automattic\WooCommerce\Blocks\Integrations\IntegrationRegistry->initialize()
+#10 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#11 /home/hyprojec/makalink.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#12 /home/hyprojec/makalink.com/wp-settings.php(632): do_action()
+#13 /home/hyprojec/makalink.com/wp-config.php(97): require_once('/home/hyprojec/...')
+#14 /home/hyprojec/makalink.com/wp-load.php(50): require_once('/home/hyprojec/...')
+#15 /home/hyprojec/makalink.com/wp-blog-header.php(13): require_once('/home/hyprojec/...')
+#16 /home/hyprojec/makalink.com/index.php(17): require('/home/hyprojec/...')
+#17 {main}
+  thrown in /home/hyprojec/makalink.com/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php on line 90
+
+2023-08-28T09:21:01+00:00 CRITICAL Uncaught Error: Failed opening required '/home/hyprojec/makalink.com/wp-content/plugins/buddypress/bp-members/bp-members-blocks.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/hyprojec/makalink.com/wp-content/plugins/buddypress/bp-core/classes/class-bp-component.php:417
+Stack trace:
+#0 /home/hyprojec/makalink.com/wp-content/plugins/buddypress/bp-members/classes/class-bp-members-component.php(95): BP_Component->includes()
+#1 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(310): BP_Members_Component->includes()
+#2 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#3 /home/hyprojec/makalink.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#4 /home/hyprojec/makalink.com/wp-content/plugins/buddypress/bp-core/bp-core-dependency.php(33): do_action()
+#5 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(310): bp_include()
+#6 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#7 /home/hyprojec/makalink.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#8 /home/hyprojec/makalink.com/wp-content/plugins/buddypress/bp-core/bp-core-dependency.php(333): do_action()
+#9 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(310): bp_loaded()
+#10 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#11 /home/hyprojec/makalink.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#12 /home/hyprojec/makalink.com/wp-settings.php(495): do_action()
+#13 /home/hyprojec/makalink.com/wp-config.php(97): require_once('/home/hyprojec/...')
+#14 /home/hyprojec/makalink.com/wp-load.php(50): require_once('/home/hyprojec/...')
+#15 /home/hyprojec/makalink.com/wp-admin/admin-ajax.php(22): require_once('/home/hyprojec/...')
+#16 {main}
+  thrown in /home/hyprojec/makalink.com/wp-content/plugins/buddypress/bp-core/classes/class-bp-component.php on line 417
+
+2023-08-28T09:21:01+00:00 CRITICAL Uncaught Error: Failed opening required '/home/hyprojec/makalink.com/wp-content/plugins/buddypress/bp-groups/bp-groups-template.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/hyprojec/makalink.com/wp-content/plugins/buddypress/bp-core/classes/class-bp-component.php:417
+Stack trace:
+#0 /home/hyprojec/makalink.com/wp-content/plugins/buddypress/bp-groups/classes/class-bp-groups-component.php(160): BP_Component->includes()
+#1 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(310): BP_Groups_Component->includes()
+#2 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#3 /home/hyprojec/makalink.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#4 /home/hyprojec/makalink.com/wp-content/plugins/buddypress/bp-core/bp-core-dependency.php(33): do_action()
+#5 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(310): bp_include()
+#6 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#7 /home/hyprojec/makalink.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#8 /home/hyprojec/makalink.com/wp-content/plugins/buddypress/bp-core/bp-core-dependency.php(333): do_action()
+#9 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(310): bp_loaded()
+#10 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#11 /home/hyprojec/makalink.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#12 /home/hyprojec/makalink.com/wp-settings.php(495): do_action()
+#13 /home/hyprojec/makalink.com/wp-config.php(97): require_once('/home/hyprojec/...')
+#14 /home/hyprojec/makalink.com/wp-load.php(50): require_once('/home/hyprojec/...')
+#15 /home/hyprojec/makalink.com/wp-cron.php(46): require_once('/home/hyprojec/...')
+#16 {main}
+  thrown in /home/hyprojec/makalink.com/wp-content/plugins/buddypress/bp-core/classes/class-bp-component.php on line 417
+
+2023-08-28T09:21:01+00:00 CRITICAL Uncaught Error: Failed opening required '/home/hyprojec/makalink.com/wp-content/plugins/buddypress/bp-groups/bp-groups-template.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/hyprojec/makalink.com/wp-content/plugins/buddypress/bp-core/classes/class-bp-component.php:417
+Stack trace:
+#0 /home/hyprojec/makalink.com/wp-content/plugins/buddypress/bp-groups/classes/class-bp-groups-component.php(160): BP_Component->includes()
+#1 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(310): BP_Groups_Component->includes()
+#2 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#3 /home/hyprojec/makalink.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#4 /home/hyprojec/makalink.com/wp-content/plugins/buddypress/bp-core/bp-core-dependency.php(33): do_action()
+#5 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(310): bp_include()
+#6 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#7 /home/hyprojec/makalink.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#8 /home/hyprojec/makalink.com/wp-content/plugins/buddypress/bp-core/bp-core-dependency.php(333): do_action()
+#9 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(310): bp_loaded()
+#10 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#11 /home/hyprojec/makalink.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#12 /home/hyprojec/makalink.com/wp-settings.php(495): do_action()
+#13 /home/hyprojec/makalink.com/wp-config.php(97): require_once('/home/hyprojec/...')
+#14 /home/hyprojec/makalink.com/wp-load.php(50): require_once('/home/hyprojec/...')
+#15 /home/hyprojec/makalink.com/wp-cron.php(46): require_once('/home/hyprojec/...')
+#16 {main}
+  thrown in /home/hyprojec/makalink.com/wp-content/plugins/buddypress/bp-core/classes/class-bp-component.php on line 417
+
+2023-08-28T09:21:01+00:00 CRITICAL Uncaught Error: Failed opening required '/home/hyprojec/makalink.com/wp-content/plugins/buddypress/bp-groups/bp-groups-template.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/hyprojec/makalink.com/wp-content/plugins/buddypress/bp-core/classes/class-bp-component.php:417
+Stack trace:
+#0 /home/hyprojec/makalink.com/wp-content/plugins/buddypress/bp-groups/classes/class-bp-groups-component.php(160): BP_Component->includes()
+#1 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(310): BP_Groups_Component->includes()
+#2 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#3 /home/hyprojec/makalink.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#4 /home/hyprojec/makalink.com/wp-content/plugins/buddypress/bp-core/bp-core-dependency.php(33): do_action()
+#5 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(310): bp_include()
+#6 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#7 /home/hyprojec/makalink.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#8 /home/hyprojec/makalink.com/wp-content/plugins/buddypress/bp-core/bp-core-dependency.php(333): do_action()
+#9 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(310): bp_loaded()
+#10 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#11 /home/hyprojec/makalink.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#12 /home/hyprojec/makalink.com/wp-settings.php(495): do_action()
+#13 /home/hyprojec/makalink.com/wp-config.php(97): require_once('/home/hyprojec/...')
+#14 /home/hyprojec/makalink.com/wp-load.php(50): require_once('/home/hyprojec/...')
+#15 /home/hyprojec/makalink.com/wp-cron.php(46): require_once('/home/hyprojec/...')
+#16 {main}
+  thrown in /home/hyprojec/makalink.com/wp-content/plugins/buddypress/bp-core/classes/class-bp-component.php on line 417
+
+2023-08-28T09:21:01+00:00 CRITICAL Uncaught Error: Failed opening required '/home/hyprojec/makalink.com/wp-content/plugins/buddypress/bp-groups/bp-groups-template.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/hyprojec/makalink.com/wp-content/plugins/buddypress/bp-core/classes/class-bp-component.php:417
+Stack trace:
+#0 /home/hyprojec/makalink.com/wp-content/plugins/buddypress/bp-groups/classes/class-bp-groups-component.php(160): BP_Component->includes()
+#1 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(310): BP_Groups_Component->includes()
+#2 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#3 /home/hyprojec/makalink.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#4 /home/hyprojec/makalink.com/wp-content/plugins/buddypress/bp-core/bp-core-dependency.php(33): do_action()
+#5 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(310): bp_include()
+#6 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#7 /home/hyprojec/makalink.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#8 /home/hyprojec/makalink.com/wp-content/plugins/buddypress/bp-core/bp-core-dependency.php(333): do_action()
+#9 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(310): bp_loaded()
+#10 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#11 /home/hyprojec/makalink.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#12 /home/hyprojec/makalink.com/wp-settings.php(495): do_action()
+#13 /home/hyprojec/makalink.com/wp-config.php(97): require_once('/home/hyprojec/...')
+#14 /home/hyprojec/makalink.com/wp-load.php(50): require_once('/home/hyprojec/...')
+#15 /home/hyprojec/makalink.com/wp-cron.php(46): require_once('/home/hyprojec/...')
+#16 {main}
+  thrown in /home/hyprojec/makalink.com/wp-content/plugins/buddypress/bp-core/classes/class-bp-component.php on line 417
+
+2023-08-28T09:21:01+00:00 CRITICAL Uncaught Error: Failed opening required '/home/hyprojec/makalink.com/wp-content/plugins/elementor//includes/controls/media.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/hyprojec/makalink.com/wp-content/plugins/elementor/includes/autoloader.php:294
+Stack trace:
+#0 /home/hyprojec/makalink.com/wp-content/plugins/elementor/includes/autoloader.php(330): Elementor\Autoloader::load_class()
+#1 /home/hyprojec/makalink.com/wp-content/plugins/elementor/includes/managers/controls.php(456): Elementor\Autoloader::autoload()
+#2 /home/hyprojec/makalink.com/wp-content/plugins/elementor/includes/managers/controls.php(609): Elementor\Controls_Manager->register_controls()
+#3 /home/hyprojec/makalink.com/wp-content/plugins/elementor/includes/managers/controls.php(628): Elementor\Controls_Manager->get_controls()
+#4 /home/hyprojec/makalink.com/wp-content/plugins/elementor/includes/managers/controls.php(799): Elementor\Controls_Manager->get_control()
+#5 /home/hyprojec/makalink.com/wp-content/plugins/elementor/includes/base/controls-stack.php(420): Elementor\Controls_Manager->add_control_to_stack()
+#6 /home/hyprojec/makalink.com/wp-content/plugins/elementor/includes/base/controls-stack.php(1495): Elementor\Controls_Stack->add_control()
+#7 /home/hyprojec/makalink.com/wp-content/plugins/elementor/core/base/document.php(1719): Elementor\Controls_Stack->start_controls_section()
+#8 /home/hyprojec/makalink.com/wp-content/plugins/elementor/core/kits/documents/kit.php(156): Elementor\Core\Base\Document->register_document_controls()
+#9 /home/hyprojec/makalink.com/wp-content/plugins/elementor/includes/base/controls-stack.php(2304): Elementor\Core\Kits\Documents\Kit->register_controls()
+#10 /home/hyprojec/makalink.com/wp-content/plugins/elementor/includes/base/controls-stack.php(495): Elementor\Controls_Stack->init_controls()
+#11 /home/hyprojec/makalink.com/wp-content/plugins/elementor/includes/base/controls-stack.php(299): Elementor\Controls_Stack->get_stack()
+#12 /home/hyprojec/makalink.com/wp-content/plugins/elementor/includes/base/controls-stack.php(2391): Elementor\Controls_Stack->get_controls()
+#13 /home/hyprojec/makalink.com/wp-content/plugins/elementor/includes/base/controls-stack.php(1084): Elementor\Controls_Stack->sanitize_settings()
+#14 /home/hyprojec/makalink.com/wp-content/plugins/elementor/includes/base/controls-stack.php(2138): Elementor\Controls_Stack->get_data()
+#15 /home/hyprojec/makalink.com/wp-content/plugins/elementor/core/base/base-object.php(142): Elementor\Controls_Stack->get_init_settings()
+#16 /home/hyprojec/makalink.com/wp-content/plugins/elementor/core/base/base-object.php(40): Elementor\Core\Base\Base_Object->ensure_settings()
+#17 /home/hyprojec/makalink.com/wp-content/plugins/elementor/core/kits/manager.php(117): Elementor\Core\Base\Base_Object->get_settings()
+#18 /home/hyprojec/makalink.com/wp-content/plugins/elementor/core/breakpoints/breakpoint.php(130): Elementor\Core\Kits\Manager->get_current_settings()
+#19 /home/hyprojec/makalink.com/wp-content/plugins/elementor/core/breakpoints/breakpoint.php(71): Elementor\Core\Breakpoints\Breakpoint->init_value()
+#20 /home/hyprojec/makalink.com/wp-content/plugins/elementor/core/breakpoints/breakpoint.php(88): Elementor\Core\Breakpoints\Breakpoint->get_value()
+#21 /home/hyprojec/makalink.com/wp-content/plugins/elementor/core/breakpoints/manager.php(195): Elementor\Core\Breakpoints\Breakpoint->is_custom()
+#22 /home/hyprojec/makalink.com/wp-content/plugins/elementor/includes/frontend.php(542): Elementor\Core\Breakpoints\Manager->has_custom_breakpoints()
+#23 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(310): Elementor\Frontend->register_styles()
+#24 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#25 /home/hyprojec/makalink.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#26 /home/hyprojec/makalink.com/wp-includes/script-loader.php(2225): do_action()
+#27 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(310): wp_enqueue_scripts()
+#28 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#29 /home/hyprojec/makalink.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#30 /home/hyprojec/makalink.com/wp-includes/general-template.php(3053): do_action()
+#31 /home/hyprojec/makalink.com/wp-content/themes/vikinger/header.php(23): wp_head()
+#32 /home/hyprojec/makalink.com/wp-includes/template.php(785): require_once('/home/hyprojec/...')
+#33 /home/hyprojec/makalink.com/wp-includes/template.php(720): load_template()
+#34 /home/hyprojec/makalink.com/wp-includes/general-template.php(48): locate_template()
+#35 /home/hyprojec/makalink.com/wp-content/themes/vikinger/404.php(13): get_header()
+#36 /home/hyprojec/makalink.com/wp-includes/template-loader.php(106): include('/home/hyprojec/...')
+#37 /home/hyprojec/makalink.com/wp-blog-header.php(19): require_once('/home/hyprojec/...')
+#38 /home/hyprojec/makalink.com/index.php(17): require('/home/hyprojec/...')
+#39 {main}
+  thrown in /home/hyprojec/makalink.com/wp-content/plugins/elementor/includes/autoloader.php on line 294
+
+2023-08-28T10:05:23+00:00 CRITICAL Uncaught Error: Failed opening required '/home/hyprojec/makalink.com/wp-content/plugins/buddypress/bp-members/classes/class-bp-members-admin.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/hyprojec/makalink.com/wp-content/plugins/buddypress/class-buddypress.php:718
+Stack trace:
+#0 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(310): BuddyPress->autoload()
+#1 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#2 /home/hyprojec/makalink.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#3 /home/hyprojec/makalink.com/wp-content/plugins/buddypress/bp-core/bp-core-dependency.php(267): do_action()
+#4 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(310): bp_init()
+#5 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#6 /home/hyprojec/makalink.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#7 /home/hyprojec/makalink.com/wp-settings.php(632): do_action()
+#8 /home/hyprojec/makalink.com/wp-config.php(97): require_once('/home/hyprojec/...')
+#9 /home/hyprojec/makalink.com/wp-load.php(50): require_once('/home/hyprojec/...')
+#10 /home/hyprojec/makalink.com/wp-admin/admin-ajax.php(22): require_once('/home/hyprojec/...')
+#11 {main}
+
+Next TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class "BP_Members_Admin" not found in /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php:310
+Stack trace:
+#0 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#1 /home/hyprojec/makalink.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#2 /home/hyprojec/makalink.com/wp-content/plugins/buddypress/bp-core/bp-core-dependency.php(267): do_action()
+#3 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(310): bp_init()
+#4 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#5 /home/hyprojec/makalink.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#6 /home/hyprojec/makalink.com/wp-settings.php(632): do_action()
+#7 /home/hyprojec/makalink.com/wp-config.php(97): require_once('/home/hyprojec/...')
+#8 /home/hyprojec/makalink.com/wp-load.php(50): require_once('/home/hyprojec/...')
+#9 /home/hyprojec/makalink.com/wp-admin/admin-ajax.php(22): require_once('/home/hyprojec/...')
+#10 {main}
+  thrown in /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php on line 310
+
+2023-08-28T10:05:23+00:00 CRITICAL Uncaught Error: Failed opening required '/home/hyprojec/makalink.com/wp-content/plugins/woocommerce/src/Admin/Notes/Note.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/hyprojec/makalink.com/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php:90
+Stack trace:
+#0 /home/hyprojec/makalink.com/wp-content/plugins/woocommerce/src/Admin/Notes/Notes.php(299): Automattic\Jetpack\Autoloader\jpc770d59a5d7d253965990351cc321de7\PHP_Autoloader::load_class()
+#1 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(310): Automattic\WooCommerce\Admin\Notes\Notes::possibly_delete_survey_notes()
+#2 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#3 /home/hyprojec/makalink.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#4 /home/hyprojec/makalink.com/wp-admin/admin-ajax.php(45): do_action()
+#5 {main}
+  thrown in /home/hyprojec/makalink.com/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php on line 90
+
+2023-08-28T10:05:23+00:00 CRITICAL Uncaught Error: Failed opening required '/home/hyprojec/makalink.com/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/catalog-sorting.asset.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/hyprojec/makalink.com/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/Assets/Api.php:100
+Stack trace:
+#0 /home/hyprojec/makalink.com/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/AbstractBlock.php(127): Automattic\WooCommerce\Blocks\Assets\Api->get_script_data()
+#1 /home/hyprojec/makalink.com/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/AbstractBlock.php(115): Automattic\WooCommerce\Blocks\BlockTypes\AbstractBlock->register_block_type_assets()
+#2 /home/hyprojec/makalink.com/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/AbstractBlock.php(70): Automattic\WooCommerce\Blocks\BlockTypes\AbstractBlock->initialize()
+#3 /home/hyprojec/makalink.com/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypesController.php(65): Automattic\WooCommerce\Blocks\BlockTypes\AbstractBlock->__construct()
+#4 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(310): Automattic\WooCommerce\Blocks\BlockTypesController->register_blocks()
+#5 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#6 /home/hyprojec/makalink.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#7 /home/hyprojec/makalink.com/wp-settings.php(632): do_action()
+#8 /home/hyprojec/makalink.com/wp-config.php(97): require_once('/home/hyprojec/...')
+#9 /home/hyprojec/makalink.com/wp-load.php(50): require_once('/home/hyprojec/...')
+#10 /home/hyprojec/makalink.com/wp-admin/admin-ajax.php(22): require_once('/home/hyprojec/...')
+#11 {main}
+  thrown in /home/hyprojec/makalink.com/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/Assets/Api.php on line 100
+
+2023-08-28T10:15:12+00:00 CRITICAL Uncaught Error: Failed opening required '/home/hyprojec/makalink.com/wp-content/plugins/woocommerce/src/Admin/API/MarketingChannels.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/hyprojec/makalink.com/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php:90
+Stack trace:
+#0 /home/hyprojec/makalink.com/wp-content/plugins/woocommerce/src/Admin/API/Init.php(146): Automattic\Jetpack\Autoloader\jpc770d59a5d7d253965990351cc321de7\PHP_Autoloader::load_class()
+#1 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(310): Automattic\WooCommerce\Admin\API\Init->rest_api_init()
+#2 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#3 /home/hyprojec/makalink.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#4 /home/hyprojec/makalink.com/wp-includes/rest-api.php(587): do_action()
+#5 /home/hyprojec/makalink.com/wp-includes/rest-api.php(545): rest_get_server()
+#6 /home/hyprojec/makalink.com/wp-content/themes/vikinger/includes/functions/buddypress/group/vikinger-functions-buddypress-group-global.php(135): rest_do_request()
+#7 /home/hyprojec/makalink.com/wp-content/themes/vikinger/includes/ajax/buddypress/vikinger-ajax-buddypress-group.php(22): vikinger_groups_get()
+#8 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(310): vikinger_groups_get_ajax()
+#9 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#10 /home/hyprojec/makalink.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#11 /home/hyprojec/makalink.com/wp-admin/admin-ajax.php(188): do_action()
+#12 {main}
+  thrown in /home/hyprojec/makalink.com/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php on line 90
+
+2023-08-28T10:15:12+00:00 CRITICAL Uncaught Error: Failed opening required '/home/hyprojec/makalink.com/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/CatalogSorting.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/hyprojec/makalink.com/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php:90
+Stack trace:
+#0 /home/hyprojec/makalink.com/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypesController.php(65): Automattic\Jetpack\Autoloader\jpc770d59a5d7d253965990351cc321de7\PHP_Autoloader::load_class()
+#1 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(310): Automattic\WooCommerce\Blocks\BlockTypesController->register_blocks()
+#2 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#3 /home/hyprojec/makalink.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#4 /home/hyprojec/makalink.com/wp-settings.php(632): do_action()
+#5 /home/hyprojec/makalink.com/wp-config.php(97): require_once('/home/hyprojec/...')
+#6 /home/hyprojec/makalink.com/wp-load.php(50): require_once('/home/hyprojec/...')
+#7 /home/hyprojec/makalink.com/wp-admin/admin-ajax.php(22): require_once('/home/hyprojec/...')
+#8 {main}
+  thrown in /home/hyprojec/makalink.com/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php on line 90
+
+2023-08-28T10:15:12+00:00 CRITICAL Uncaught Error: Failed opening required '/home/hyprojec/makalink.com/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/product-top-rated.asset.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/hyprojec/makalink.com/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/Assets/Api.php:100
+Stack trace:
+#0 /home/hyprojec/makalink.com/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/AbstractBlock.php(127): Automattic\WooCommerce\Blocks\Assets\Api->get_script_data()
+#1 /home/hyprojec/makalink.com/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/AbstractBlock.php(115): Automattic\WooCommerce\Blocks\BlockTypes\AbstractBlock->register_block_type_assets()
+#2 /home/hyprojec/makalink.com/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/AbstractBlock.php(70): Automattic\WooCommerce\Blocks\BlockTypes\AbstractBlock->initialize()
+#3 /home/hyprojec/makalink.com/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypesController.php(65): Automattic\WooCommerce\Blocks\BlockTypes\AbstractBlock->__construct()
+#4 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(310): Automattic\WooCommerce\Blocks\BlockTypesController->register_blocks()
+#5 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#6 /home/hyprojec/makalink.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#7 /home/hyprojec/makalink.com/wp-settings.php(632): do_action()
+#8 /home/hyprojec/makalink.com/wp-config.php(97): require_once('/home/hyprojec/...')
+#9 /home/hyprojec/makalink.com/wp-load.php(50): require_once('/home/hyprojec/...')
+#10 /home/hyprojec/makalink.com/wp-admin/admin-ajax.php(22): require_once('/home/hyprojec/...')
+#11 {main}
+  thrown in /home/hyprojec/makalink.com/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/Assets/Api.php on line 100
+
+2023-08-28T10:15:12+00:00 CRITICAL Uncaught Error: Failed opening required '/home/hyprojec/makalink.com/wp-content/plugins/elementor/core/common/modules/ajax/module.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/hyprojec/makalink.com/wp-content/plugins/elementor/includes/autoloader.php:294
+Stack trace:
+#0 /home/hyprojec/makalink.com/wp-content/plugins/elementor/includes/autoloader.php(330): Elementor\Autoloader::load_class()
+#1 /home/hyprojec/makalink.com/wp-content/plugins/elementor/core/common/app.php(61): Elementor\Autoloader::autoload()
+#2 /home/hyprojec/makalink.com/wp-content/plugins/elementor/includes/plugin.php(767): Elementor\Core\Common\App->init_components()
+#3 /home/hyprojec/makalink.com/wp-content/plugins/elementor/core/admin/admin.php(841): Elementor\Plugin->init_common()
+#4 /home/hyprojec/makalink.com/wp-content/plugins/elementor/includes/plugin.php(755): Elementor\Core\Admin\Admin->__construct()
+#5 /home/hyprojec/makalink.com/wp-content/plugins/elementor/includes/plugin.php(647): Elementor\Plugin->init_components()
+#6 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(310): Elementor\Plugin->init()
+#7 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#8 /home/hyprojec/makalink.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#9 /home/hyprojec/makalink.com/wp-settings.php(632): do_action()
+#10 /home/hyprojec/makalink.com/wp-config.php(97): require_once('/home/hyprojec/...')
+#11 /home/hyprojec/makalink.com/wp-load.php(50): require_once('/home/hyprojec/...')
+#12 /home/hyprojec/makalink.com/wp-admin/admin-ajax.php(22): require_once('/home/hyprojec/...')
+#13 {main}
+  thrown in /home/hyprojec/makalink.com/wp-content/plugins/elementor/includes/autoloader.php on line 294
+
+2023-08-28T10:16:17+00:00 CRITICAL Uncaught Error: Failed opening required '/home/hyprojec/makalink.com/wp-content/plugins/woocommerce/src/Admin/API/ProductCategories.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/hyprojec/makalink.com/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php:90
+Stack trace:
+#0 /home/hyprojec/makalink.com/wp-content/plugins/woocommerce/src/Admin/API/Init.php(146): Automattic\Jetpack\Autoloader\jpc770d59a5d7d253965990351cc321de7\PHP_Autoloader::load_class()
+#1 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(310): Automattic\WooCommerce\Admin\API\Init->rest_api_init()
+#2 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#3 /home/hyprojec/makalink.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#4 /home/hyprojec/makalink.com/wp-includes/rest-api.php(587): do_action()
+#5 /home/hyprojec/makalink.com/wp-includes/rest-api.php(545): rest_get_server()
+#6 /home/hyprojec/makalink.com/wp-content/themes/vikinger/includes/functions/buddypress/vikinger-functions-buddypress-message.php(43): rest_do_request()
+#7 /home/hyprojec/makalink.com/wp-content/themes/vikinger/includes/ajax/buddypress/vikinger-ajax-buddypress-message.php(25): vikinger_get_messages()
+#8 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(310): vikinger_get_messages_ajax()
+#9 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#10 /home/hyprojec/makalink.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#11 /home/hyprojec/makalink.com/wp-admin/admin-ajax.php(188): do_action()
+#12 {main}
+  thrown in /home/hyprojec/makalink.com/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php on line 90
+
+2023-08-28T10:16:17+00:00 CRITICAL Uncaught Error: Failed opening required '/home/hyprojec/makalink.com/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/CheckoutOrderSummaryCouponFormBlock.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/hyprojec/makalink.com/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php:90
+Stack trace:
+#0 /home/hyprojec/makalink.com/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypesController.php(65): Automattic\Jetpack\Autoloader\jpc770d59a5d7d253965990351cc321de7\PHP_Autoloader::load_class()
+#1 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(310): Automattic\WooCommerce\Blocks\BlockTypesController->register_blocks()
+#2 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#3 /home/hyprojec/makalink.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#4 /home/hyprojec/makalink.com/wp-settings.php(632): do_action()
+#5 /home/hyprojec/makalink.com/wp-config.php(97): require_once('/home/hyprojec/...')
+#6 /home/hyprojec/makalink.com/wp-load.php(50): require_once('/home/hyprojec/...')
+#7 /home/hyprojec/makalink.com/wp-admin/admin-ajax.php(22): require_once('/home/hyprojec/...')
+#8 {main}
+  thrown in /home/hyprojec/makalink.com/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php on line 90
+
+2023-08-28T10:16:17+00:00 CRITICAL Uncaught Error: Failed opening required '/home/hyprojec/makalink.com/wp-content/themes/vikinger/includes/functions/buddypress/member/vikinger-functions-buddypress-member-actions.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/hyprojec/makalink.com/wp-content/themes/vikinger/includes/functions/buddypress/member/vikinger-functions-buddypress-member.php:22
+Stack trace:
+#0 /home/hyprojec/makalink.com/wp-content/themes/vikinger/includes/functions/buddypress/vikinger-functions-buddypress.php(21): require_once()
+#1 /home/hyprojec/makalink.com/wp-content/themes/vikinger/includes/functions/vikinger-functions.php(73): require_once('/home/hyprojec/...')
+#2 /home/hyprojec/makalink.com/wp-content/themes/vikinger/functions.php(293): require_once('/home/hyprojec/...')
+#3 /home/hyprojec/makalink.com/wp-settings.php(600): include('/home/hyprojec/...')
+#4 /home/hyprojec/makalink.com/wp-config.php(97): require_once('/home/hyprojec/...')
+#5 /home/hyprojec/makalink.com/wp-load.php(50): require_once('/home/hyprojec/...')
+#6 /home/hyprojec/makalink.com/wp-admin/admin-ajax.php(22): require_once('/home/hyprojec/...')
+#7 {main}
+  thrown in /home/hyprojec/makalink.com/wp-content/themes/vikinger/includes/functions/buddypress/member/vikinger-functions-buddypress-member.php on line 22
+
+2023-08-28T10:16:17+00:00 CRITICAL Uncaught Error: Failed opening required '/home/hyprojec/makalink.com/wp-content/plugins/buddypress/bp-notifications/classes/class-bp-notifications-notification.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/hyprojec/makalink.com/wp-content/plugins/buddypress/class-buddypress.php:718
+Stack trace:
+#0 /home/hyprojec/makalink.com/wp-content/plugins/buddypress/bp-notifications/bp-notifications-functions.php(701): BuddyPress->autoload()
+#1 /home/hyprojec/makalink.com/wp-content/plugins/buddypress/bp-notifications/classes/class-bp-notifications-component.php(159): bp_notifications_get_unread_notification_count()
+#2 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(310): BP_Notifications_Component->setup_nav()
+#3 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#4 /home/hyprojec/makalink.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#5 /home/hyprojec/makalink.com/wp-content/plugins/buddypress/bp-core/bp-core-dependency.php(155): do_action()
+#6 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(310): bp_setup_nav()
+#7 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#8 /home/hyprojec/makalink.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#9 /home/hyprojec/makalink.com/wp-content/plugins/buddypress/bp-core/bp-core-dependency.php(267): do_action()
+#10 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(310): bp_init()
+#11 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#12 /home/hyprojec/makalink.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#13 /home/hyprojec/makalink.com/wp-settings.php(632): do_action()
+#14 /home/hyprojec/makalink.com/wp-config.php(97): require_once('/home/hyprojec/...')
+#15 /home/hyprojec/makalink.com/wp-load.php(50): require_once('/home/hyprojec/...')
+#16 /home/hyprojec/makalink.com/wp-admin/admin-ajax.php(22): require_once('/home/hyprojec/...')
+#17 {main}
+  thrown in /home/hyprojec/makalink.com/wp-content/plugins/buddypress/class-buddypress.php on line 718
+
+2023-08-28T10:16:17+00:00 CRITICAL Uncaught Error: Failed opening required '/home/hyprojec/makalink.com/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/ProductTopRated.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/hyprojec/makalink.com/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php:90
+Stack trace:
+#0 /home/hyprojec/makalink.com/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypesController.php(65): Automattic\Jetpack\Autoloader\jpc770d59a5d7d253965990351cc321de7\PHP_Autoloader::load_class()
+#1 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(310): Automattic\WooCommerce\Blocks\BlockTypesController->register_blocks()
+#2 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#3 /home/hyprojec/makalink.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#4 /home/hyprojec/makalink.com/wp-settings.php(632): do_action()
+#5 /home/hyprojec/makalink.com/wp-config.php(97): require_once('/home/hyprojec/...')
+#6 /home/hyprojec/makalink.com/wp-load.php(50): require_once('/home/hyprojec/...')
+#7 /home/hyprojec/makalink.com/wp-admin/admin-ajax.php(22): require_once('/home/hyprojec/...')
+#8 {main}
+  thrown in /home/hyprojec/makalink.com/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php on line 90
+
+2023-08-28T10:19:07+00:00 CRITICAL Uncaught Error: Failed opening required '/home/hyprojec/makalink.com/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/ProductCategories.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/hyprojec/makalink.com/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php:90
+Stack trace:
+#0 /home/hyprojec/makalink.com/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypesController.php(65): Automattic\Jetpack\Autoloader\jpc770d59a5d7d253965990351cc321de7\PHP_Autoloader::load_class()
+#1 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(310): Automattic\WooCommerce\Blocks\BlockTypesController->register_blocks()
+#2 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#3 /home/hyprojec/makalink.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#4 /home/hyprojec/makalink.com/wp-settings.php(632): do_action()
+#5 /home/hyprojec/makalink.com/wp-config.php(97): require_once('/home/hyprojec/...')
+#6 /home/hyprojec/makalink.com/wp-load.php(50): require_once('/home/hyprojec/...')
+#7 /home/hyprojec/makalink.com/wp-cron.php(46): require_once('/home/hyprojec/...')
+#8 {main}
+  thrown in /home/hyprojec/makalink.com/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php on line 90
+
+2023-08-28T10:19:08+00:00 CRITICAL Uncaught Error: Failed opening required '/home/hyprojec/makalink.com/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/MiniCartCheckoutButtonBlock.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/hyprojec/makalink.com/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php:90
+Stack trace:
+#0 /home/hyprojec/makalink.com/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypesController.php(65): Automattic\Jetpack\Autoloader\jpc770d59a5d7d253965990351cc321de7\PHP_Autoloader::load_class()
+#1 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(310): Automattic\WooCommerce\Blocks\BlockTypesController->register_blocks()
+#2 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#3 /home/hyprojec/makalink.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#4 /home/hyprojec/makalink.com/wp-settings.php(632): do_action()
+#5 /home/hyprojec/makalink.com/wp-config.php(97): require_once('/home/hyprojec/...')
+#6 /home/hyprojec/makalink.com/wp-load.php(50): require_once('/home/hyprojec/...')
+#7 /home/hyprojec/makalink.com/wp-cron.php(46): require_once('/home/hyprojec/...')
+#8 {main}
+  thrown in /home/hyprojec/makalink.com/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php on line 90
+
+2023-08-28T10:19:08+00:00 CRITICAL Uncaught Error: Failed opening required '/home/hyprojec/makalink.com/wp-content/themes/vikinger/includes/ajax/buddypress/vikinger-ajax-buddypress-friend.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/hyprojec/makalink.com/wp-content/themes/vikinger/includes/ajax/buddypress/vikinger-ajax-buddypress.php:31
+Stack trace:
+#0 /home/hyprojec/makalink.com/wp-content/themes/vikinger/includes/ajax/vikinger-ajax.php(36): require_once()
+#1 /home/hyprojec/makalink.com/wp-content/themes/vikinger/functions.php(300): require_once('/home/hyprojec/...')
+#2 /home/hyprojec/makalink.com/wp-settings.php(600): include('/home/hyprojec/...')
+#3 /home/hyprojec/makalink.com/wp-config.php(97): require_once('/home/hyprojec/...')
+#4 /home/hyprojec/makalink.com/wp-load.php(50): require_once('/home/hyprojec/...')
+#5 /home/hyprojec/makalink.com/wp-admin/admin-ajax.php(22): require_once('/home/hyprojec/...')
+#6 {main}
+  thrown in /home/hyprojec/makalink.com/wp-content/themes/vikinger/includes/ajax/buddypress/vikinger-ajax-buddypress.php on line 31
+
+2023-08-28T10:19:09+00:00 CRITICAL Uncaught Error: Failed opening required '/home/hyprojec/makalink.com/wp-content/plugins/elementor/modules/kit-elements-defaults/import-export/import-export.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/hyprojec/makalink.com/wp-content/plugins/elementor/includes/autoloader.php:294
+Stack trace:
+#0 /home/hyprojec/makalink.com/wp-content/plugins/elementor/includes/autoloader.php(330): Elementor\Autoloader::load_class()
+#1 /home/hyprojec/makalink.com/wp-content/plugins/elementor/modules/kit-elements-defaults/module.php(48): Elementor\Autoloader::autoload()
+#2 /home/hyprojec/makalink.com/wp-content/plugins/elementor/core/base/module.php(85): Elementor\Modules\KitElementsDefaults\Module->__construct()
+#3 /home/hyprojec/makalink.com/wp-content/plugins/elementor/core/modules-manager.php(64): Elementor\Core\Base\Module::instance()
+#4 /home/hyprojec/makalink.com/wp-content/plugins/elementor/includes/plugin.php(730): Elementor\Core\Modules_Manager->__construct()
+#5 /home/hyprojec/makalink.com/wp-content/plugins/elementor/includes/plugin.php(647): Elementor\Plugin->init_components()
+#6 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(310): Elementor\Plugin->init()
+#7 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#8 /home/hyprojec/makalink.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#9 /home/hyprojec/makalink.com/wp-settings.php(632): do_action()
+#10 /home/hyprojec/makalink.com/wp-config.php(97): require_once('/home/hyprojec/...')
+#11 /home/hyprojec/makalink.com/wp-load.php(50): require_once('/home/hyprojec/...')
+#12 /home/hyprojec/makalink.com/wp-admin/admin-ajax.php(22): require_once('/home/hyprojec/...')
+#13 {main}
+  thrown in /home/hyprojec/makalink.com/wp-content/plugins/elementor/includes/autoloader.php on line 294
+
+2023-08-28T10:20:36+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 57344 bytes) in /home/hyprojec/makalink.com/wp-content/plugins/buddypress/class-buddypress.php on line 718
+
+2023-08-28T10:20:44+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 20480 bytes) in /home/hyprojec/makalink.com/wp-includes/functions.php on line 4867
+
+2023-08-28T10:31:26+00:00 CRITICAL Uncaught Error: Failed opening required '/home/hyprojec/makalink.com/wp-content/themes/vikinger/includes/customizer/vikinger-customizer-pageheader-rank.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/hyprojec/makalink.com/wp-content/themes/vikinger/includes/customizer/vikinger-customizer.php:161
+Stack trace:
+#0 /home/hyprojec/makalink.com/wp-content/themes/vikinger/functions.php(314): require_once()
+#1 /home/hyprojec/makalink.com/wp-settings.php(600): include('/home/hyprojec/...')
+#2 /home/hyprojec/makalink.com/wp-config.php(97): require_once('/home/hyprojec/...')
+#3 /home/hyprojec/makalink.com/wp-load.php(50): require_once('/home/hyprojec/...')
+#4 /home/hyprojec/makalink.com/wp-cron.php(46): require_once('/home/hyprojec/...')
+#5 {main}
+  thrown in /home/hyprojec/makalink.com/wp-content/themes/vikinger/includes/customizer/vikinger-customizer.php on line 161
+
+2023-08-28T10:31:26+00:00 CRITICAL Uncaught Error: Failed opening required '/home/hyprojec/makalink.com/wp-content/themes/vikinger/includes/functions/buddypress/member/vikinger-functions-buddypress-member-global.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/hyprojec/makalink.com/wp-content/themes/vikinger/includes/functions/buddypress/member/vikinger-functions-buddypress-member.php:28
+Stack trace:
+#0 /home/hyprojec/makalink.com/wp-content/themes/vikinger/includes/functions/buddypress/vikinger-functions-buddypress.php(21): require_once()
+#1 /home/hyprojec/makalink.com/wp-content/themes/vikinger/includes/functions/vikinger-functions.php(73): require_once('/home/hyprojec/...')
+#2 /home/hyprojec/makalink.com/wp-content/themes/vikinger/functions.php(293): require_once('/home/hyprojec/...')
+#3 /home/hyprojec/makalink.com/wp-settings.php(600): include('/home/hyprojec/...')
+#4 /home/hyprojec/makalink.com/wp-config.php(97): require_once('/home/hyprojec/...')
+#5 /home/hyprojec/makalink.com/wp-load.php(50): require_once('/home/hyprojec/...')
+#6 /home/hyprojec/makalink.com/wp-cron.php(46): require_once('/home/hyprojec/...')
+#7 {main}
+  thrown in /home/hyprojec/makalink.com/wp-content/themes/vikinger/includes/functions/buddypress/member/vikinger-functions-buddypress-member.php on line 28
+
+2023-08-28T10:39:56+00:00 CRITICAL Uncaught Error: Failed opening required '/home/hyprojec/makalink.com/wp-content/plugins/buddypress/bp-core/classes/class-bp-core-bp-nav-backcompat.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/hyprojec/makalink.com/wp-content/plugins/buddypress/class-buddypress.php:718
+Stack trace:
+#0 /home/hyprojec/makalink.com/wp-content/plugins/buddypress/bp-core/classes/class-bp-core.php(278): BuddyPress->autoload()
+#1 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(310): BP_Core->setup_globals()
+#2 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#3 /home/hyprojec/makalink.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#4 /home/hyprojec/makalink.com/wp-content/plugins/buddypress/bp-core/bp-core-dependency.php(140): do_action()
+#5 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(310): bp_setup_globals()
+#6 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#7 /home/hyprojec/makalink.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#8 /home/hyprojec/makalink.com/wp-content/plugins/buddypress/bp-core/bp-core-dependency.php(267): do_action()
+#9 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(310): bp_init()
+#10 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#11 /home/hyprojec/makalink.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#12 /home/hyprojec/makalink.com/wp-settings.php(632): do_action()
+#13 /home/hyprojec/makalink.com/wp-config.php(97): require_once('/home/hyprojec/...')
+#14 /home/hyprojec/makalink.com/wp-load.php(50): require_once('/home/hyprojec/...')
+#15 /home/hyprojec/makalink.com/wp-admin/admin-ajax.php(22): require_once('/home/hyprojec/...')
+#16 {main}
+  thrown in /home/hyprojec/makalink.com/wp-content/plugins/buddypress/class-buddypress.php on line 718
+
+2023-08-28T10:39:56+00:00 CRITICAL Uncaught Error: Failed opening required '/home/hyprojec/makalink.com/wp-content/plugins/woocommerce/src/Admin/Notes/DataStore.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/hyprojec/makalink.com/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php:90
+Stack trace:
+#0 [internal function]: Automattic\Jetpack\Autoloader\jpc770d59a5d7d253965990351cc321de7\PHP_Autoloader::load_class()
+#1 /home/hyprojec/makalink.com/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(100): class_exists()
+#2 /home/hyprojec/makalink.com/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(139): WC_Data_Store->__construct()
+#3 /home/hyprojec/makalink.com/wp-content/plugins/woocommerce/src/Admin/Notes/Notes.php(471): WC_Data_Store::load()
+#4 /home/hyprojec/makalink.com/wp-content/plugins/woocommerce/src/Admin/Notes/Notes.php(298): Automattic\WooCommerce\Admin\Notes\Notes::load_data_store()
+#5 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(310): Automattic\WooCommerce\Admin\Notes\Notes::possibly_delete_survey_notes()
+#6 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#7 /home/hyprojec/makalink.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#8 /home/hyprojec/makalink.com/wp-admin/admin-ajax.php(45): do_action()
+#9 {main}
+  thrown in /home/hyprojec/makalink.com/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php on line 90
+
+2023-08-28T10:39:56+00:00 CRITICAL Uncaught Error: Failed opening required '/home/hyprojec/makalink.com/wp-content/plugins/buddypress/bp-groups/screens/directory.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/hyprojec/makalink.com/wp-content/plugins/buddypress/bp-groups/classes/class-bp-groups-component.php:196
+Stack trace:
+#0 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(310): BP_Groups_Component->late_includes()
+#1 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#2 /home/hyprojec/makalink.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#3 /home/hyprojec/makalink.com/wp-content/plugins/buddypress/bp-core/bp-core-dependency.php(50): do_action()
+#4 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(310): bp_late_include()
+#5 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#6 /home/hyprojec/makalink.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#7 /home/hyprojec/makalink.com/wp-content/plugins/buddypress/bp-core/bp-core-dependency.php(80): do_action()
+#8 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(310): bp_setup_canonical_stack()
+#9 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#10 /home/hyprojec/makalink.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#11 /home/hyprojec/makalink.com/wp-content/plugins/buddypress/bp-core/bp-core-dependency.php(267): do_action()
+#12 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(310): bp_init()
+#13 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#14 /home/hyprojec/makalink.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#15 /home/hyprojec/makalink.com/wp-settings.php(632): do_action()
+#16 /home/hyprojec/makalink.com/wp-config.php(97): require_once('/home/hyprojec/...')
+#17 /home/hyprojec/makalink.com/wp-load.php(50): require_once('/home/hyprojec/...')
+#18 /home/hyprojec/makalink.com/wp-admin/admin-ajax.php(22): require_once('/home/hyprojec/...')
+#19 {main}
+  thrown in /home/hyprojec/makalink.com/wp-content/plugins/buddypress/bp-groups/classes/class-bp-groups-component.php on line 196
+
+2023-08-28T10:40:47+00:00 CRITICAL Uncaught Error: Failed opening required '/home/hyprojec/makalink.com/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/attribute-filter.asset.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/hyprojec/makalink.com/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/Assets/Api.php:100
+Stack trace:
+#0 /home/hyprojec/makalink.com/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/AbstractBlock.php(127): Automattic\WooCommerce\Blocks\Assets\Api->get_script_data()
+#1 /home/hyprojec/makalink.com/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/AbstractBlock.php(115): Automattic\WooCommerce\Blocks\BlockTypes\AbstractBlock->register_block_type_assets()
+#2 /home/hyprojec/makalink.com/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/AbstractBlock.php(70): Automattic\WooCommerce\Blocks\BlockTypes\AbstractBlock->initialize()
+#3 /home/hyprojec/makalink.com/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypesController.php(65): Automattic\WooCommerce\Blocks\BlockTypes\AbstractBlock->__construct()
+#4 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(310): Automattic\WooCommerce\Blocks\BlockTypesController->register_blocks()
+#5 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#6 /home/hyprojec/makalink.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#7 /home/hyprojec/makalink.com/wp-settings.php(632): do_action()
+#8 /home/hyprojec/makalink.com/wp-config.php(97): require_once('/home/hyprojec/...')
+#9 /home/hyprojec/makalink.com/wp-load.php(50): require_once('/home/hyprojec/...')
+#10 /home/hyprojec/makalink.com/wp-cron.php(46): require_once('/home/hyprojec/...')
+#11 {main}
+  thrown in /home/hyprojec/makalink.com/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/Assets/Api.php on line 100
+
+2023-08-28T10:40:47+00:00 CRITICAL Uncaught Error: Class "WordThree\Metamask\AdminSettings" not found in /home/hyprojec/makalink.com/wp-content/plugins/wordthree/src/Shortcodes/Login.php:31
+Stack trace:
+#0 /home/hyprojec/makalink.com/wp-content/plugins/wordthree/src/Shortcodes/Login.php(55): WordThree\Metamask\Shortcodes\Login->__construct()
+#1 /home/hyprojec/makalink.com/wp-content/plugins/wordthree/src/Shortcodes.php(30): WordThree\Metamask\Shortcodes\Login::instance()
+#2 /home/hyprojec/makalink.com/wp-content/plugins/wordthree/src/Shortcodes.php(50): WordThree\Metamask\Shortcodes->__construct()
+#3 /home/hyprojec/makalink.com/wp-content/plugins/wordthree/src/Metamask.php(40): WordThree\Metamask\Shortcodes::instance()
+#4 /home/hyprojec/makalink.com/wp-content/plugins/wordthree/src/Metamask.php(65): WordThree\Metamask\Metamask->__construct()
+#5 /home/hyprojec/makalink.com/wp-content/plugins/wordthree/wordthree.php(31): WordThree\Metamask\Metamask::instance()
+#6 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(310): {closure}()
+#7 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#8 /home/hyprojec/makalink.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#9 /home/hyprojec/makalink.com/wp-settings.php(495): do_action()
+#10 /home/hyprojec/makalink.com/wp-config.php(97): require_once('/home/hyprojec/...')
+#11 /home/hyprojec/makalink.com/wp-load.php(50): require_once('/home/hyprojec/...')
+#12 /home/hyprojec/makalink.com/wp-admin/admin-ajax.php(22): require_once('/home/hyprojec/...')
+#13 {main}
+  thrown in /home/hyprojec/makalink.com/wp-content/plugins/wordthree/src/Shortcodes/Login.php on line 31
+
+2023-08-28T10:40:47+00:00 CRITICAL Uncaught Error: Failed opening required '/home/hyprojec/makalink.com/wp-content/plugins/elementor//includes/base/sub-controls-stack.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/hyprojec/makalink.com/wp-content/plugins/elementor/includes/autoloader.php:294
+Stack trace:
+#0 /home/hyprojec/makalink.com/wp-content/plugins/elementor/includes/autoloader.php(330): Elementor\Autoloader::load_class()
+#1 /home/hyprojec/makalink.com/wp-content/plugins/elementor/includes/base/skin-base.php(20): Elementor\Autoloader::autoload()
+#2 /home/hyprojec/makalink.com/wp-content/plugins/elementor/includes/managers/skins.php(111): require('/home/hyprojec/...')
+#3 /home/hyprojec/makalink.com/wp-content/plugins/elementor/includes/plugin.php(719): Elementor\Skins_Manager->__construct()
+#4 /home/hyprojec/makalink.com/wp-content/plugins/elementor/includes/plugin.php(647): Elementor\Plugin->init_components()
+#5 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(310): Elementor\Plugin->init()
+#6 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#7 /home/hyprojec/makalink.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#8 /home/hyprojec/makalink.com/wp-settings.php(632): do_action()
+#9 /home/hyprojec/makalink.com/wp-config.php(97): require_once('/home/hyprojec/...')
+#10 /home/hyprojec/makalink.com/wp-load.php(50): require_once('/home/hyprojec/...')
+#11 /home/hyprojec/makalink.com/wp-admin/admin-ajax.php(22): require_once('/home/hyprojec/...')
+#12 {main}
+  thrown in /home/hyprojec/makalink.com/wp-content/plugins/elementor/includes/autoloader.php on line 294
+
+2023-08-28T10:40:47+00:00 CRITICAL Uncaught Error: Failed opening required '/home/hyprojec/makalink.com/wp-content/plugins/elementor//includes/template-library/sources/remote.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/hyprojec/makalink.com/wp-content/plugins/elementor/includes/autoloader.php:294
+Stack trace:
+#0 /home/hyprojec/makalink.com/wp-content/plugins/elementor/includes/autoloader.php(330): Elementor\Autoloader::load_class()
+#1 [internal function]: Elementor\Autoloader::autoload()
+#2 /home/hyprojec/makalink.com/wp-content/plugins/elementor/includes/template-library/manager.php(109): class_exists()
+#3 /home/hyprojec/makalink.com/wp-content/plugins/elementor/includes/template-library/manager.php(561): Elementor\TemplateLibrary\Manager->register_source()
+#4 /home/hyprojec/makalink.com/wp-content/plugins/elementor/includes/template-library/manager.php(61): Elementor\TemplateLibrary\Manager->register_default_sources()
+#5 /home/hyprojec/makalink.com/wp-content/plugins/elementor/includes/plugin.php(731): Elementor\TemplateLibrary\Manager->__construct()
+#6 /home/hyprojec/makalink.com/wp-content/plugins/elementor/includes/plugin.php(647): Elementor\Plugin->init_components()
+#7 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(310): Elementor\Plugin->init()
+#8 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#9 /home/hyprojec/makalink.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#10 /home/hyprojec/makalink.com/wp-settings.php(632): do_action()
+#11 /home/hyprojec/makalink.com/wp-config.php(97): require_once('/home/hyprojec/...')
+#12 /home/hyprojec/makalink.com/wp-load.php(50): require_once('/home/hyprojec/...')
+#13 /home/hyprojec/makalink.com/wp-cron.php(46): require_once('/home/hyprojec/...')
+#14 {main}
+  thrown in /home/hyprojec/makalink.com/wp-content/plugins/elementor/includes/autoloader.php on line 294
+
+2023-08-28T10:40:48+00:00 CRITICAL Uncaught Error: Failed opening required '/home/hyprojec/makalink.com/wp-content/plugins/paid-memberships-pro/includes/compatibility/elementor/class-pmpro-elementor-content-restriction.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/hyprojec/makalink.com/wp-content/plugins/paid-memberships-pro/includes/compatibility/elementor/class-pmpro-elementor.php:34
+Stack trace:
+#0 /home/hyprojec/makalink.com/wp-content/plugins/paid-memberships-pro/includes/compatibility/elementor/class-pmpro-elementor.php(49): PMPro_Elementor->__construct()
+#1 /home/hyprojec/makalink.com/wp-content/plugins/paid-memberships-pro/includes/compatibility/elementor/class-pmpro-elementor.php(80): PMPro_Elementor::instance()
+#2 /home/hyprojec/makalink.com/wp-content/plugins/paid-memberships-pro/includes/compatibility/elementor.php(4): require_once('/home/hyprojec/...')
+#3 /home/hyprojec/makalink.com/wp-content/plugins/paid-memberships-pro/includes/compatibility.php(73): include_once('/home/hyprojec/...')
+#4 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(310): pmpro_compatibility_checker()
+#5 /home/hyprojec/makalink.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#6 /home/hyprojec/makalink.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#7 /home/hyprojec/makalink.com/wp-settings.php(495): do_action()
+#8 /home/hyprojec/makalink.com/wp-config.php(97): require_once('/home/hyprojec/...')
+#9 /home/hyprojec/makalink.com/wp-load.php(50): require_once('/home/hyprojec/...')
+#10 /home/hyprojec/makalink.com/wp-blog-header.php(13): require_once('/home/hyprojec/...')
+#11 /home/hyprojec/makalink.com/index.php(17): require('/home/hyprojec/...')
+#12 {main}
+  thrown in /home/hyprojec/makalink.com/wp-content/plugins/paid-memberships-pro/includes/compatibility/elementor/class-pmpro-elementor.php on line 34
+
+2023-08-28T10:41:40+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 98304 bytes) in /home/hyprojec/makalink.com/wp-content/themes/vikinger/template-part/navigation/dropdown-navigation-section.php on line 24
+

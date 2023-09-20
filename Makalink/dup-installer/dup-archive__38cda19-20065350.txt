@@ -1,0 +1,1505 @@
+{
+    "dup_type": "lite",
+    "created": "2023-09-20 06:53:50",
+    "version_dup": "1.5.5.1",
+    "version_wp": "6.3.1",
+    "version_db": "10.6.12",
+    "version_php": "8.1.21",
+    "version_os": "Linux",
+    "blogname": "Makalink",
+    "exportOnlyDB": 0,
+    "secure_on": false,
+    "secure_pass": "$2a$08$VVl4uAJJ4IDY2ooGZExDMO\/38s6clHRjXgC6Bnz8Twh6GcaXGNKFu",
+    "dbhost": null,
+    "dbname": null,
+    "dbuser": null,
+    "cpnl_host": null,
+    "cpnl_user": null,
+    "cpnl_pass": null,
+    "cpnl_enable": null,
+    "wp_tableprefix": "wpg8_",
+    "mu_mode": 0,
+    "mu_generation": 0,
+    "mu_siteadmins": [
+        "admin"
+    ],
+    "subsites": [
+        {
+            "id": 1,
+            "domain": "makalink.com",
+            "path": "\/",
+            "blogname": "Makalink",
+            "blog_prefix": "wpg8_",
+            "filteredTables": [],
+            "adminUsers": [
+                {
+                    "ID": "6",
+                    "user_login": "0x08bf2999c67a807fd1708670e4c48ada46aabac5",
+                    "id": "6"
+                },
+                {
+                    "ID": "11",
+                    "user_login": "0x2b3a847c8ceee0a92863976988c07bc1b85c456f",
+                    "id": "11"
+                },
+                {
+                    "ID": "13",
+                    "user_login": "0x6e5ab596b0aee39b1b081853b8f6814d4a9cd46e",
+                    "id": "13"
+                },
+                {
+                    "ID": "7",
+                    "user_login": "0x8f93aa137b87633100cff8ed5ab8e8a75767c69c",
+                    "id": "7"
+                },
+                {
+                    "ID": "5",
+                    "user_login": "0x91213022b44b52d12bc51b89ce149beb95acfbbf",
+                    "id": "5"
+                },
+                {
+                    "ID": "1",
+                    "user_login": "admin",
+                    "id": "1"
+                },
+                {
+                    "ID": "8",
+                    "user_login": "Master",
+                    "id": "8"
+                }
+            ],
+            "fullHomeUrl": "https:\/\/makalink.com",
+            "fullSiteUrl": "https:\/\/makalink.com",
+            "uploadPath": "wp-content\/uploads",
+            "fullUploadPath": "\/home\/makalink.com\/public_html\/wp-content\/uploads",
+            "fullUploadSafePath": "\/home\/makalink.com\/public_html\/wp-content\/uploads",
+            "fullUploadUrl": "https:\/\/makalink.com\/wp-content\/uploads",
+            "filteredPaths": []
+        }
+    ],
+    "main_site_id": 1,
+    "mu_is_filtered": false,
+    "license_limit": 0,
+    "license_type": 0,
+    "dbInfo": {
+        "buildMode": "PHP",
+        "charSetList": [
+            "utf8mb4"
+        ],
+        "collationList": [
+            "utf8mb4_general_ci",
+            "utf8mb4_unicode_520_ci"
+        ],
+        "engineList": [
+            "InnoDB"
+        ],
+        "isTablesUpperCase": 0,
+        "isNameUpperCase": 0,
+        "name": "maka_link",
+        "tablesBaseCount": 115,
+        "tablesFinalCount": 115,
+        "muFilteredTableCount": 0,
+        "tablesRowCount": 13644,
+        "tablesSizeOnDisk": 16416768,
+        "tablesList": {
+            "wpg8_actionscheduler_actions": {
+                "inaccurateRows": 575,
+                "insertedRows": 575,
+                "size": 507904
+            },
+            "wpg8_actionscheduler_claims": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 32768
+            },
+            "wpg8_actionscheduler_groups": {
+                "inaccurateRows": 2,
+                "insertedRows": 2,
+                "size": 32768
+            },
+            "wpg8_actionscheduler_logs": {
+                "inaccurateRows": 1719,
+                "insertedRows": 1719,
+                "size": 360448
+            },
+            "wpg8_automatorwp_actions": {
+                "inaccurateRows": 1,
+                "insertedRows": 1,
+                "size": 32768
+            },
+            "wpg8_automatorwp_actions_meta": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 49152
+            },
+            "wpg8_automatorwp_automations": {
+                "inaccurateRows": 1,
+                "insertedRows": 1,
+                "size": 32768
+            },
+            "wpg8_automatorwp_automations_meta": {
+                "inaccurateRows": 1,
+                "insertedRows": 1,
+                "size": 49152
+            },
+            "wpg8_automatorwp_logs": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 65536
+            },
+            "wpg8_automatorwp_logs_meta": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 49152
+            },
+            "wpg8_automatorwp_triggers": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 32768
+            },
+            "wpg8_automatorwp_triggers_meta": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 49152
+            },
+            "wpg8_bm_guests": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 16384
+            },
+            "wpg8_bm_mentions": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 16384
+            },
+            "wpg8_bm_message_messages": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 49152
+            },
+            "wpg8_bm_message_meta": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 49152
+            },
+            "wpg8_bm_message_recipients": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 114688
+            },
+            "wpg8_bm_moderation": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 32768
+            },
+            "wpg8_bm_threads": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 16384
+            },
+            "wpg8_bm_thread_meta": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 49152
+            },
+            "wpg8_bp_activity": {
+                "inaccurateRows": 354,
+                "insertedRows": 364,
+                "size": 294912
+            },
+            "wpg8_bp_activity_meta": {
+                "inaccurateRows": 41,
+                "insertedRows": 41,
+                "size": 49152
+            },
+            "wpg8_bp_friends": {
+                "inaccurateRows": 3,
+                "insertedRows": 3,
+                "size": 49152
+            },
+            "wpg8_bp_groups": {
+                "inaccurateRows": 23,
+                "insertedRows": 23,
+                "size": 65536
+            },
+            "wpg8_bp_groups_groupmeta": {
+                "inaccurateRows": 104,
+                "insertedRows": 104,
+                "size": 49152
+            },
+            "wpg8_bp_groups_members": {
+                "inaccurateRows": 25,
+                "insertedRows": 25,
+                "size": 114688
+            },
+            "wpg8_bp_invitations": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 163840
+            },
+            "wpg8_bp_messages_messages": {
+                "inaccurateRows": 7,
+                "insertedRows": 7,
+                "size": 49152
+            },
+            "wpg8_bp_messages_meta": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 49152
+            },
+            "wpg8_bp_messages_notices": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 32768
+            },
+            "wpg8_bp_messages_recipients": {
+                "inaccurateRows": 6,
+                "insertedRows": 6,
+                "size": 98304
+            },
+            "wpg8_bp_notifications": {
+                "inaccurateRows": 18,
+                "insertedRows": 21,
+                "size": 131072
+            },
+            "wpg8_bp_notifications_meta": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 49152
+            },
+            "wpg8_bp_optouts": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 65536
+            },
+            "wpg8_bp_xprofile_data": {
+                "inaccurateRows": 86,
+                "insertedRows": 86,
+                "size": 49152
+            },
+            "wpg8_bp_xprofile_fields": {
+                "inaccurateRows": 21,
+                "insertedRows": 21,
+                "size": 98304
+            },
+            "wpg8_bp_xprofile_groups": {
+                "inaccurateRows": 5,
+                "insertedRows": 5,
+                "size": 32768
+            },
+            "wpg8_bp_xprofile_meta": {
+                "inaccurateRows": 2,
+                "insertedRows": 2,
+                "size": 49152
+            },
+            "wpg8_commentmeta": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 49152
+            },
+            "wpg8_comments": {
+                "inaccurateRows": 1,
+                "insertedRows": 1,
+                "size": 114688
+            },
+            "wpg8_duplicator_packages": {
+                "inaccurateRows": 3,
+                "insertedRows": 3,
+                "size": 98304
+            },
+            "wpg8_duplicator_pro_entities": {
+                "inaccurateRows": 5,
+                "insertedRows": 5,
+                "size": 32768
+            },
+            "wpg8_duplicator_pro_packages": {
+                "inaccurateRows": 2,
+                "insertedRows": 2,
+                "size": 98304
+            },
+            "wpg8_e_events": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 32768
+            },
+            "wpg8_e_submissions": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 294912
+            },
+            "wpg8_e_submissions_actions_log": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 131072
+            },
+            "wpg8_e_submissions_values": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 49152
+            },
+            "wpg8_gamipress_logs": {
+                "inaccurateRows": 558,
+                "insertedRows": 558,
+                "size": 212992
+            },
+            "wpg8_gamipress_logs_meta": {
+                "inaccurateRows": 1786,
+                "insertedRows": 1786,
+                "size": 327680
+            },
+            "wpg8_gamipress_user_earnings": {
+                "inaccurateRows": 141,
+                "insertedRows": 141,
+                "size": 49152
+            },
+            "wpg8_gamipress_user_earnings_meta": {
+                "inaccurateRows": 134,
+                "insertedRows": 134,
+                "size": 49152
+            },
+            "wpg8_links": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 32768
+            },
+            "wpg8_options": {
+                "inaccurateRows": 710,
+                "insertedRows": 719,
+                "size": 5636096
+            },
+            "wpg8_pmpro_discount_codes": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 65536
+            },
+            "wpg8_pmpro_discount_codes_levels": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 32768
+            },
+            "wpg8_pmpro_discount_codes_uses": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 49152
+            },
+            "wpg8_pmpro_memberships_categories": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 32768
+            },
+            "wpg8_pmpro_memberships_pages": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 32768
+            },
+            "wpg8_pmpro_memberships_users": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 114688
+            },
+            "wpg8_pmpro_membership_levelmeta": {
+                "inaccurateRows": 1,
+                "insertedRows": 1,
+                "size": 49152
+            },
+            "wpg8_pmpro_membership_levels": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 65536
+            },
+            "wpg8_pmpro_membership_ordermeta": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 49152
+            },
+            "wpg8_pmpro_membership_orders": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 229376
+            },
+            "wpg8_postmeta": {
+                "inaccurateRows": 2286,
+                "insertedRows": 2249,
+                "size": 688128
+            },
+            "wpg8_posts": {
+                "inaccurateRows": 448,
+                "insertedRows": 462,
+                "size": 1687552
+            },
+            "wpg8_signups": {
+                "inaccurateRows": 3,
+                "insertedRows": 3,
+                "size": 81920
+            },
+            "wpg8_termmeta": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 49152
+            },
+            "wpg8_terms": {
+                "inaccurateRows": 93,
+                "insertedRows": 93,
+                "size": 49152
+            },
+            "wpg8_term_relationships": {
+                "inaccurateRows": 118,
+                "insertedRows": 118,
+                "size": 32768
+            },
+            "wpg8_term_taxonomy": {
+                "inaccurateRows": 93,
+                "insertedRows": 93,
+                "size": 49152
+            },
+            "wpg8_tm_taskmeta": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 49152
+            },
+            "wpg8_tm_tasks": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 32768
+            },
+            "wpg8_twothree_metamask_accounts": {
+                "inaccurateRows": 204,
+                "insertedRows": 204,
+                "size": 65536
+            },
+            "wpg8_usermeta": {
+                "inaccurateRows": 3535,
+                "insertedRows": 3427,
+                "size": 655360
+            },
+            "wpg8_users": {
+                "inaccurateRows": 203,
+                "insertedRows": 203,
+                "size": 114688
+            },
+            "wpg8_vkmedia_media": {
+                "inaccurateRows": 36,
+                "insertedRows": 36,
+                "size": 16384
+            },
+            "wpg8_vkreact_activity_user_reaction": {
+                "inaccurateRows": 113,
+                "insertedRows": 113,
+                "size": 16384
+            },
+            "wpg8_vkreact_postcomment_user_reaction": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 16384
+            },
+            "wpg8_vkreact_post_user_reaction": {
+                "inaccurateRows": 1,
+                "insertedRows": 1,
+                "size": 16384
+            },
+            "wpg8_vkreact_reaction": {
+                "inaccurateRows": 8,
+                "insertedRows": 8,
+                "size": 16384
+            },
+            "wpg8_wc_admin_notes": {
+                "inaccurateRows": 65,
+                "insertedRows": 65,
+                "size": 65536
+            },
+            "wpg8_wc_admin_note_actions": {
+                "inaccurateRows": 94,
+                "insertedRows": 94,
+                "size": 65536
+            },
+            "wpg8_wc_category_lookup": {
+                "inaccurateRows": 1,
+                "insertedRows": 1,
+                "size": 16384
+            },
+            "wpg8_wc_customer_lookup": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 49152
+            },
+            "wpg8_wc_download_log": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 49152
+            },
+            "wpg8_wc_orders": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 131072
+            },
+            "wpg8_wc_orders_meta": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 49152
+            },
+            "wpg8_wc_order_addresses": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 81920
+            },
+            "wpg8_wc_order_coupon_lookup": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 49152
+            },
+            "wpg8_wc_order_operational_data": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 49152
+            },
+            "wpg8_wc_order_product_lookup": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 81920
+            },
+            "wpg8_wc_order_stats": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 65536
+            },
+            "wpg8_wc_order_tax_lookup": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 49152
+            },
+            "wpg8_wc_product_attributes_lookup": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 32768
+            },
+            "wpg8_wc_product_download_directories": {
+                "inaccurateRows": 2,
+                "insertedRows": 2,
+                "size": 32768
+            },
+            "wpg8_wc_product_meta_lookup": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 114688
+            },
+            "wpg8_wc_rate_limits": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 32768
+            },
+            "wpg8_wc_reserved_stock": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 16384
+            },
+            "wpg8_wc_tax_rate_classes": {
+                "inaccurateRows": 2,
+                "insertedRows": 2,
+                "size": 32768
+            },
+            "wpg8_wc_webhooks": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 32768
+            },
+            "wpg8_woocommerce_api_keys": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 49152
+            },
+            "wpg8_woocommerce_attribute_taxonomies": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 32768
+            },
+            "wpg8_woocommerce_downloadable_product_permissions": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 81920
+            },
+            "wpg8_woocommerce_log": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 32768
+            },
+            "wpg8_woocommerce_order_itemmeta": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 49152
+            },
+            "wpg8_woocommerce_order_items": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 32768
+            },
+            "wpg8_woocommerce_payment_tokenmeta": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 49152
+            },
+            "wpg8_woocommerce_payment_tokens": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 32768
+            },
+            "wpg8_woocommerce_sessions": {
+                "inaccurateRows": 4,
+                "insertedRows": 4,
+                "size": 32768
+            },
+            "wpg8_woocommerce_shipping_zones": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 16384
+            },
+            "wpg8_woocommerce_shipping_zone_locations": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 49152
+            },
+            "wpg8_woocommerce_shipping_zone_methods": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 16384
+            },
+            "wpg8_woocommerce_tax_rates": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 81920
+            },
+            "wpg8_woocommerce_tax_rate_locations": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 49152
+            },
+            "wpg8_wpfm_backup": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 16384
+            }
+        },
+        "varLowerCaseTables": "0",
+        "dbEngine": "MariaDB",
+        "version": "10.6.12",
+        "versionComment": "Ubuntu 22.04",
+        "viewCount": 0,
+        "procCount": 0,
+        "funcCount": 0,
+        "triggerList": []
+    },
+    "packInfo": {
+        "packageId": 3,
+        "packageName": "Makalink_source",
+        "packageHash": "38cda19-20065350",
+        "secondaryHash": "8417192-20065350"
+    },
+    "fileInfo": {
+        "dirCount": 3300,
+        "fileCount": 17206,
+        "size": 487183584
+    },
+    "wpInfo": {
+        "version": "6.3.1",
+        "is_multisite": false,
+        "network_id": 1,
+        "targetRoot": "\/home\/makalink.com\/public_html",
+        "targetPaths": [
+            "\/home\/makalink.com\/public_html"
+        ],
+        "adminUsers": [
+            {
+                "ID": "6",
+                "user_login": "0x08bf2999c67a807fd1708670e4c48ada46aabac5",
+                "id": "6"
+            },
+            {
+                "ID": "11",
+                "user_login": "0x2b3a847c8ceee0a92863976988c07bc1b85c456f",
+                "id": "11"
+            },
+            {
+                "ID": "13",
+                "user_login": "0x6e5ab596b0aee39b1b081853b8f6814d4a9cd46e",
+                "id": "13"
+            },
+            {
+                "ID": "7",
+                "user_login": "0x8f93aa137b87633100cff8ed5ab8e8a75767c69c",
+                "id": "7"
+            },
+            {
+                "ID": "5",
+                "user_login": "0x91213022b44b52d12bc51b89ce149beb95acfbbf",
+                "id": "5"
+            },
+            {
+                "ID": "1",
+                "user_login": "admin",
+                "id": "1"
+            },
+            {
+                "ID": "8",
+                "user_login": "Master",
+                "id": "8"
+            }
+        ],
+        "configs": {
+            "defines": {
+                "ABSPATH": {
+                    "value": "\/home\/makalink.com\/public_html\/",
+                    "inWpConfig": true
+                },
+                "DB_CHARSET": {
+                    "value": "utf8mb4",
+                    "inWpConfig": true
+                },
+                "DB_COLLATE": {
+                    "value": "",
+                    "inWpConfig": true
+                },
+                "AUTH_KEY": {
+                    "value": "hslasyefte0jqpfoqk5q1jlgunes5tb4iwarlntybchypxws7iqzvbrothmjaxui",
+                    "inWpConfig": true
+                },
+                "SECURE_AUTH_KEY": {
+                    "value": "q5lfw3vvc3hqvo3hkgwnhwgbj4tziqk5anbq3dk8emcrzrlzrjphwekaar9omsn6",
+                    "inWpConfig": true
+                },
+                "LOGGED_IN_KEY": {
+                    "value": "mqliie01oijxbfdqcrhfhzfmanhvosuyqqelumshhqskndefbis6mz2sgah2oqvd",
+                    "inWpConfig": true
+                },
+                "NONCE_KEY": {
+                    "value": "tj7ucpk2jo8phxiznniihfkb3amxy0kg8ykc2uhhgkubysgxkxjxyr2wfagsr3gl",
+                    "inWpConfig": true
+                },
+                "AUTH_SALT": {
+                    "value": "8s2pkogqpmmgxmmgnlh1ppgdh4kivoxkp3hmw0wet3allylcn37axicrbd1xfslu",
+                    "inWpConfig": true
+                },
+                "SECURE_AUTH_SALT": {
+                    "value": "enkytodqnn6gshiqyrkds07roiophocf8kmlsvzmqbovc9nfqh4ui42myc0wdgu3",
+                    "inWpConfig": true
+                },
+                "LOGGED_IN_SALT": {
+                    "value": "godup2cjxxnjlvm1w7g2pse7zqeabgjpaejqhv03kj5akaonzol2pplx25x25ump",
+                    "inWpConfig": true
+                },
+                "NONCE_SALT": {
+                    "value": "epj0putdjcjalymhldz3wjty4ehgpm4bhvwwdganzqmtykvf3hvcybuw8sfwpujg",
+                    "inWpConfig": true
+                },
+                "WP_CONTENT_DIR": {
+                    "value": "\/home\/makalink.com\/public_html\/wp-content",
+                    "inWpConfig": false
+                },
+                "WP_CONTENT_URL": {
+                    "value": "https:\/\/makalink.com\/wp-content",
+                    "inWpConfig": false
+                },
+                "WP_PLUGIN_DIR": {
+                    "value": "\/home\/makalink.com\/public_html\/wp-content\/plugins",
+                    "inWpConfig": false
+                },
+                "WP_PLUGIN_URL": {
+                    "value": "https:\/\/makalink.com\/wp-content\/plugins",
+                    "inWpConfig": false
+                },
+                "PLUGINDIR": {
+                    "value": "wp-content\/plugins",
+                    "inWpConfig": false
+                },
+                "AUTOSAVE_INTERVAL": {
+                    "value": 60,
+                    "inWpConfig": false
+                },
+                "WP_POST_REVISIONS": {
+                    "value": true,
+                    "inWpConfig": false
+                },
+                "COOKIE_DOMAIN": {
+                    "value": false,
+                    "inWpConfig": false
+                },
+                "MULTISITE": {
+                    "value": false,
+                    "inWpConfig": false
+                },
+                "WP_DEBUG": {
+                    "value": false,
+                    "inWpConfig": true
+                },
+                "SCRIPT_DEBUG": {
+                    "value": false,
+                    "inWpConfig": false
+                },
+                "WP_DEBUG_LOG": {
+                    "value": false,
+                    "inWpConfig": false
+                },
+                "WP_DEBUG_DISPLAY": {
+                    "value": true,
+                    "inWpConfig": false
+                },
+                "WP_MEMORY_LIMIT": {
+                    "value": "40M",
+                    "inWpConfig": false
+                },
+                "WP_MAX_MEMORY_LIMIT": {
+                    "value": "256M",
+                    "inWpConfig": false
+                },
+                "WP_CACHE": {
+                    "value": false,
+                    "inWpConfig": false
+                },
+                "WP_LANG_DIR": {
+                    "value": "\/home\/makalink.com\/public_html\/wp-content\/languages",
+                    "inWpConfig": false
+                },
+                "WP_CRON_LOCK_TIMEOUT": {
+                    "value": 60,
+                    "inWpConfig": false
+                },
+                "COOKIEPATH": {
+                    "value": "\/",
+                    "inWpConfig": false
+                },
+                "SITECOOKIEPATH": {
+                    "value": "\/",
+                    "inWpConfig": false
+                },
+                "ADMIN_COOKIE_PATH": {
+                    "value": "\/wp-admin",
+                    "inWpConfig": false
+                },
+                "PLUGINS_COOKIE_PATH": {
+                    "value": "\/wp-content\/plugins",
+                    "inWpConfig": false
+                },
+                "TEMPLATEPATH": {
+                    "value": "\/home\/makalink.com\/public_html\/wp-content\/themes\/vikinger",
+                    "inWpConfig": false
+                },
+                "STYLESHEETPATH": {
+                    "value": "\/home\/makalink.com\/public_html\/wp-content\/themes\/vikinger",
+                    "inWpConfig": false
+                },
+                "EMPTY_TRASH_DAYS": {
+                    "value": 30,
+                    "inWpConfig": false
+                },
+                "FORCE_SSL_ADMIN": {
+                    "value": true,
+                    "inWpConfig": false
+                },
+                "WPMU_PLUGIN_DIR": {
+                    "value": "\/home\/makalink.com\/public_html\/wp-content\/mu-plugins",
+                    "inWpConfig": false
+                },
+                "WPMU_PLUGIN_URL": {
+                    "value": "https:\/\/makalink.com\/wp-content\/mu-plugins",
+                    "inWpConfig": false
+                },
+                "MUPLUGINDIR": {
+                    "value": "wp-content\/mu-plugins",
+                    "inWpConfig": false
+                }
+            },
+            "realValues": {
+                "siteUrl": "https:\/\/makalink.com",
+                "homeUrl": "https:\/\/makalink.com",
+                "loginUrl": "https:\/\/makalink.com\/login\/",
+                "contentUrl": "https:\/\/makalink.com\/wp-content",
+                "uploadBaseUrl": "https:\/\/makalink.com\/wp-content\/uploads",
+                "pluginsUrl": "https:\/\/makalink.com\/wp-content\/plugins",
+                "mupluginsUrl": "https:\/\/makalink.com\/wp-content\/mu-plugins",
+                "themesUrl": "https:\/\/makalink.com\/wp-content\/themes",
+                "originalPaths": {
+                    "home": "\/home\/makalink.com\/public_html",
+                    "abs": "\/home\/makalink.com\/public_html",
+                    "wpconfig": "\/home\/makalink.com\/public_html",
+                    "wpcontent": "\/home\/makalink.com\/public_html\/wp-content",
+                    "uploads": "\/home\/makalink.com\/public_html\/wp-content\/uploads",
+                    "plugins": "\/home\/makalink.com\/public_html\/wp-content\/plugins",
+                    "muplugins": "\/home\/makalink.com\/public_html\/wp-content\/mu-plugins",
+                    "themes": "\/home\/makalink.com\/public_html\/wp-content\/themes"
+                },
+                "archivePaths": {
+                    "home": "\/home\/makalink.com\/public_html",
+                    "abs": "\/home\/makalink.com\/public_html",
+                    "wpconfig": "\/home\/makalink.com\/public_html",
+                    "wpcontent": "\/home\/makalink.com\/public_html\/wp-content",
+                    "uploads": "\/home\/makalink.com\/public_html\/wp-content\/uploads",
+                    "plugins": "\/home\/makalink.com\/public_html\/wp-content\/plugins",
+                    "muplugins": "\/home\/makalink.com\/public_html\/wp-content\/mu-plugins",
+                    "themes": "\/home\/makalink.com\/public_html\/wp-content\/themes"
+                }
+            }
+        },
+        "plugins": {
+            "bbpress\/bbpress.php": {
+                "slug": "bbpress\/bbpress.php",
+                "name": "bbPress",
+                "version": "2.6.9",
+                "pluginURI": "https:\/\/bbpress.org",
+                "author": "The bbPress Contributors",
+                "authorURI": "https:\/\/bbpress.org",
+                "description": "bbPress is forum software with a twist from the creators of WordPress.",
+                "title": "bbPress",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "buddypress\/bp-loader.php": {
+                "slug": "buddypress\/bp-loader.php",
+                "name": "BuddyPress",
+                "version": "11.3.1",
+                "pluginURI": "https:\/\/buddypress.org",
+                "author": "The BuddyPress Community",
+                "authorURI": "https:\/\/buddypress.org",
+                "description": "BuddyPress adds community features to WordPress. Member Profiles, Activity Streams, Direct Messaging, Notifications, and more!",
+                "title": "BuddyPress",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "duplicator\/duplicator.php": {
+                "slug": "duplicator\/duplicator.php",
+                "name": "Duplicator",
+                "version": "1.5.5.1",
+                "pluginURI": "https:\/\/duplicator.com\/",
+                "author": "Duplicator",
+                "authorURI": "https:\/\/duplicator.com\/",
+                "description": "Migrate and backup a copy of your WordPress files and database. Duplicate and move a site from one location to another quickly.",
+                "title": "Duplicator",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "duplicator-pro\/duplicator-pro.php": {
+                "slug": "duplicator-pro\/duplicator-pro.php",
+                "name": "Duplicator Pro",
+                "version": "4.5.12",
+                "pluginURI": "https:\/\/duplicator.com\/",
+                "author": "Duplicator",
+                "authorURI": "https:\/\/duplicator.com\/",
+                "description": "Create, schedule and transfer a copy of your WordPress files and database. Duplicate and move a site from one location to another quickly.",
+                "title": "Duplicator Pro",
+                "networkActive": false,
+                "active": false,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "elementor\/elementor.php": {
+                "slug": "elementor\/elementor.php",
+                "name": "Elementor",
+                "version": "3.16.3",
+                "pluginURI": "https:\/\/elementor.com\/?utm_source=wp-plugins&utm_campaign=plugin-uri&utm_medium=wp-dash",
+                "author": "Elementor.com",
+                "authorURI": "https:\/\/elementor.com\/?utm_source=wp-plugins&utm_campaign=author-uri&utm_medium=wp-dash",
+                "description": "The Elementor Website Builder has it all: drag and drop page builder, pixel perfect design, mobile responsive editing, and more. Get started now!",
+                "title": "Elementor",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "header-footer-elementor\/header-footer-elementor.php": {
+                "slug": "header-footer-elementor\/header-footer-elementor.php",
+                "name": "Elementor Header & Footer Builder",
+                "version": "1.6.15",
+                "pluginURI": "https:\/\/github.com\/Nikschavan\/header-footer-elementor",
+                "author": "Brainstorm Force, Nikhil Chavan",
+                "authorURI": "https:\/\/www.brainstormforce.com\/",
+                "description": "This powerful plugin allows creating a custom header, footer with Elementor and display them on selected locations. You can also create custom Elementor blocks and place them anywhere on the website with a shortcode.",
+                "title": "Elementor Header & Footer Builder",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "elementor-pro\/elementor-pro.php": {
+                "slug": "elementor-pro\/elementor-pro.php",
+                "name": "Elementor Pro",
+                "version": "3.16.0",
+                "pluginURI": "https:\/\/go.elementor.com\/wp-dash-wp-plugins-author-uri\/",
+                "author": "Elementor.com",
+                "authorURI": "https:\/\/go.elementor.com\/wp-dash-wp-plugins-author-uri\/",
+                "description": "Elevate your designs and unlock the full power of Elementor. Gain access to dozens of Pro widgets and kits, Theme Builder, Pop Ups, Forms and WooCommerce building capabilities.",
+                "title": "Elementor Pro",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "gamipress\/gamipress.php": {
+                "slug": "gamipress\/gamipress.php",
+                "name": "GamiPress",
+                "version": "2.7.2",
+                "pluginURI": "https:\/\/gamipress.com",
+                "author": "GamiPress",
+                "authorURI": "https:\/\/gamipress.com\/",
+                "description": "The most flexible and powerful gamification system for WordPress.",
+                "title": "GamiPress",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "gamipress-bbpress-integration\/gamipress-bbpress.php": {
+                "slug": "gamipress-bbpress-integration\/gamipress-bbpress.php",
+                "name": "GamiPress - bbPress integration",
+                "version": "1.2.7",
+                "pluginURI": "https:\/\/wordpress.org\/plugins\/gamipress-bbpress-integration\/",
+                "author": "GamiPress",
+                "authorURI": "https:\/\/gamipress.com\/",
+                "description": "Connect GamiPress with bbPress.",
+                "title": "GamiPress - bbPress integration",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "gamipress-buddypress-integration\/gamipress-buddypress.php": {
+                "slug": "gamipress-buddypress-integration\/gamipress-buddypress.php",
+                "name": "GamiPress - BuddyPress integration",
+                "version": "1.6.1",
+                "pluginURI": "https:\/\/wordpress.org\/plugins\/gamipress-buddypress-integration\/",
+                "author": "GamiPress",
+                "authorURI": "https:\/\/gamipress.com\/",
+                "description": "Connect GamiPress with BuddyPress.",
+                "title": "GamiPress - BuddyPress integration",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "hide-admin-bar-based-on-user-roles\/hide-admin-bar-based-on-user-roles.php": {
+                "slug": "hide-admin-bar-based-on-user-roles\/hide-admin-bar-based-on-user-roles.php",
+                "name": "Hide Admin Bar Based on User Roles",
+                "version": "3.6.0",
+                "pluginURI": "https:\/\/wordpress.org\/plugins\/hide-admin-bar-based-on-user-roles\/",
+                "author": "Ankit Panchal",
+                "authorURI": "https:\/\/iamankitpanchal.com\/",
+                "description": "This plugin is very useful to hide admin bar based on selected user roles and user capabilities.",
+                "title": "Hide Admin Bar Based on User Roles",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "insert-script-in-headers-and-footers\/insert-script-in-headers-and-footers.php": {
+                "slug": "insert-script-in-headers-and-footers\/insert-script-in-headers-and-footers.php",
+                "name": "Insert Script In Headers And Footers",
+                "version": "2.3",
+                "pluginURI": "",
+                "author": "Geek Code Lab",
+                "authorURI": "https:\/\/geekcodelab.com\/",
+                "description": "A plugin to insert script in headers and footers",
+                "title": "Insert Script In Headers And Footers",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "members\/members.php": {
+                "slug": "members\/members.php",
+                "name": "Members",
+                "version": "3.2.7",
+                "pluginURI": "https:\/\/memberpress.com\/plugins\/members",
+                "author": "MemberPress",
+                "authorURI": "https:\/\/memberpress.com",
+                "description": "A user and role management plugin that puts you in full control of your site's permissions. This plugin allows you to edit your roles and their capabilities, clone existing roles, assign multiple roles per user, block post content, or even make your site completely private.",
+                "title": "Members",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "menu-image\/menu-image.php": {
+                "slug": "menu-image\/menu-image.php",
+                "name": "Menu Image",
+                "version": "3.10",
+                "pluginURI": "https:\/\/www.freshlightlab.com\/menu-image-wordpress-plugin\/?utm_source=wprepo-menu-image&utm_medium=wprepo_readme&utm_campaign=Plugin+URI",
+                "author": "Freshlight Lab",
+                "authorURI": "https:\/\/www.freshlightlab.com\/?utm_source=wprepo-menu-image&utm_medium=wprepo_readme&utm_campaign=Author+URI",
+                "description": "Improve your navigation menu items with images, logos, icons, buttons.",
+                "title": "Menu Image",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "paid-memberships-pro\/paid-memberships-pro.php": {
+                "slug": "paid-memberships-pro\/paid-memberships-pro.php",
+                "name": "Paid Memberships Pro",
+                "version": "2.12.2",
+                "pluginURI": "https:\/\/www.paidmembershipspro.com",
+                "author": "Paid Memberships Pro",
+                "authorURI": "https:\/\/www.paidmembershipspro.com",
+                "description": "The most complete member management and membership subscriptions plugin for WordPress.",
+                "title": "Paid Memberships Pro",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "pmpro-bbpress\/pmpro-bbpress.php": {
+                "slug": "pmpro-bbpress\/pmpro-bbpress.php",
+                "name": "Paid Memberships Pro - bbPress Add On",
+                "version": "1.7.3",
+                "pluginURI": "https:\/\/www.paidmembershipspro.com\/add-ons\/pmpro-bbpress\/",
+                "author": "Paid Memberships Pro",
+                "authorURI": "https:\/\/www.paidmembershipspro.com",
+                "description": "Restrict access to bbPress for free or premium members by integrating bbPress with Paid Memberships Pro.",
+                "title": "Paid Memberships Pro - bbPress Add On",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "pmpro-buddypress\/pmpro-buddypress.php": {
+                "slug": "pmpro-buddypress\/pmpro-buddypress.php",
+                "name": "Paid Memberships Pro - BuddyPress & BuddyBoss Add On",
+                "version": "1.4.1",
+                "pluginURI": "https:\/\/www.paidmembershipspro.com\/add-ons\/buddypress-integration",
+                "author": "Paid Memberships Pro",
+                "authorURI": "https:\/\/www.paidmembershipspro.com",
+                "description": "Restrict access to your BuddyPress or BuddyBoss Community using Paid Memberships Pro",
+                "title": "Paid Memberships Pro - BuddyPress & BuddyBoss Add On",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "svg-support\/svg-support.php": {
+                "slug": "svg-support\/svg-support.php",
+                "name": "SVG Support",
+                "version": "2.5.5",
+                "pluginURI": "http:\/\/wordpress.org\/plugins\/svg-support\/",
+                "author": "Benbodhi",
+                "authorURI": "https:\/\/benbodhi.com",
+                "description": "Upload SVG files to the Media Library and render SVG files inline for direct styling\/animation of an SVG's internal elements using CSS\/JS.",
+                "title": "SVG Support",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "user-role-editor\/user-role-editor.php": {
+                "slug": "user-role-editor\/user-role-editor.php",
+                "name": "User Role Editor",
+                "version": "4.64",
+                "pluginURI": "https:\/\/www.role-editor.com",
+                "author": "Vladimir Garagulya",
+                "authorURI": "https:\/\/www.role-editor.com",
+                "description": "Change\/add\/delete WordPress user roles and capabilities.",
+                "title": "User Role Editor",
+                "networkActive": false,
+                "active": false,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "bp-verified-member\/bp-verified-member.php": {
+                "slug": "bp-verified-member\/bp-verified-member.php",
+                "name": "Verified Member for BuddyPress",
+                "version": "1.2.6",
+                "pluginURI": "https:\/\/wordpress.org\/plugins\/bp-verified-member\/",
+                "author": "Themosaurus",
+                "authorURI": "https:\/\/themosaurus.com\/",
+                "description": "This plugins allows admins to add a \"Verified\" badge for specific members.",
+                "title": "Verified Member for BuddyPress",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "vikinger-buddypress-extension\/vikinger-buddypress-extension.php": {
+                "slug": "vikinger-buddypress-extension\/vikinger-buddypress-extension.php",
+                "name": "Vikinger - Buddypress Extension",
+                "version": "1.1.1",
+                "pluginURI": "http:\/\/odindesign-themes.com\/",
+                "author": "Odin Design Themes",
+                "authorURI": "https:\/\/themeforest.net\/user\/odin_design",
+                "description": "Vikinger functionality extension to Buddypress.",
+                "title": "Vikinger - Buddypress Extension",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "vkmedia\/vkmedia.php": {
+                "slug": "vkmedia\/vkmedia.php",
+                "name": "Vikinger Media",
+                "version": "1.0.0",
+                "pluginURI": "http:\/\/odindesign-themes.com\/",
+                "author": "Odin Design Themes",
+                "authorURI": "https:\/\/themeforest.net\/user\/odin_design",
+                "description": "Add media to your BuddyPress members and activities.",
+                "title": "Vikinger Media",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "vikinger-metaboxes\/vikinger-metaboxes.php": {
+                "slug": "vikinger-metaboxes\/vikinger-metaboxes.php",
+                "name": "Vikinger Metaboxes",
+                "version": "1.0.2",
+                "pluginURI": "http:\/\/odindesign-themes.com\/",
+                "author": "Odin Design Themes",
+                "authorURI": "https:\/\/themeforest.net\/user\/odin_design",
+                "description": "Post format metaboxes for the vikinger theme.",
+                "title": "Vikinger Metaboxes",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "vkreact\/vkreact.php": {
+                "slug": "vkreact\/vkreact.php",
+                "name": "Vikinger Reactions",
+                "version": "1.0.4",
+                "pluginURI": "http:\/\/odindesign-themes.com\/",
+                "author": "Odin Design Themes",
+                "authorURI": "https:\/\/themeforest.net\/user\/odin_design",
+                "description": "Add reactions to your blog posts and comments.",
+                "title": "Vikinger Reactions",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "vkreact-buddypress\/vkreact-buddypress.php": {
+                "slug": "vkreact-buddypress\/vkreact-buddypress.php",
+                "name": "Vikinger Reactions - BuddyPress Integration",
+                "version": "1.0.4",
+                "pluginURI": "http:\/\/odindesign-themes.com\/",
+                "author": "Odin Design Themes",
+                "authorURI": "https:\/\/themeforest.net\/user\/odin_design",
+                "description": "Add reactions to your BuddyPress activities.",
+                "title": "Vikinger Reactions - BuddyPress Integration",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "vikinger-widgets\/vikinger-widgets.php": {
+                "slug": "vikinger-widgets\/vikinger-widgets.php",
+                "name": "Vikinger Widgets",
+                "version": "1.0.0",
+                "pluginURI": "http:\/\/odindesign-themes.com\/",
+                "author": "Odin Design Themes",
+                "authorURI": "https:\/\/themeforest.net\/user\/odin_design",
+                "description": "Widgets for the vikinger theme.",
+                "title": "Vikinger Widgets",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "visual-footer-credit-remover\/visual-footer-credit-remover.php": {
+                "slug": "visual-footer-credit-remover\/visual-footer-credit-remover.php",
+                "name": "Visual Footer Credit Remover",
+                "version": "1.2",
+                "pluginURI": "https:\/\/upwerd.com\/visual-footer-credit-remover",
+                "author": "Upwerd LLC",
+                "authorURI": "https:\/\/upwerd.com",
+                "description": "Visually remove or replace footer credits",
+                "title": "Visual Footer Credit Remover",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "wallet-login\/main.php": {
+                "slug": "wallet-login\/main.php",
+                "name": "Wallet Login",
+                "version": "1.5.4",
+                "pluginURI": "https:\/\/gigsix.com\/",
+                "author": "alisaleem252",
+                "authorURI": "https:\/\/gigsix.com",
+                "description": "WP Wallet Login, Login with Crypto Wallets.",
+                "title": "Wallet Login",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "web3-authentication\/miniorange-web3-login-settings.php": {
+                "slug": "web3-authentication\/miniorange-web3-login-settings.php",
+                "name": "Web3 - Crypto wallet Login & NFT token gating",
+                "version": "3.1.0",
+                "pluginURI": "http:\/\/miniorange.com",
+                "author": "miniOrange",
+                "authorURI": "",
+                "description": "WordPress WEB3 authentication allows the functionality to auto login, auto register into WordPress using the WEB3 Crypto wallet like metamask.",
+                "title": "Web3 - Crypto wallet Login & NFT token gating",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "wordthree\/wordthree.php": {
+                "slug": "wordthree\/wordthree.php",
+                "name": "WordThree MetaMask Authentication",
+                "version": "1.1.0",
+                "pluginURI": "https:\/\/www.wordthree.co.uk",
+                "author": "cudedesign",
+                "authorURI": "https:\/\/www.cudedesign.co.uk",
+                "description": "Authenticate and Register Users with MetaMask.",
+                "title": "WordThree MetaMask Authentication",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "wp-optimize\/wp-optimize.php": {
+                "slug": "wp-optimize\/wp-optimize.php",
+                "name": "WP-Optimize - Clean, Compress, Cache",
+                "version": "3.2.18",
+                "pluginURI": "https:\/\/getwpo.com",
+                "author": "David Anderson, Ruhani Rabin, Team Updraft",
+                "authorURI": "https:\/\/updraftplus.com",
+                "description": "WP-Optimize makes your site fast and efficient. It cleans the database, compresses images and caches pages. Fast sites attract moretraffic and users.",
+                "title": "WP-Optimize - Clean, Compress, Cache",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "insert-headers-and-footers\/ihaf.php": {
+                "slug": "insert-headers-and-footers\/ihaf.php",
+                "name": "WPCode Lite",
+                "version": "2.1.2",
+                "pluginURI": "https:\/\/www.wpcode.com\/",
+                "author": "WPCode",
+                "authorURI": "https:\/\/www.wpcode.com\/",
+                "description": "Easily add code snippets in WordPress. Insert scripts to the header and footer, add PHP code snippets with conditional logic, insert ads pixel, custom content, and more.",
+                "title": "WPCode Lite",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "wp-file-manager\/file_folder_manager.php": {
+                "slug": "wp-file-manager\/file_folder_manager.php",
+                "name": "WP File Manager",
+                "version": "7.2",
+                "pluginURI": "https:\/\/wordpress.org\/plugins\/wp-file-manager",
+                "author": "mndpsingh287",
+                "authorURI": "https:\/\/profiles.wordpress.org\/mndpsingh287",
+                "description": "Manage your WP files.",
+                "title": "WP File Manager",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "wps-hide-login\/wps-hide-login.php": {
+                "slug": "wps-hide-login\/wps-hide-login.php",
+                "name": "WPS Hide Login",
+                "version": "1.9.9",
+                "pluginURI": "",
+                "author": "WPServeur, NicolasKulka, wpformation",
+                "authorURI": "https:\/\/wpserveur.net",
+                "description": "Protect your website by changing the login URL and preventing access to wp-login.php page and wp-admin directory while not logged-in",
+                "title": "WPS Hide Login",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "yellow-pencil-visual-theme-customizer\/yellow-pencil.php": {
+                "slug": "yellow-pencil-visual-theme-customizer\/yellow-pencil.php",
+                "name": "YellowPencil",
+                "version": "7.6.0",
+                "pluginURI": "https:\/\/yellowpencil.waspthemes.com",
+                "author": "WaspThemes",
+                "authorURI": "https:\/\/yellowpencil.waspthemes.com",
+                "description": "The most powerful visual CSS editor for WordPress. Customize any theme and page visually without coding.",
+                "title": "YellowPencil",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            }
+        },
+        "themes": {
+            "twentytwentythree": {
+                "slug": "twentytwentythree",
+                "themeName": "Twenty Twenty-Three",
+                "version": "1.2",
+                "themeURI": "https:\/\/wordpress.org\/themes\/twentytwentythree",
+                "parentTheme": false,
+                "template": "twentytwentythree",
+                "stylesheet": "twentytwentythree",
+                "description": "Twenty Twenty-Three is designed to take advantage of the new design tools introduced in WordPress 6.1. With a clean, blank base as a starting point, this default theme includes ten diverse style variations created by members of the WordPress community. Whether you want to build a complex or incredibly simple website, you can do it quickly and intuitively through the bundled styles or dive into creation and full customization yourself.",
+                "author": "the WordPress team",
+                "authorURI": "https:\/\/wordpress.org",
+                "tags": [
+                    "one-column",
+                    "custom-colors",
+                    "custom-menu",
+                    "custom-logo",
+                    "editor-style",
+                    "featured-images",
+                    "full-site-editing",
+                    "block-patterns",
+                    "rtl-language-support",
+                    "sticky-post",
+                    "threaded-comments",
+                    "translation-ready",
+                    "wide-blocks",
+                    "block-styles",
+                    "style-variations",
+                    "accessibility-ready",
+                    "blog",
+                    "portfolio",
+                    "news"
+                ],
+                "isAllowed": true,
+                "isActive": false,
+                "defaultTheme": true
+            },
+            "vikinger": {
+                "slug": "vikinger",
+                "themeName": "Vikinger - BuddyPress Social Community",
+                "version": "1.9.9",
+                "themeURI": "https:\/\/odindesignthemes.com\/vikinger-theme\/",
+                "parentTheme": false,
+                "template": "vikinger",
+                "stylesheet": "vikinger",
+                "description": "The next generation WordPress+Buddypress social community! We carefully designed this theme for you to have all you need to build an incredible community with full profiles, reactions, groups, badges, quests, ranks, credits and much more to come!",
+                "author": "Odin Design Themes",
+                "authorURI": "https:\/\/themeforest.net\/user\/odin_design",
+                "tags": [],
+                "isAllowed": true,
+                "isActive": true,
+                "defaultTheme": false
+            }
+        }
+    },
+    "opts_delete": "[\"duplicator_ui_view_state\",\"duplicator_package_active\",\"duplicator_settings\",\"duplicator_is_pro_enable_notice_dismissed\"]",
+    "brand": {
+        "name": "Duplicator",
+        "isDefault": true,
+        "logo": "<i class=\"fa fa-bolt fa-sm\"><\/i> Duplicator",
+        "enabled": false,
+        "style": []
+    },
+    "overwriteInstallerParams": {
+        "blogname": {
+            "value": "Makalink"
+        }
+    },
+    "installer_base_name": "installer.php.bak",
+    "installer_backup_name": "Makalink_source_38cda19e88b917b96803_20230920065350_installer-backup.php",
+    "package_name": "Makalink_source_38cda19e88b917b96803_20230920065350_archive.zip",
+    "package_hash": "38cda19-20065350",
+    "package_notes": ""
+}

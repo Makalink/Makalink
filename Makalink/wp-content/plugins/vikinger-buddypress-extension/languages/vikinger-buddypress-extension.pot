@@ -1,0 +1,167 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Vikinger - BuddyPress Extension\n"
+"POT-Creation-Date: 2021-03-19 16:55-0300\n"
+"PO-Revision-Date: 2020-11-06 11:04-0300\n"
+"Last-Translator: \n"
+"Language-Team: Odin Design Themes\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.2\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_x:1,2c\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: loader.php:84
+msgctxt "(Admin Bar) Quick Access Settings Page Link"
+msgid "Edit My Profile"
+msgstr ""
+
+#: loader.php:92
+msgctxt "(Admin Bar) Profile Page Link"
+msgid "Profile"
+msgstr ""
+
+#: loader.php:101
+msgctxt "(Admin Bar) Profile Activity Page Link"
+msgid "About"
+msgstr ""
+
+#: loader.php:111
+msgctxt "(Admin Bar) Profile Timeline Page Link"
+msgid "Timeline"
+msgstr ""
+
+#: loader.php:122
+msgctxt "(Admin Bar) Profile Friends Page Link"
+msgid "Friends"
+msgstr ""
+
+#: loader.php:133
+msgctxt "(Admin Bar) Profile Groups Page Link"
+msgid "Groups"
+msgstr ""
+
+#: loader.php:143
+msgctxt "(Admin Bar) Profile Blog Page Link"
+msgid "Blog"
+msgstr ""
+
+#: loader.php:155
+msgctxt "(Admin Bar) Profile Photos Page Link"
+msgid "Photos"
+msgstr ""
+
+#: loader.php:165
+msgctxt "(Admin Bar) Profile Videos Page Link"
+msgid "Videos"
+msgstr ""
+
+#: loader.php:178
+msgctxt "(Admin Bar) Profile Credits Page Link"
+msgid "Credits"
+msgstr ""
+
+#: loader.php:188
+msgctxt "(Admin Bar) Profile Badges Page Link"
+msgid "Badges"
+msgstr ""
+
+#: loader.php:198
+msgctxt "(Admin Bar) Profile Quests Page Link"
+msgid "Quests"
+msgstr ""
+
+#: loader.php:208
+msgctxt "(Admin Bar) Profile Ranks Page Link"
+msgid "Rank"
+msgstr ""
+
+#: loader.php:218
+msgctxt "(Admin Bar) Settings Page Link"
+msgid "Settings"
+msgstr ""
+
+#: loader.php:226
+msgctxt "(Admin Bar) Profile Settings Page Link"
+msgid "Profile"
+msgstr ""
+
+#: loader.php:234
+msgctxt "(Admin Bar) Profile Info Settings Page Link"
+msgid "Profile Info"
+msgstr ""
+
+#: loader.php:242
+msgctxt "(Admin Bar) Social Settings Page Link"
+msgid "Social"
+msgstr ""
+
+#: loader.php:250
+msgctxt "(Admin Bar) Notification Settings Page Link"
+msgid "Notifications"
+msgstr ""
+
+#: loader.php:260
+msgctxt "(Admin Bar) Message Settings Page Link"
+msgid "Messages"
+msgstr ""
+
+#: loader.php:271
+msgctxt "(Admin Bar) Friend Requests Settings Page Link"
+msgid "Friend Requests"
+msgstr ""
+
+#: loader.php:280
+msgctxt "(Admin Bar) Account Settings Page Link"
+msgid "Account"
+msgstr ""
+
+#: loader.php:288
+msgctxt "(Admin Bar) Account Info Settings Page Link"
+msgid "Account Info"
+msgstr ""
+
+#: loader.php:296
+msgctxt "(Admin Bar) Account Settings Page Link"
+msgid "Account Settings"
+msgstr ""
+
+#: loader.php:304
+msgctxt "(Admin Bar) Change Password Settings Page Link"
+msgid "Change Password"
+msgstr ""
+
+#: loader.php:312
+msgctxt "(Admin Bar) Email Settings Settings Page Link"
+msgid "Email Settings"
+msgstr ""
+
+#: loader.php:322
+msgctxt "(Admin Bar) Groups Settings Page Link"
+msgid "Groups"
+msgstr ""
+
+#: loader.php:330
+msgctxt "(Admin Bar) Manage Groups Settings Page Link"
+msgid "Manage Groups"
+msgstr ""
+
+#: loader.php:338
+msgctxt "(Admin Bar) Send Group Invitations Settings Page Link"
+msgid "Send Group Invitations"
+msgstr ""
+
+#: loader.php:346
+msgctxt "(Admin Bar) Received Group Invitations Settings Page Link"
+msgid "Received Group Invitations"
+msgstr ""
+
+#: loader.php:354
+msgctxt "(Admin Bar) Membership Requests Settings Page Link"
+msgid "Membership Requests"
+msgstr ""

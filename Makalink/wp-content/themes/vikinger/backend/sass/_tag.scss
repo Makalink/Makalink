@@ -1,0 +1,22 @@
+/*------------------------------------------------------------------
+[Table of contents]
+
+1. Tag
+-------------------------------------------------------------------*/
+/**
+ * 1. Tag
+ */
+.vikinger_backend-tag {
+  display: inline-flex;
+  padding: 6px 14px;
+  border-radius: 200px;
+  background-color: var(--vikinger_backend-global-neutral-color);
+  color: var(--vikinger_backend-tag-text-color);
+  font-size: var(--vikinger_backend-font-size-12);
+  line-height: 1;
+  font-weight: var(--vikinger_backend-font-weight-bold);
+
+  &.vikinger_backend-tag_success {
+    background-color: var(--vikinger_backend-global-success-color);
+  }
+}

@@ -1,0 +1,43 @@
+/*------------------------------------------------------------------
+[Table of contents]
+
+1. Body
+2. Aspect Ratio Container
+-------------------------------------------------------------------*/
+/**
+ * 1. Body
+ */
+.vikinger_backend-body {
+  padding: 60px 20px 60px 0;
+  font-family: 'Inter', sans-serif;
+  letter-spacing: -.04em;
+
+  *,
+  *::before,
+  *::after {
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+  }
+}
+
+/**
+ * 2. Aspect Ratio Container
+ */
+.vikinger_backend-aspect-ratio-container {
+  position: relative;
+
+  &.vikinger_backend-aspect-ratio-container_16-9 {
+    padding-top: 56.25%;
+  }
+
+  iframe {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+}

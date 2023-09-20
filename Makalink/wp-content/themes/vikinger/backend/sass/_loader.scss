@@ -1,0 +1,70 @@
+/*------------------------------------------------------------------
+[Table of contents]
+
+1. Loader Spinner
+-------------------------------------------------------------------*/
+/**
+ * 1. Loader Spinner
+ */
+.vikinger_backend-loader-spinner {
+  width: 64px;
+  height: 64px;
+  margin: 0 auto;
+  position: relative;
+
+  &.vikinger_backend-loader-spinner_small {
+    width: 40px;
+    height: 40px;
+
+    & > {
+      div {
+        border-width: 6px;
+      }
+    }
+  }
+
+  &.vikinger_backend-loader-spinner_tiny {
+    width: 20px;
+    height: 20px;
+
+    & > {
+      div {
+        border-width: 3px;
+      }
+    }
+  }
+
+  & > {
+    div {
+      width: 100%;
+      height: 100%;
+      border-width: 8px;
+      border-style: solid;
+      border-color: var(--vikinger_backend-global-primary-color) transparent transparent transparent;
+      border-radius: 50%;
+      position: absolute;
+      animation: vikinger_backend-loader-spinner 1.2s cubic-bezier(.5, 0, .5, 1) infinite;
+
+      &:nth-child(1) {
+        animation-delay: -.45s;
+      }
+
+      &:nth-child(2) {
+        animation-delay: -.3s;
+      }
+
+      &:nth-child(3) {
+        animation-delay: -.15s;
+      }
+    }
+  }
+}
+
+@keyframes vikinger_backend-loader-spinner {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

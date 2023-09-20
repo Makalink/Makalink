@@ -1,0 +1,61 @@
+/*------------------------------------------------------------------
+[Table of contents]
+
+1. Banner
+2. Banner PreTitle
+3. Banner Title
+4. Banner Text
+-------------------------------------------------------------------*/
+/**
+ * 1. Banner
+ */
+.vikinger_backend-banner {
+  min-height: 240px;
+  padding: 60px 160px;
+  margin-bottom: 100px;
+  border-radius: 20px;
+  background: url('../img/banner/banner-background.png') no-repeat center, var(--vikinger_backend-banner-background-color);
+  background-blend-mode: overlay;
+  background-size: cover;
+  position: relative;
+  @extend .vikinger_backend-grid-limit;
+  
+  .vikinger_backend-banner-logo {
+    position: absolute;
+    top: 64px;
+    left: 50px;
+  }
+
+  .vikinger_backend-banner-pretitle,
+  .vikinger_backend-banner-title,
+  .vikinger_backend-banner-text {
+    color: var(--vikinger_backend-banner-text-color);
+  }
+}
+
+/**
+ * 2. Banner Pre Title
+ */
+.vikinger_backend-banner-pretitle {
+  font-size: var(--vikinger_backend-font-size-12);
+  font-weight: var(--vikinger_backend-font-weight-medium);
+  text-transform: uppercase;
+}
+
+/**
+ * 3. Banner Title
+ */
+.vikinger_backend-banner-title {
+  font-size: var(--vikinger_backend-font-size-42);
+  font-weight: var(--vikinger_backend-font-weight-bold);
+}
+
+/**
+ * 4. Banner Text
+ */
+.vikinger_backend-banner-text {
+  margin-top: 8px;
+  font-size: var(--vikinger_backend-font-size-14);
+  line-height: var(--vikinger_backend-line-height-24-14);
+  font-weight: var(--vikinger_backend-font-weight-medium);
+}

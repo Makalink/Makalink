@@ -1,0 +1,116 @@
+/*------------------------------------------------------------------
+[Table of contents]
+
+1. Popup
+2. Popup Box
+3. Popup Pretitle
+4. Popup Title
+5. Popup Actions
+-------------------------------------------------------------------*/
+/**
+ * 1. Popup
+ */
+.vikinger_backend-popup {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  background-color: var(--vikinger_backend-overlay-background-color);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 99;
+  overflow-y: auto;
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  transition: opacity .2s ease-in-out, visibility .2s ease-in-out;
+
+  &.vikinger_backend-popup_active {
+    visibility: visible;
+    opacity: 1;
+    pointer-events: all;
+  }
+}
+
+/**
+ * 2. Popup Box
+ */
+.vikinger_backend-popup-box {
+  max-width: 500px;
+  padding: 36px 48px;
+  border-radius: 20px;
+  background-color: var(--vikinger_backend-popup-background-color);
+
+  .vikinger_backend-popup-pretitle {
+    margin-bottom: 12px;
+  }
+
+  .vikinger_backend-popup-text {
+    margin-top: 40px;
+  }
+}
+
+.vikinger_backend-popup-logo {
+  display: block;
+  width: 40px;
+  margin-bottom: 24px;
+}
+
+.vikinger_backend-popup-pretitle,
+.vikinger_backend-popup-title,
+.vikinger_backend-popup-text {
+  color: var(--vikinger_backend-text-primary-color);
+}
+
+/**
+ * 3. Popup Pretitle
+ */
+.vikinger_backend-popup-pretitle {
+  font-size: var(--vikinger_backend-font-size-12);
+  font-weight: var(--vikinger_backend-font-weight-medium);
+  text-transform: uppercase;
+}
+
+/**
+ * 4. Popup Title
+ */
+.vikinger_backend-popup-title {
+  font-size: var(--vikinger_backend-font-size-28);
+}
+
+/**
+ * 4. Popup Text
+ */
+.vikinger_backend-popup-text {
+  font-size: var(--vikinger_backend-font-size-14);
+  line-height: var(--vikinger_backend-line-height-24-14);
+}
+
+/**
+ * 5. Popup Actions
+ */
+.vikinger_backend-popup-actions {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 60px;
+
+  .vikinger_backend-popup-action {
+    & + {
+      .vikinger_backend-popup-action {
+        margin-left: 12px;
+      }
+    }
+  }
+}
+
+.vikinger_backend-popup-message {
+  margin-top: 18px;
+  font-size: var(--vikinger_backend-font-size-12);
+  font-weight: var(--vikinger_backend-font-weight-bold);
+
+  &.vikinger_backend-popup-message_error {
+    color: var(--vikinger_backend-global-error-color);
+  }
+}

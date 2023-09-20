@@ -1,0 +1,59 @@
+/*------------------------------------------------------------------
+[Table of contents]
+
+1. Color Variables
+-------------------------------------------------------------------*/
+/**
+ * 1. Color Variables
+ */
+:root {
+  /**
+   * Global
+   */
+  --vikinger_backend-global-primary-color: #6f58ff;
+  --vikinger_backend-global-neutral-color: #202232;
+  --vikinger_backend-global-error-color: #ff3d54;
+  --vikinger_backend-global-success-color: #00c48f;
+
+  /**
+   * Banner
+   */
+  --vikinger_backend-banner-background-color: #34314c;
+  --vikinger_backend-banner-text-color: #fff;
+
+  /**
+   * Text
+   */
+  --vikinger_backend-text-primary-color: #1c202a;
+
+  /**
+   * Code
+   */
+  --vikinger_backend-code-background-color: #f9f9f9;
+
+  /**
+   * Tag
+   */
+  --vikinger_backend-tag-text-color: #fff;
+
+  /**
+   * Button
+   */
+  --vikinger_backend-button-text-color: #fff;
+
+  /**
+   * Overlay
+   */
+  --vikinger_backend-overlay-background-color: rgba(32, 34, 50, .96);
+
+  /**
+   * Popup
+   */
+  --vikinger_backend-popup-background-color: #fff;
+
+  /**
+   * Message Box
+   */
+  --vikinger_backend-message-box-text-color: #fff;
+  --vikinger_backend-message-box-icon-color: #fff;
+}
